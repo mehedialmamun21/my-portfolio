@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div>
-            <h1>From Projects page</h1>
+            <h1 className='text-center'>From Projects page</h1>
         </div>
     );
 };
