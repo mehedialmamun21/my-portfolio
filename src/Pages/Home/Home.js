@@ -3,6 +3,7 @@ import Axios from 'axios';
 import fileDownload from 'js-file-download';
 import downloadIcon from '../../assets/icons/download_icon.jpg';
 import { Link } from 'react-router-dom';
+import bannerImg from '../../assets/images/homePageImg.png';
 
 const Home = () => {
 
@@ -20,10 +21,13 @@ const Home = () => {
     }
 
     return (
-        <div>
-            <div className='text-center'>
-                <h1>Hi there !</h1> <br />
-                <h1>I'M Md Mehedi Al Mamun</h1> <br />
+        <div className='flex bg-gray-300 py-10'>
+            <div className='w-50 ml-16'>
+                <img src={bannerImg} alt="" width="400" />
+            </div>
+            <div className='w-50 ml-20 mt-6'>
+                <h1 className='text-lg'>Hi there !</h1>
+                <h1 className='text-2xl font-semibold'>I'M Md Mehedi Al Mamun</h1> <br />
                 <Link to="/contact"><button type='button' className='btn btn-secondary text-white font-semibold'>Hire Me</button></Link> <br /> <br />
                 <button onClick={(e) => download(e)} type='button' className='btn btn-accent text-white font-semibold'>
                     Download Resume
