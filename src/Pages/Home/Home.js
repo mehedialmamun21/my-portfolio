@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect';
 import bannerImg from '../../assets/images/bannerImg.jpg';
 import downloadIcon from '../../assets/images/download_icon.png';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
 
@@ -62,16 +63,21 @@ const Home = () => {
                     <br />
 
                     <div className='text-center'>
-                        <button onClick={(e) => download(e)} type='button' className='btn btn-accent hover:bg-secondary hover:text-white text-black font-semibold'>
-                            Download Resume
-                            <img src={downloadIcon} alt="" width="30" className='ml-2' />
-                        </button>
+                        <a className='btn btn-accent hover:bg-secondary hover:text-white text-black font-semibold' href="https://drive.google.com/file/d/1KjLJo7K06H5mTI77cfvuUYXr_Lgw6-P1/view?usp=sharing" onClick="window.open('https://drive.google.com/file/d/1KjLJo7K06H5mTI77cfvuUYXr_Lgw6-P1/view?usp=sharing')" target="_blank">Download Resume</a>
                     </div>
+
+                    {/* <button onClick={(e) => download(e)} type='button' className='btn btn-accent hover:bg-secondary hover:text-white text-black font-semibold'>
+                        Download Resume
+                        <img src={downloadIcon} alt="" width="30" className='ml-2' />
+                    </button> */}
 
                 </div>
             </div>
             <div>
                 <Projects />
+            </div>
+            <div>
+                <Contact />
             </div>
         </div>
     );

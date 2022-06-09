@@ -5,7 +5,7 @@ import cms from '../../assets/images/cms.png';
 
 const Projects = () => {
     return (
-        <div>
+        <div className='py-10'>
             <h1 className='text-center text-3xl my-10'>Recent <span className='text-orange-500'>Projects</span> </h1>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-6 mx-20'>
                 <div class="card w-96 bg-base-100 shadow-xl">
