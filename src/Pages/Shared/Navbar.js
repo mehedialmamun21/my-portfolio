@@ -14,43 +14,43 @@ const Navbar = () => {
                             <Link to="/" className='text-lg font-semibold'>Home</Link>
                         </li>
                         <li>
-                            <Link to="/about" className='text-lg font-semibold lg:mx-2'>About</Link>
+                            <Link to="/about" className='text-lg font-semibold lg:mx-2 text-gray-100'>About</Link>
                         </li>
                         <li>
-                            <Link to="/skills" className='text-lg font-semibold'>Skills</Link>
+                            <Link to="/skills" className='text-lg font-semibold text-gray-100'>Skills</Link>
                         </li>
                         <li>
-                            <Link to="/projects" className='text-lg font-semibold lg:mx-2'>Projects</Link>
+                            <Link to="/projects" className='text-lg font-semibold lg:mx-2 text-gray-100'>Projects</Link>
                         </li>
                         <li>
-                            <Link to="/education" className='text-lg font-semibold'>Education</Link>
+                            <Link to="/education" className='text-lg font-semibold text-gray-100'>Education</Link>
                         </li>
                         <li>
-                            <Link to="/contact" className='text-lg font-semibold lg:mx-2'>Contact</Link>
+                            <Link to="/contact" className='text-lg font-semibold lg:mx-2 text-gray-100'>Contact</Link>
                         </li>
                     </ul>
                 </div>
-                <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl">Developer_Mehedi</Link>
+                <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl text-gray-100">Developer_Mehedi</Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li >
-                        <Link to="/" className='text-lg font-bold text-white'>Home</Link>
+                        <Link to="/" className='text-lg font-bold text-gray-100'>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about" className='text-lg font-bold lg:mx-2 text-white'>About</Link>
+                        <Link to="/about" className='text-lg font-bold lg:mx-2 text-gray-100'>About</Link>
                     </li>
                     <li>
-                        <Link to="/skills" className='text-lg font-bold text-white'>Skills</Link>
+                        <Link to="/skills" className='text-lg font-bold text-gray-100'>Skills</Link>
                     </li>
                     <li>
-                        <Link to="/projects" className='text-lg font-bold lg:mx-2 text-white'>Projects</Link>
+                        <Link to="/projects" className='text-lg font-bold lg:mx-2 text-gray-100'>Projects</Link>
                     </li>
                     <li>
-                        <Link to="/education" className='text-lg font-bold text-white'>Education</Link>
+                        <Link to="/education" className='text-lg font-bold text-gray-100'>Education</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className='text-lg font-bold lg:mx-2 text-white'>Contact</Link>
+                        <Link to="/contact" className='text-lg font-bold lg:mx-2 text-gray-100'>Contact</Link>
                     </li>
                 </ul>
             </div>
