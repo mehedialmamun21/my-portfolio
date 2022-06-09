@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import navIcon from '../../assets/images/nav.ico';
 
 const Navbar = () => {
     return (
@@ -11,46 +12,49 @@ const Navbar = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li >
-                            <Link to="/" className='text-lg font-semibold'>Home</Link>
+                            <Link to="/" className='text-lg font-semibold hover:text-orange-400'>Home</Link>
                         </li>
                         <li>
-                            <Link to="/about" className='text-lg font-semibold lg:mx-2 text-gray-100'>About</Link>
+                            <Link to="/about" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>About</Link>
                         </li>
                         <li>
-                            <Link to="/skills" className='text-lg font-semibold text-gray-100'>Skills</Link>
+                            <Link to="/skills" className='text-lg font-semibold hover:text-orange-400'>Skills</Link>
                         </li>
                         <li>
-                            <Link to="/projects" className='text-lg font-semibold lg:mx-2 text-gray-100'>Projects</Link>
+                            <Link to="/projects" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>Projects</Link>
                         </li>
                         <li>
-                            <Link to="/education" className='text-lg font-semibold text-gray-100'>Education</Link>
+                            <Link to="/education" className='text-lg font-semibold hover:text-orange-400'>Education</Link>
                         </li>
                         <li>
-                            <Link to="/contact" className='text-lg font-semibold lg:mx-2 text-gray-100'>Contact</Link>
+                            <Link to="/contact" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>Contact</Link>
                         </li>
                     </ul>
                 </div>
-                <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl text-gray-100">Developer_Mehedi</Link>
+                <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl text-gray-100">
+                    <img src={navIcon} alt="" width="50" />
+                    Mehedi
+                </Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li >
-                        <Link to="/" className='text-lg font-bold text-gray-100'>Home</Link>
+                        <Link to="/" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about" className='text-lg font-bold lg:mx-2 text-gray-100'>About</Link>
+                        <Link to="/about" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>About</Link>
                     </li>
                     <li>
-                        <Link to="/skills" className='text-lg font-bold text-gray-100'>Skills</Link>
+                        <Link to="/skills" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Skills</Link>
                     </li>
                     <li>
-                        <Link to="/projects" className='text-lg font-bold lg:mx-2 text-gray-100'>Projects</Link>
+                        <Link to="/projects" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>Projects</Link>
                     </li>
                     <li>
-                        <Link to="/education" className='text-lg font-bold text-gray-100'>Education</Link>
+                        <Link to="/education" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Education</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className='text-lg font-bold lg:mx-2 text-gray-100'>Contact</Link>
+                        <Link to="/contact" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>Contact</Link>
                     </li>
                 </ul>
             </div>
