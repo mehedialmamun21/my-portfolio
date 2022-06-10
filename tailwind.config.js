@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'contact-backImg': "url('/src/assets/images/background-contactform.jpg')",
+      }
+    },
   },
   daisyui: {
     themes: [

@@ -10,7 +10,7 @@ import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='container lg:mx-20'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

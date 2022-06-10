@@ -1,0 +1,21 @@
+[
+    {
+        "_id":1,
+        "name": "Teeth Orthodontics", 
+        "price": "99"
+        
+    },
+    {
+        "_id":2,
+        "name": "Cosmetics Dentistry",
+        "price": "99"
+        
+    },
+    {
+        "_id":3,
+        "name": "Teeth Cleaning",
+        "price": "99"
+        
+    }
+    
+]

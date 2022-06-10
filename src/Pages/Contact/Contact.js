@@ -1,41 +1,45 @@
 import React from 'react';
-import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    function sendEmail(event) {
+        event.preventDefault();
+
+        emailjs.sendForm('service_tmmdrwb', 'template_ldytsjj', event.target, 'hw9Ysv3f0-IYVBsp0')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        event.target.reset()
+    }
     return (
-        <section>
+        <div className='container border my-20 pb-5 w-1/2 bg-contact-backImg bg-center bg-cover'>
+            <h1 className='py-10 text-center text-2xl'>Contact Form</h1>
+            <form className='row' onSubmit={sendEmail}>
 
-            <div className='bg-gray-300 h-screen flex justify-center'>
+                <div>
+                    <label>Name</label>
+                    <input type="text" name="user_name" className='form-control' />
+                </div>
 
-                <form onSubmit="sendEmail(); reset(); return false;">
-                    <h3 id='contact-header'>GET IN TOUCH</h3>
-                    <input type="text" id="name" placeholder='Your Name' required />
-                    <input type="email" id="email" placeholder='Email' required />
-                    <input type="text" id="phone" placeholder='Phone No' required />
-                    <textarea id="message" rows="4" placeholder='How can I help you?' ></textarea>
-                    <button type="submit">Send</button>
-                </form>
+                <div className='my-3'>
+                    <label>Email</label>
+                    <input type="email" name="user_email" className='form-control' />
+                </div>
 
-            </div>
+                <div>
+                    <label>Message</label>
+                    <textarea name='message' rows="4" className='form-control' />
+                </div>
 
-            {/* <script src="https://smtpjs.com/v3/smtp.js"></script>
-            <script>
-                function sendEmail(){
-                    Email.send({
-                        Host: "smtp.yourisp.com",
-                        Username: "username",
-                        Password: "password",
-                        To: 'them@website.com',
-                        From: "you@isp.com",
-                        Subject: "This is the subject",
-                        Body: "And this is the body"
-                    }).then(
-                        message => alert(message)
-                    );
-                }
-            </script> */}
+                <center>
+                    <input type="submit" value="Send" className='form-control btn btn-accent mt-4 w-50' />
+                </center>
 
-        </section>
+            </form>
+        </div>
     );
 };
 
