@@ -21,17 +21,17 @@ const Contact = () => {
 
                 <div>
                     <label>Name</label>
-                    <input type="text" name="user_name" className='form-control' />
+                    <input type="text" name="user_name" className='form-control' required />
                 </div>
 
                 <div className='my-3'>
                     <label>Email</label>
-                    <input type="email" name="user_email" className='form-control' />
+                    <input type="email" name="user_email" className='form-control' required />
                 </div>
 
                 <div>
                     <label>Message</label>
-                    <textarea name='message' rows="4" className='form-control' />
+                    <textarea name='message' rows="4" className='form-control' required />
                 </div>
 
                 <center>

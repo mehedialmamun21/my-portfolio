@@ -4,8 +4,8 @@ import navIcon from '../../assets/images/nav.ico';
 
 const Navbar = () => {
     return (
-        <section>
-            <div class="navbar bg-accent py-4">
+        <section className=''>
+            <div class="navbar bg-accent py-4 ">
                 <div class="navbar-start mx-10">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">

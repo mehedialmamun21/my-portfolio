@@ -1,20 +1,23 @@
 [
     {
         "_id":1,
-        "name": "Teeth Orthodontics", 
-        "price": "99"
+        "img": "../src/assets/images/manufacturer.png",
+        "name": "Manufacturer Website", 
+        "about": "This website is build for a manufacturer company who manufactures a particular products and sell it on their website."
         
     },
     {
         "_id":2,
-        "name": "Cosmetics Dentistry",
-        "price": "99"
+        "img": "../src/assets/images/warehouse.png",
+        "name": "Warehouse Management",
+        "about": "This site is build for selling modile phone. User can buying phone from here and admin can upload or delete products."
         
     },
     {
         "_id":3,
-        "name": "Teeth Cleaning",
-        "price": "99"
+        "img": "../src/assets/images/cms.png",
+        "name": "Service based Content Management System",
+        "about": "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
         
     }
     
