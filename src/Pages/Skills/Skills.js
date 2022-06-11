@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='text-center pt-10 text-xl bg-gray-400 h-screen'>
+        <div className='text-center pt-10 text-xl bg-gray-100 h-screen'>
             <ul>
                 <li>Express.js</li>
                 <li className='my-2'>React.js</li>

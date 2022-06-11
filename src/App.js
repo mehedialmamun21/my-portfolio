@@ -11,7 +11,7 @@ import ProjectDetail from './Pages/ProjectDetail/ProjectDetail';
 
 function App() {
   return (
-    <div className='container lg:mx-20'>
+    <div className='container'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
