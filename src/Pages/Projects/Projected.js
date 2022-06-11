@@ -19,7 +19,7 @@ const Projected = ({ project }) => {
             <div class="card-body items-center text-center bg-gray-500 text-white">
                 <h2 class="card-title text-2xl">{name}</h2> <br />
                 <p>{about}</p>
-                <button className='btn btn-accent px-3 py-2 rounded' onClick={() => navigateToProductDetail(id)}>Details</button>
+                <button className='btn btn-accent px-3 py-2 rounded text-white hover:bg-secondary' onClick={() => navigateToProductDetail(id)}>Details</button>
             </div>
         </div>
     )
