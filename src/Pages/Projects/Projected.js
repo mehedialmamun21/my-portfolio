@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const Projected = ({ project }) => {
     const { id, img, name, about } = project;
 
-
     const navigate = useNavigate();
 
     const navigateToProductDetail = id => {
