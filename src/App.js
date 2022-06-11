@@ -21,7 +21,7 @@ function App() {
         <Route path="education" element={<Education />} />
         <Route path="contact" element={<Contact />} />
 
-        <Route path="detail" element={<ProjectDetail></ProjectDetail>}></Route>
+        <Route path="detail/:id" element={<ProjectDetail></ProjectDetail>}></Route>
 
       </Routes>
     </div>

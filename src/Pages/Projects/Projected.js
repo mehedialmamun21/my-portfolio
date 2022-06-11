@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProjectDetail from '../ProjectDetail/ProjectDetail';
 
 const Projected = ({ project }) => {
     const { id, img, name, about } = project;
