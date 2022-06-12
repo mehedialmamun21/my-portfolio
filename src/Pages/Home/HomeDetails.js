@@ -16,7 +16,7 @@ const HomeDetails = () => {
 
             <div className='lg:flex py-10'>
 
-                <div className='w-50 lg:ml-40 mt-10'>
+                <div className='w-50 lg:ml-40 mt-5'>
 
                     <h2>
                         <div className='text-xl text-center'>{state.titleOne}</div>
