@@ -15,7 +15,7 @@ const HomeDetails = () => {
     return (
         <center>
 
-            <div className='lg:flex bg-black py-10'>
+            <div className='lg:flex bg-gray-400 py-10'>
 
                 <div className='w-50 lg:ml-16'>
                     <img src={bannerImg} alt="" width="700" className='rounded' />
