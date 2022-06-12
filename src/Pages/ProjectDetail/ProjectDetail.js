@@ -17,7 +17,7 @@ const ProjectDetail = () => {
     const { img, name, about } = projectData;
 
     return (
-        <div className='text-center mt-5'>
+        <div className='text-center mt-5 mb-10'>
             <center>
                 <img src={img} alt="" width="800px" />
             </center>

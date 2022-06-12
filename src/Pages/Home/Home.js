@@ -2,11 +2,13 @@ import React from 'react';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import HomeDetails from './HomeDetails';
+import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
 
     return (
         <section>
+
             <div>
                 <HomeDetails />
             </div>
@@ -16,6 +18,11 @@ const Home = () => {
             <div>
                 <Contact />
             </div>
+
+
+
+
+            <Footer />
         </section>
     );
 };
