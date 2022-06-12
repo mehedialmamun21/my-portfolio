@@ -15,7 +15,7 @@ const Projected = ({ project }) => {
             <figure class="px-10 pt-10 mb-5">
                 <img src={img} alt="" class="rounded-xl" />
             </figure>
-            <div class="card-body items-center text-center bg-orange-300">
+            <div class="card-body items-center text-center bg-stone-300">
                 <h2 class="card-title text-2xl">{name}</h2> <br />
                 <p>{about}</p>
                 <button className='btn btn-accent px-3 py-2 rounded-md border-none text-white hover:bg-secondary' onClick={() => navigateToProductDetail(id)}>Details</button>

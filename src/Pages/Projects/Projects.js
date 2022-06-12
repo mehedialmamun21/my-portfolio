@@ -9,7 +9,7 @@ const Projects = () => {
     ]
 
     return (
-        <section className='bg-gray-400'>
+        <section className=''>
 
             <div className='p-10'>
                 <h1 className='text-center text-3xl py-4 mb-10 border-slate-300 border-y-4'>Recent <span className='text-orange-500'>Projects</span> </h1>

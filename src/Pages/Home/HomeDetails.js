@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
-import bannerImg from '../../assets/images/bannerImg.jpg';
 import downloadIcon from '../../assets/images/download_icon.png';
 
 const HomeDetails = () => {
@@ -15,17 +14,13 @@ const HomeDetails = () => {
     return (
         <center>
 
-            <div className='lg:flex bg-gray-400 py-10'>
-
-                <div className='w-50 lg:ml-16'>
-                    <img src={bannerImg} alt="" width="700" className='rounded' />
-                </div>
+            <div className='lg:flex py-10'>
 
                 <div className='w-50 lg:ml-40 mt-10'>
 
                     <h2>
-                        <div className='text-xl text-white text-center'>{state.titleOne}</div>
-                        <div className='text-xl font-semibold text-white text-center'><span>{state.titleTwo}</span> </div>
+                        <div className='text-xl text-center'>{state.titleOne}</div>
+                        <div className='text-xl font-semibold text-center'><span>{state.titleTwo}</span> </div>
                         <div className='text-2xl font-semibold text-center text-orange-500'>{state.titleThree}</div>
                     </h2>
 
@@ -59,6 +54,10 @@ const HomeDetails = () => {
                         </a>
                     </div>
 
+                </div>
+
+                <div className='w-50 lg:ml-16'>
+                    <img src="" alt="" width="700" className='rounded' />
                 </div>
 
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='bg-gray-100 h-screen pt-10 text-xl'>
+        <div className='h-screen pt-10 text-xl'>
             <center>
                 <h1 className='w-3/4'>Proficient with CSS and JS Frameworks, with extensive knowledge of UX and user psychology.
                     I'm an enthusiastic and detail-oriented Front-End Developer seeking an entry-level position with
