@@ -16,7 +16,7 @@ const Contact = () => {
     }
     return (
         <section className='bg-gray-200 py-10 flex justify-center'>
-            <div className='container border pb-5 lg:w-1/2 bg-contact-backImg bg-cover'>
+            <div className='container border pb-5 lg:w-1/2 bg-contact-backImg bg-cover h-2/3'>
                 <h1 className='pt-5 pb-3 text-2xl text-white text-center'>Contact Form</h1>
                 <form className='row' onSubmit={sendEmail}>
                     <div className='flex flex-col items-center'>
