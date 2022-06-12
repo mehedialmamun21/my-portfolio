@@ -11,7 +11,7 @@ const Projected = ({ project }) => {
     }
 
     return (
-        <div class="card w-100 bg-base-100 shadow-xl ">
+        <div class="card w-100 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10 mb-5">
                 <img src={img} alt="" class="rounded-xl" />
             </figure>

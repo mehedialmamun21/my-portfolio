@@ -8,7 +8,6 @@ const Education = () => {
             <p className='text-xl my-2'>B.Sc (Engineering) in Computer Science</p>
             <h2 className='text-2xl pt-5'>Shailkupa Govt. Degree College</h2>
             <p className='text-xl my-2'>HSc (Science)</p>
-
         </div>
     );
 };
