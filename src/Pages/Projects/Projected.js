@@ -11,16 +11,17 @@ const Projected = ({ project }) => {
     }
 
     return (
-        <div class="card w-100 bg-base-100 shadow-xl">
-            <figure class="px-10 pt-10 mb-5">
-                <img src={img} alt="" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center bg-stone-300">
-                <h2 class="card-title text-2xl">{name}</h2> <br />
-                <p>{about}</p>
-                <button className='btn btn-accent px-3 py-2 rounded-md border-none text-white hover:bg-secondary' onClick={() => navigateToProductDetail(id)}>Details</button>
+        <center>
+            <div class="card w-2/3 border border-green-600 bg-gray-700 shadow-2xl" data-aos="zoom-in-right">
+                <figure class="px-5 py-5">
+                    <img src={img} alt="" class="rounded-xl" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title text-lg text-secondary">{name}</h2> <br />
+                    <button className='btn rounded-md border-2 border-green-600 w-2/3 text-orange-400 hover:bg-green-500 hover:text-white' onClick={() => navigateToProductDetail(id)}>Details</button>
+                </div>
             </div>
-        </div>
+        </center>
     )
 };
 

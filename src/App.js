@@ -10,7 +10,14 @@ import Contact from './Pages/Contact/Contact';
 import ProjectDetail from './Pages/ProjectDetail/ProjectDetail';
 import Blogs from './Pages/Blogs/Blogs';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='container'>
       <Navbar />

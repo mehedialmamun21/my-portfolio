@@ -16,8 +16,8 @@ const Contact = () => {
     }
     return (
         <section className='py-20 flex justify-center bg-primary'>
-            <div className='pb-20'>
-                <div className='container border pb-5 bg-contact-backImg bg-cover w-50 px-20 py-5 rounded-xl' >
+            <div>
+                <div className='container border pb-5 w-50 px-5 rounded-xl my-20' data-aos="fade-down-left">
                     <h1 className='pt-5 pb-3 text-2xl text-white text-center'>Contact Form</h1>
                     <form className='row' onSubmit={sendEmail}>
                         <div className='flex flex-col items-center'>
@@ -33,7 +33,7 @@ const Contact = () => {
                                 <label className='text-warning'>Message</label>
                                 <textarea name='message' rows="4" className='form-control w-80' required />
                             </div>
-                            <input type="submit" value="Send" className='form-control btn btn-accent text-white hover:bg-secondary w-60 mt-8 font-bold' />
+                            <input type="submit" value="Send" className='form-control btn text-black bg-orange-500 hover:bg-orange-600 hover:text-white w-80 mt-6 mb-2 font-bold' />
                         </div>
                     </form>
                 </div>
