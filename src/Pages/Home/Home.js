@@ -1,5 +1,5 @@
 import React from 'react';
-import Projects from '../Projects/Projects';
+// import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import HomeDetails from './HomeDetails';
 import Footer from '../Shared/Footer/Footer';
@@ -16,9 +16,9 @@ const Home = () => {
             <div>
                 <Skills />
             </div>
-            <div>
+            {/* <div>
                 <Projects />
-            </div>
+            </div> */}
             <div>
                 <Contact />
             </div>

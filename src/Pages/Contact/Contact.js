@@ -15,8 +15,8 @@ const Contact = () => {
         event.target.reset()
     }
     return (
-        <section className='py-10 flex justify-center bg-primary'>
-            <div className=''>
+        <section className='py-20 flex justify-center bg-primary'>
+            <div className='pb-20'>
                 <div className='container border pb-5 bg-contact-backImg bg-cover w-50 px-20 py-5 rounded-xl' >
                     <h1 className='pt-5 pb-3 text-2xl text-white text-center'>Contact Form</h1>
                     <form className='row' onSubmit={sendEmail}>

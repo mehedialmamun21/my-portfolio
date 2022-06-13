@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import downloadIcon from '../../assets/images/download_icon.png';
+import GlassCard from './GlassCard';
 
 const HomeDetails = () => {
 
@@ -10,53 +11,57 @@ const HomeDetails = () => {
     })
 
     return (
-        <center>
+        <section className='p-10'>
 
-            <div className='lg:flex py-10'>
+            <div className='lg:flex justify-center items-center'>
 
-                <div className='w-50 lg:ml-40 mt-5'>
-
+                <div className='py-5 w-1/2'>
                     <h2>
-                        <div className='text-lg text-center text-secondary'>{state.titleOne}</div>
-                        <div className='text-2xl font-semibold text-center text-orange-500'>{state.titleTwo}</div>
+                        <div className='text-lg  text-secondary'>{state.titleOne}</div>
+                        <div className='text-2xl font-semibold  text-accent'>{state.titleTwo}</div>
                     </h2>
 
-                    <div className='text font-bold text-xl text-accent text-center mt-4'>
+                    <div className='text text-xl text-orange-400  mt-4'>
                         <Typewriter
                             options={{
                                 autoStart: true,
                                 loop: true,
                                 delay: 40,
                                 strings: [
+                                    "Tech Enthusiast",
                                     "Web Developer",
                                     "Programmer",
-                                    "Tech Enthusiast"
+
                                 ],
                             }} />
                     </div>
 
                     <br />
 
+                    <div className='text-secondary lg:w-3/4'>
+                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local and multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                    </div>
+
+                    <br />
+
                     <div>
                         <a href="Mehedi_Web_Developer_Resume.pdf" download="Mehedi_Web_Developer_Resume.pdf">
-                            <center>
-                                <button className='flex justify-center text-lg border border-green-500 text-green-500 px-3 py-2 rounded hover:text-white hover:bg-green-500'>
-                                    <p className='mr-2'>Download Resume</p>
-                                    <img src={downloadIcon} alt="" width="30" />
-                                </button>
-                            </center>
+
+                            <button className='flex justify-center text-lg border border-green-500 text-green-500 px-2 py-1 rounded hover:text-white hover:bg-green-500'>
+                                <p className='mr-2'>Resume</p>
+                                <img src={downloadIcon} alt="" width="30" />
+                            </button>
+
                         </a>
                     </div>
 
                 </div>
 
-                <div className='w-50 lg:ml-16'>
-                    <img src="" alt="" width="700" className='rounded' />
-                </div>
+                <GlassCard />
 
             </div>
 
-        </center>
+        </section>
     );
 };
 
