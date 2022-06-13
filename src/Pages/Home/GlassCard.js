@@ -1,12 +1,13 @@
 import React from 'react';
 import profile from '../../assets/images/profile.png';
 import styled from 'styled-components';
+import { useSpring, animated } from 'react-spring';
 
-const Container = styled.div`
+const Container = styled(animated.div)`
     display: inline-block;
-    padding: 3em;
+    padding: 2em;
     background: #C7D2FE66;
-    border-radius: 10px;
+    border-radius: 20px;
     z-index: 1;
     position: relative;
     backdrop-filter: blur(10px);
@@ -18,21 +19,23 @@ const Container = styled.div`
 const StyledImg = styled.img`
     width: 200px;
     height: auto;
-    border: 2px solid #000;
     border-radius: 30%;
 `;
-const StyledH1 = styled.h1`
-    line-height: 1.5;
-    letter-spacing: 1.15;
-    font-family: "Gilory";
-    font-size: 20px;
-`;
+
+const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
+const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
 const GlassCard = () => {
+    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 10, tension: 200, friction: 50 } }))
     return (
-        <Container className='text-secondary'>
+        <Container
+            onMouseMove={({ clientX: x, clientY: y }) => (set({ xys: calc(x, y) }))}
+            onMouseLeave={() => set({ xys: [0, 0, 1] })}
+            style={{
+                transform: props.xys.interpolate(trans)
+            }}
+        >
             <StyledImg src={profile} alt="" />
-            <StyledH1>Front End Developer</StyledH1>
         </Container>
     );
 };

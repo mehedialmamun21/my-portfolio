@@ -26,7 +26,7 @@ const Skills = () => {
         <section className='p-10 bg-primary text-secondary'>
 
             <div className=''>
-                <h1 className='text-3xl text-center text-secondary py-4'>My <span className='text-orange-500'>Skills</span> </h1>
+                <h1 className='text-4xl text-center text-secondary py-4'>My <span className='text-orange-500'>Skills</span> </h1>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 pt-5 text-secondary'>
                     <div className=''>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>

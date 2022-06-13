@@ -12,7 +12,7 @@ const Projects = () => {
         <section className='bg-primary'>
 
             <div className='p-10'>
-                <h1 className='text-center text-3xl text-secondary pb-5'>Recent <span className='text-orange-500'>Projects</span> </h1>
+                <h1 className='text-center text-4xl text-secondary pb-5'>Recent <span className='text-orange-500'>Projects</span> </h1>
                 <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-4 z-2'>
                     {
                         projects.map(project => <Projected

@@ -11,11 +11,11 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='p-10'>
+        <section className='px-10 lg:py-20'>
 
             <div className='lg:flex justify-center items-center'>
 
-                <div className='py-5 w-1/2'>
+                <div className='px-5 py-5 w-1/2'>
                     <h2>
                         <div className='text-lg  text-secondary'>{state.titleOne}</div>
                         <div className='text-2xl font-semibold  text-accent'>{state.titleTwo}</div>
@@ -31,14 +31,13 @@ const HomeDetails = () => {
                                     "Tech Enthusiast",
                                     "Web Developer",
                                     "Programmer",
-
                                 ],
                             }} />
                     </div>
 
                     <br />
 
-                    <div className='text-secondary lg:w-3/4'>
+                    <div className='text-secondary'>
                         <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local and multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                     </div>
 
@@ -57,7 +56,9 @@ const HomeDetails = () => {
 
                 </div>
 
-                <GlassCard />
+                <div className='lg:p-5'>
+                    <GlassCard />
+                </div>
 
             </div>
 
