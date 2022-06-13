@@ -4,8 +4,8 @@ import navIcon from '../../assets/images/nav.ico';
 
 const Navbar = () => {
     return (
-        <section className='sticky top-0 z-50'>
-            <div class="navbar bg-accent py-4">
+        <section className='sticky top-0 z-50 bg-neutral'>
+            <div class="navbar py-4">
                 <div class="navbar-start mx-10">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -34,28 +34,27 @@ const Navbar = () => {
                     </div>
                     <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl border-none">
                         <img src={navIcon} alt="" width="50" />
-                        Mehedi
                     </Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal p-0">
+                    <ul class="menu menu-horizontal p-0 text-secondary">
                         <li >
-                            <Link to="/" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Home</Link>
+                            <Link to="/" className='text-lg font-bold  hover:text-orange-400'>Home</Link>
                         </li>
                         <li>
-                            <Link to="/about" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>About</Link>
+                            <Link to="/about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</Link>
                         </li>
                         <li>
-                            <Link to="/skills" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Skills</Link>
+                            <Link to="/skills" className='text-lg font-bold hover:text-orange-400'>Skills</Link>
                         </li>
                         <li>
-                            <Link to="/projects" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>Projects</Link>
+                            <Link to="/projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</Link>
                         </li>
                         <li>
-                            <Link to="/education" className='text-lg font-bold text-gray-100 hover:text-orange-400'>Education</Link>
+                            <Link to="/education" className='text-lg font-bold hover:text-orange-400'>Education</Link>
                         </li>
                         <li>
-                            <Link to="/contact" className='text-lg font-bold lg:mx-2 text-gray-100 hover:text-orange-400'>Contact</Link>
+                            <Link to="/contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</Link>
                         </li>
                     </ul>
                 </div>

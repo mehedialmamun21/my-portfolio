@@ -17,15 +17,17 @@ const ProjectDetail = () => {
     const { img, name, about } = projectData;
 
     return (
-        <div className='text-center mt-5 mb-10'>
-            <center>
-                <img src={img} alt="" width="800px" />
-            </center>
-            <div className='mt-5'>
-                <h2>{name}</h2>
-                <h2>{about}</h2>
+        <section className='bg-primary text-secondary'>
+            <div className='text-center pt-5 pb-10  h-screen'>
+                <center>
+                    <img src={img} alt="" width="800px" />
+                </center>
+                <div className='mt-5'>
+                    <h2>{name}</h2>
+                    <h2>{about}</h2>
+                </div>
             </div>
-        </div>
+        </section>
     );
 };
 

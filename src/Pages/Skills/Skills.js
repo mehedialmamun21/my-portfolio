@@ -1,5 +1,4 @@
 import React from 'react';
-import c from '../../assets/images/c_logo.png'
 import cPlusPlus from '../../assets/images/c++_logo.png'
 import javaScript from '../../assets/images/javaScript_logo.png'
 import es6 from '../../assets/images/ES6_logo.png'
@@ -24,20 +23,12 @@ import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
     return (
-        <section className='px-10 py-7'>
+        <section className='px-10 py-7 bg-primary text-secondary'>
 
-            <div className='lg:h-screen'>
-                <h1 className='text-3xl text-center py-4 border-y-4 border-slate-300'>My <span className='text-orange-500'>Skills</span> </h1>
-
-                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 pt-5'>
-
+            <div className=''>
+                <h1 className='text-3xl text-center text-secondary py-4'>My <span className='text-orange-500'>Skills</span> </h1>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 pt-5 text-secondary'>
                     <div className=''>
-                        {/* <h1 className='text-2xl my-5'>Language</h1> */}
-                        {/* <div className=''> */}
-                        <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
-                            <img src={c} alt="" width="50" />
-                            <p className='text-xl ml-5'>C</p>
-                        </div>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
                             <img src={cPlusPlus} alt="" width="50" />
                             <p className='text-xl ml-5'>C++</p>
@@ -50,12 +41,9 @@ const Skills = () => {
                             <img src={es6} alt="" width="50" />
                             <p className='text-xl ml-5'>ES6</p>
                         </div>
-                        {/* </div> */}
                     </div>
 
                     <div>
-                        {/* <h1 className='text-2xl my-5'>Frontend</h1> */}
-                        {/* <div className='grid grid-cols-1'> */}
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
                             <img src={react} alt="" width="50" />
                             <p className='text-xl ml-5'>React</p>
@@ -76,12 +64,9 @@ const Skills = () => {
                             <img src={tailwind} alt="" width="50" />
                             <p className='text-xl ml-5'>Tailwind CSS</p>
                         </div>
-                        {/* </div> */}
                     </div>
 
                     <div>
-                        {/* <h1 className='text-2xl my-5'>Backend</h1> */}
-                        {/* <div className='grid grid-cols-1'> */}
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
                             <img src={mongoDb} alt="" width="50" />
                             <p className='text-xl ml-5'>MongoDB</p>
@@ -102,12 +87,9 @@ const Skills = () => {
                             <img src={stripe} alt="" width="50" />
                             <p className='text-xl ml-5'>Stripe Payment</p>
                         </div>
-                        {/* </div> */}
                     </div>
 
                     <div>
-                        {/* <h1 className='text-2xl my-5'>Platform</h1> */}
-                        {/* <div className='grid grid-cols-1'> */}
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
                             <img src={firebase} alt="" width="50" />
                             <p className='text-xl ml-5'>Firebase</p>
@@ -128,12 +110,9 @@ const Skills = () => {
                             <img src={netlify} alt="" width="50" />
                             <p className='text-xl ml-5'>Netlify</p>
                         </div>
-                        {/* </div> */}
                     </div>
 
                     <div>
-                        {/* <h1 className='text-2xl my-5'>Tools</h1> */}
-                        {/* <div className='grid grid-cols-1'> */}
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center'>
                             <img src={vsCode} alt="" width="50" />
                             <p className='text-xl ml-5'>Visual Studio Code</p>
@@ -146,10 +125,7 @@ const Skills = () => {
                             <img src={figma} alt="" width="50" />
                             <p className='text-xl ml-5'>Figma</p>
                         </div>
-
-                        {/* </div> */}
                     </div>
-
                 </div>
             </div>
 

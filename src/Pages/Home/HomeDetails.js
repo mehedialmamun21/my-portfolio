@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import downloadIcon from '../../assets/images/download_icon.png';
 
 const HomeDetails = () => {
 
     const [state] = useState({
-        titleOne: "Hi there,",
-        titleTwo: "I'M",
-        titleThree: "Md. Mehedi Al Mamun",
+        titleOne: "Hello, This is",
+        titleTwo: "Md. Mehedi Al Mamun"
     })
 
     return (
@@ -19,12 +17,11 @@ const HomeDetails = () => {
                 <div className='w-50 lg:ml-40 mt-5'>
 
                     <h2>
-                        <div className='text-xl text-center'>{state.titleOne}</div>
-                        <div className='text-xl font-semibold text-center'><span>{state.titleTwo}</span> </div>
-                        <div className='text-2xl font-semibold text-center text-orange-500'>{state.titleThree}</div>
+                        <div className='text-lg text-center text-secondary'>{state.titleOne}</div>
+                        <div className='text-2xl font-semibold text-center text-orange-500'>{state.titleTwo}</div>
                     </h2>
 
-                    <div className='text font-bold text-xl text-blue-500 text-center mt-4'>
+                    <div className='text font-bold text-xl text-accent text-center mt-4'>
                         <Typewriter
                             options={{
                                 autoStart: true,
@@ -32,13 +29,10 @@ const HomeDetails = () => {
                                 delay: 40,
                                 strings: [
                                     "Web Developer",
+                                    "Programmer",
                                     "Tech Enthusiast"
                                 ],
                             }} />
-                    </div>
-
-                    <div className='text-center mt-10'>
-                        <Link to="/contact"><button type='button' className='btn btn-secondary text-sm hover:bg-accent text-white border-none'>Hire Me</button></Link>
                     </div>
 
                     <br />
@@ -46,7 +40,7 @@ const HomeDetails = () => {
                     <div>
                         <a href="Mehedi_Web_Developer_Resume.pdf" download="Mehedi_Web_Developer_Resume.pdf">
                             <center>
-                                <button className='flex justify-center text-lg bg-accent px-3 py-2 rounded hover:text-white hover:bg-secondary'>
+                                <button className='flex justify-center text-lg border border-green-500 text-green-500 px-3 py-2 rounded hover:text-white hover:bg-green-500'>
                                     <p className='mr-2'>Download Resume</p>
                                     <img src={downloadIcon} alt="" width="30" />
                                 </button>
