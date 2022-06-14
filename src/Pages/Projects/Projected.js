@@ -12,7 +12,7 @@ const Projected = ({ project }) => {
 
     return (
         <center>
-            <div class="card w-2/3 border border-green-600 bg-gray-700 shadow-2xl" data-aos="zoom-in-right">
+            <div class="card lg:w-2/3 border border-green-600 bg-gray-700 shadow-2xl lg:px-5" data-aos="zoom-in-right">
                 <figure class="px-5 py-5">
                     <img src={img} alt="" class="rounded-xl" />
                 </figure>
