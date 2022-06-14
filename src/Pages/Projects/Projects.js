@@ -3,8 +3,8 @@ import Projected from './Projected';
 const Projects = () => {
 
     const projects = [
-        { id: 1, img: "https://i.postimg.cc/76NjgmGM/manufacturer.png", name: 'Manufacturer Website', about: "This website is build for a manufacturer company who manufactures a particular products and sell it on their website." },
-        { id: 2, img: "https://i.postimg.cc/rsPnJb8W/warehouse.png", name: 'Warehouse Management', about: "This site is build for selling modile phone. User can buying phone from here and admin can upload or delete products." },
+        { id: 1, img: "https://i.postimg.cc/PJtGWxYL/manufacturer.png", name: 'Manufacturer Website', about: "This website is build for a manufacturer company who manufactures some products and sell those here." },
+        { id: 2, img: "https://i.postimg.cc/7Yr6GM5h/warehouse.png", name: 'Warehouse Management', about: "This site is build for selling modile phone. User can buying phone from here and admin can upload or delete products." },
         { id: 3, img: "https://i.postimg.cc/c4tXWFx9/cms.png", name: 'CMS System', about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards." }
     ]
 

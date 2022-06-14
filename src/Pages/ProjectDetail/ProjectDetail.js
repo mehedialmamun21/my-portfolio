@@ -5,25 +5,25 @@ const ProjectDetail = () => {
     const projects = [
         {
             id: 1,
-            img1: "https://i.postimg.cc/76NjgmGM/manufacturer.png",
-            img2: "https://i.postimg.cc/rsPnJb8W/warehouse.png",
-            img3: "https://i.postimg.cc/rsPnJb8W/warehouse.png",
+            img1: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
+            img2: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
+            img3: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
             name: 'Manufacturer Website',
             about: "This website is build for a manufacturer company who manufactures a particular products and sell it on their website."
         },
         {
             id: 2,
-            img1: "https://i.postimg.cc/rsPnJb8W/warehouse.png",
-            img2: "https://i.postimg.cc/76NjgmGM/manufacturer.png",
-            img3: "https://i.postimg.cc/rsPnJb8W/warehouse.png",
+            img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
+            img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
+            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png",
             name: 'Warehouse Management',
             about: "This site is build for selling modile phone. User can buying phone from here and admin can upload or delete products."
         },
         {
             id: 3,
-            img1: "https://i.postimg.cc/c4tXWFx9/cms.png",
-            img2: "https://i.postimg.cc/rsPnJb8W/warehouse.png",
-            img3: "https://i.postimg.cc/76NjgmGM/manufacturer.png",
+            img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
+            img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
+            img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
             name: 'Service based Content Management System',
             about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
         }
