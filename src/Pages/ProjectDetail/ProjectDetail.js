@@ -63,15 +63,15 @@ const ProjectDetail = () => {
     const { gitClient, gitServer, liveSite } = linkData;
 
     return (
-        <section className='bg-primary text-white lg:flex px-20'>
+        <section className='bg-primary text-white lg:flex lg:px-20'>
 
-            <div className='flex flex-col gap-4 py-10 px-10'>
-                <a href={gitClient} target="_blank" className='border-2 border-green-600 hover:bg-green-800 px-3 py-1 lg:px-5 lg:py-2 font-bold text-orange-400 hover:text-white'>GitHub ( Client )</a>
+            <div className='flex flex-col gap-4 py-10 lg:px-10 text-center px-20'>
+                <a href={gitClient} target="_blank" className='border-2 border-green-600 hover:bg-green-800 lg:px-3 py-1 lg:px-5 lg:py-2 font-bold text-orange-400 hover:text-white'>GitHub ( Client )</a>
                 <a href={gitServer} target="_blank" className='border-2 border-green-600 hover:bg-green-800 px-3 py-1 font-bold text-orange-400 lg:px-5 lg:py-2 hover:text-white'>GitHub ( Server )</a>
                 <a href={liveSite} target="_blank" className='border-2 border-orange-600 bg-green-800 hover:bg-green-600 px-3 py-1 font-bold lg:px-5 lg:py-2'>Live Site</a>
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-4 py-10 lg:w-3/4'>
+            <div className='flex flex-col items-center justify-center gap-4 px-5 py-10 lg:w-3/4'>
                 <img src={img1} alt="" width="1000px" />
                 <img src={img2} alt="" width="1000px" />
                 <img src={img3} alt="" width="1000px" />
