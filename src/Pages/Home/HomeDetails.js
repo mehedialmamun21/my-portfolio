@@ -44,7 +44,7 @@ const HomeDetails = () => {
                     <br />
 
                     <div>
-                        <a href="Mehedi_Web_Developer_Resume.pdf" download="Mehedi_Web_Developer_Resume.pdf">
+                        <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf">
 
                             <button className='flex my-5 text-lg border border-green-500 text-green-500 px-8 py-2 rounded hover:text-white hover:bg-green-500'>
                                 <p className='mr-2'>Resume</p>
