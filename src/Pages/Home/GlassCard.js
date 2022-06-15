@@ -7,7 +7,7 @@ const Container = styled(animated.div)`
     display: inline-block;
     padding: 2em;
     background: #C7D2FE66;
-    border-radius: 20px;
+    border-radius: 30px;
     z-index: 1;
     position: relative;
     backdrop-filter: blur(10px);
