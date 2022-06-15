@@ -65,19 +65,24 @@ const ProjectDetail = () => {
     return (
         <section className='bg-primary text-white lg:flex lg:px-20'>
 
-            <div className='flex flex-col gap-4 py-10 lg:px-10 text-center px-20'>
+            <div className='flex flex-col gap-4 py-10 lg:px-10 text-center px-20 t-0 b-0 fixed z-10 w-full lg:w-2/12'>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='border-4 border-green-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-orange-400 hover:text-white'>GitHub client</a>
 
-                <a href={gitClient} target="_blank" className='border-2 border-green-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2  text-orange-400 hover:text-white'>GitHub ( client )</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='border-4 border-green-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 text-orange-400 lg:px-5 lg:py-2 hover:text-white'>GitHub server</a>
 
-
-                <a href={gitServer} target="_blank" className='border-2 border-green-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 text-orange-400 lg:px-5 lg:py-2 hover:text-white'>GitHub ( server )</a>
-                <a href={liveSite} target="_blank" className='border-2 border-orange-600 bg-green-800 hover:bg-green-600 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2'>Live Site</a>
+                <a href={liveSite} target='_blank' rel='noreferrer' className='border-4 border-green-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 text-orange-400 lg:px-5 lg:py-2 hover:text-white'>Live Site</a>
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-4 px-5 py-10 lg:w-3/4'>
-                <img src={img1} alt="" width="1000px" />
-                <img src={img2} alt="" width="1000px" />
-                <img src={img3} alt="" width="1000px" />
+            <div className='flex flex-col items-center gap-4 py-10 lg:w-full relative w-2/3'>
+                <div className='flex justify-end w-full'>
+                    <img src={img1} alt="" className='w-8/12' />
+                </div>
+                <div className='flex justify-end w-full'>
+                    <img src={img2} alt="" className='w-8/12' />
+                </div>
+                <div className='flex justify-end w-full'>
+                    <img src={img3} alt="" className='w-8/12' />
+                </div>
             </div>
 
         </section>
