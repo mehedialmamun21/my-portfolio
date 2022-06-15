@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='text-base'>
-                    <p>Copyright © {date} <hr className='my-1' /> All right reserved by <span className='text-orange-400'> Md. Mehedi Al Mamun</span> </p>
+                    <p>Copyright © {date} <hr className='my-1' /> All right reserved by <span className='text-orange-400'> Mehedi</span> </p>
                 </div>
             </footer>
         </div>

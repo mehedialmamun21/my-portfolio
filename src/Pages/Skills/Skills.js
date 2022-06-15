@@ -18,7 +18,7 @@ import github from '../../assets/images/github_logo.png'
 import heroku from '../../assets/images/heroku_logo.png'
 import netlify from '../../assets/images/netlify_logo.png'
 import vsCode from '../../assets/images/vsCode_logo.png'
-import chromeDevTool from '../../assets/images/chromeDevTool_logo.jpg'
+import chromeDevTool from '../../assets/images/chromeDevTool_logo.png'
 import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
@@ -115,11 +115,11 @@ const Skills = () => {
                     <div>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-r-orange-500 hover:border-b-orange-500' data-aos="flip-right">
                             <img src={vsCode} alt="" width="50" />
-                            <p className='text-xl ml-5'>Visual Studio Code</p>
+                            <p className='text-xl ml-5'>VS Code</p>
                         </div>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-r-orange-500 hover:border-b-orange-500' data-aos="flip-right">
                             <img src={chromeDevTool} alt="" width="50" />
-                            <p className='text-xl ml-5'>Chrome Dev Tool</p>
+                            <p className='text-xl ml-5'>Dev Tool</p>
                         </div>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-r-orange-500 hover:border-b-orange-500' data-aos="flip-right">
                             <img src={figma} alt="" width="50" />
