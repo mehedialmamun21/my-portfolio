@@ -47,7 +47,7 @@ const HomeDetails = () => {
                     <div>
                         <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf">
 
-                            <button className='flex my-2 lg:mb-5 text-lg border-2 border-gray-500 text-orange-400 px-8 py-1 rounded hover:text-white hover:bg-gray-500'>
+                            <button className='flex my-2 lg:mb-5 text-lg border-2 border-green-500 text-orange-400 px-8 py-1 rounded hover:text-white hover:bg-orange-400'>
                                 <p className='mr-2'>Resume</p>
                                 <img src={downloadIcon} alt="" width="30" />
                             </button>
