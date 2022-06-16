@@ -12,7 +12,7 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:py-20'>
+        <section className='px-10 lg:py-20'>
 
             <div className='lg:flex justify-center items-center'>
 
@@ -47,7 +47,7 @@ const HomeDetails = () => {
                     <div>
                         <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf">
 
-                            <button className='flex my-2 lg:mb-5 text-lg border-2 border-green-500 text-green-500 px-8 py-2 rounded hover:text-white hover:bg-green-500'>
+                            <button className='flex my-2 lg:mb-5 text-lg border-2 border-gray-500 text-orange-400 px-8 py-1 rounded hover:text-white hover:bg-gray-500'>
                                 <p className='mr-2'>Resume</p>
                                 <img src={downloadIcon} alt="" width="30" />
                             </button>
@@ -57,7 +57,7 @@ const HomeDetails = () => {
 
                     <br />
 
-                    <Link to="/contact" className='border-2 bg-green-600 text-white hover:border-green-500 hover:bg-primary px-10 py-2 rounded-lg mb-10'>Get In Touch</Link>
+                    <a href='#contact' className='border-2 bg-green-600 text-white hover:border-green-500 hover:bg-primary px-10 py-2 rounded-lg mb-10'>Get In Touch</a>
 
                 </div>
 

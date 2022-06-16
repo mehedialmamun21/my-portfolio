@@ -15,7 +15,7 @@ const Contact = () => {
         event.target.reset()
     }
     return (
-        <section className='py-20 flex justify-center bg-primary'>
+        <section className='py-10 flex justify-center bg-primary'>
             <div className=''>
 
                 <div className='container pb-5 lg:px-5 rounded-xl my-20'>

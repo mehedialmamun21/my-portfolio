@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import navIcon from '../../assets/images/nav_icon.png';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
-        <section className='sticky top-0 z-50 bg-neutral px-10 py-3'>
+        <section className='sticky top-0 z-50 bg-neutral px-10'>
             <div class="navbar">
                 <div class="navbar-start mx-10">
                     <div class="dropdown">
@@ -12,60 +12,52 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li >
-                                <Link to="/" className='text-lg font-semibold hover:text-orange-400'>Home</Link>
+
+                            <li>
+                                <HashLink to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
                             </li>
                             <li>
-                                <Link to="/about" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>About</Link>
+                                <HashLink to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
                             </li>
                             <li>
-                                <Link to="/skills" className='text-lg font-semibold hover:text-orange-400'>Skills</Link>
+                                <HashLink to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
                             </li>
                             <li>
-                                <Link to="/projects" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>Projects</Link>
+                                <HashLink to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                             </li>
                             <li>
-                                <Link to="/blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</Link>
+                                <HashLink to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
                             </li>
-                            <li>
-                                <Link to="/education" className='text-lg font-semibold hover:text-orange-400'>Education</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact" className='text-lg font-semibold lg:mx-2 hover:text-orange-400'>Contact</Link>
-                            </li>
+
                         </ul>
                     </div>
-                    <Link to="/" class="btn btn-ghost normal-case font-bold text-2xl border-none">
+                    <HashLink to="/home#homeDetails" class="btn btn-ghost normal-case font-bold text-2xl border-none">
                         <img src={navIcon} alt="" width="55" />
-                    </Link>
+                    </HashLink>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0 text-secondary">
-                        <li >
-                            <Link to="/" className='text-lg font-bold  hover:text-orange-400'>Home</Link>
+
+                        <li>
+                            <HashLink to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
                         </li>
                         <li>
-                            <Link to="/about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</Link>
+                            <HashLink to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
                         </li>
                         <li>
-                            <Link to="/skills" className='text-lg font-bold hover:text-orange-400'>Skills</Link>
+                            <HashLink to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
                         </li>
                         <li>
-                            <Link to="/projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</Link>
+                            <HashLink to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                         </li>
                         <li>
-                            <Link to="/blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</Link>
+                            <HashLink to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
                         </li>
-                        <li>
-                            <Link to="/education" className='text-lg font-bold hover:text-orange-400'>Education</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</Link>
-                        </li>
+
                     </ul>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
