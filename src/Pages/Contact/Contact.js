@@ -19,7 +19,7 @@ const Contact = () => {
             <div className=''>
 
                 <div className='container pb-5 lg:px-5 rounded-xl my-20'>
-                    <h1 className='py-8 text-2xl text-accent font-bold'>Get In Touch</h1>
+                    <h1 className='py-8 text-3xl text-accent font-bold'>Get In Touch</h1>
                     <form className='row' onSubmit={sendEmail}>
                         <div className='flex flex-col items-center'>
                             <div>

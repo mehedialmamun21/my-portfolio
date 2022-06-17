@@ -23,10 +23,10 @@ import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
     return (
-        <section className='px-10 py-5 lg:py-20 bg-primary text-secondary'>
+        <section className='px-10 bg-primary text-secondary'>
 
-            <div>
-                <h1 className='text-4xl text-center text-secondary py-4'>My <span className='text-orange-500'>Skills</span> </h1>
+            <div className='lg:py-20 py-10'>
+                <h1 className='text-4xl text-center text-secondary pb-10'>My <span className='text-orange-500'>Skills</span> </h1>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 pt-5 text-secondary'>
                     <div className=''>
                         <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
