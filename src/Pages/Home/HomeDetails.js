@@ -1,8 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import downloadIcon from '../../assets/images/download_icon.png';
 import GlassCard from './GlassCard';
-
 const HomeDetails = () => {
 
     const [state] = useState({
@@ -45,9 +45,9 @@ const HomeDetails = () => {
 
                     <div className='mt-5'>
                         <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf" className='inline-block'>
-                            <button className='flex text-lg border-2 border-green-500 text-orange-400 px-8 py-1 rounded hover:text-white hover:bg-orange-400'>
+                            <button className='flex items-center text-lg px-8 py-1 rounded bg-green-700 hover:bg-gray-700 text-white'>
                                 <p className='mr-2'>Resume</p>
-                                <img src={downloadIcon} alt="" width="30" />
+                                <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                             </button>
                         </a>
                     </div>
@@ -55,7 +55,7 @@ const HomeDetails = () => {
                     <br />
 
                     <div className='my-5'>
-                        <a href='#contact' className='border-2 bg-green-600 text-white hover:border-green-500 hover:bg-primary px-10 py-2 rounded-lg mb-10'>Get In Touch</a>
+                        <a href='#contact' className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 py-2 rounded-3xl mb-10'>Get In Touch</a>
                     </div>
 
                 </div>
