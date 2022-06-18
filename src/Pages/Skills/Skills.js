@@ -28,9 +28,9 @@ import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
     return (
-        <section className='px-10 bg-primary text-secondary'>
+        <section className='px-10 lg:px-20 bg-primary text-secondary'>
 
-            <div className='lg:py-20 py-10'>
+            <div className='lg:py-20 py-10 lg:mx-10'>
 
                 <h1 className='text-4xl text-center text-secondary pb-10'>My <span className='text-orange-500'>Skills</span> </h1>
 
