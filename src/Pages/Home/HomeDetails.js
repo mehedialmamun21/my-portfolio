@@ -31,7 +31,7 @@ const HomeDetails = () => {
                                 delay: 40,
                                 strings: [
                                     "Programmer",
-                                    "Front End Developer",
+                                    "MERN stack Developer",
                                     "React Developer"
                                 ],
                             }} />
@@ -40,7 +40,7 @@ const HomeDetails = () => {
                     <br />
 
                     <div className='text-secondary lg:w-3/4'>
-                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I want to gain confidence and fame using my potential and express my innovative creative skills for self and company growth. Love to learn new technologies and trying to improve myself.</p>
+                        <p>A full-stack web developer. I am good at HTML, CSS, Tailwind CSS, JavaScript, React, Node.js, responsiveness and other essential tools. I love to Develop interesting and unique design. I also like to challenge myself to learn new things / new technologies.</p>
                     </div>
 
                     <br />

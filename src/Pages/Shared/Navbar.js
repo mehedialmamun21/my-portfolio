@@ -16,19 +16,19 @@ const Navbar = () => {
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
 
                             <li>
-                                <HashLink to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
+                                <HashLink smooth to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
+                                <HashLink smooth to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
+                                <HashLink smooth to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                             </li>
                             <li>
-                                <HashLink to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
+                                <HashLink smooth to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
                             </li>
 
                         </ul>
