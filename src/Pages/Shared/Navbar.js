@@ -1,8 +1,10 @@
 import React from 'react';
 import navIcon from '../../assets/images/nav_icon.png';
 import { HashLink } from 'react-router-hash-link';
+import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
+
     return (
         <section className='sticky top-0 z-50 bg-neutral px-10'>
             <div class="navbar">
@@ -32,26 +34,28 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <HashLink to="/home#homeDetails" class="btn btn-ghost normal-case font-bold text-2xl border-none">
-                        <img src={navIcon} alt="" width="55" />
+                        <div onClick={() => scroll.scrollToTop()}>
+                            <img src={navIcon} alt="" width="55" />
+                        </div>
                     </HashLink>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0 text-secondary">
 
                         <li>
-                            <HashLink to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
+                            <HashLink smooth to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
+                            <HashLink smooth to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
+                            <HashLink smooth to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
+                            <HashLink smooth to="/home#blogs" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
+                            <HashLink smooth to="/home#contact" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Contact</HashLink>
                         </li>
 
                     </ul>

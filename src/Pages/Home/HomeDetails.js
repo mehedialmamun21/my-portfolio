@@ -3,6 +3,8 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import GlassCard from './GlassCard';
+import { Link } from "react-scroll";
+
 const HomeDetails = () => {
 
     const [state] = useState({
@@ -55,7 +57,7 @@ const HomeDetails = () => {
                     <br />
 
                     <div className='my-5'>
-                        <a href='#contact' className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 py-2 rounded-3xl mb-10'>Get In Touch</a>
+                        <Link to="contact" className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 py-2 rounded-3xl mb-10 cursor-pointer' smooth={true} duration={1000}>Get In Touch</Link>
                     </div>
 
                 </div>

@@ -13,7 +13,7 @@ const Projects = () => {
 
             <div className='lg:py-20'>
                 <h1 className='text-center text-4xl text-secondary pb-10'>Recent <span className='text-orange-500'>Projects</span> </h1>
-                <div className=''>
+                <div>
                     {
                         projects.map(project => <Projected
                             key={project.id}
