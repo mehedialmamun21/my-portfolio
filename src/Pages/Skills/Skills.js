@@ -28,130 +28,130 @@ import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
     return (
-        <section className='px-10 lg:px-20 lg:mx-10 bg-primary text-secondary'>
+        <section className='px-10 lg:px-20 text-secondary'>
 
             <div className='lg:py-20 py-10'>
 
                 <h1 className='text-4xl text-center text-secondary pb-10'>My <span className='text-orange-500'>Skills</span> </h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-6 gap-y-6 pt-5 text-secondary'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-10 gap-y-10 pt-5 text-secondary'>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={cPlusPlus} alt="" width="50" />
                         <p className='text-xl ml-5'>C++</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={javaScript} alt="" width="50" />
                         <p className='text-xl ml-5'>JavaScript</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={es6} alt="" width="50" />
                         <p className='text-xl ml-5'>ES6</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={react} alt="" width="50" />
                         <p className='text-xl ml-5'>React</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={html} alt="" width="50" />
                         <p className='text-xl ml-5'>HTML5</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={bootstrap} alt="" width="50" />
                         <p className='text-xl ml-5'>Bootstrap5</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={css} alt="" width="50" />
                         <p className='text-xl ml-5'>CSS3</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={tailwind} alt="" width="50" />
                         <p className='text-xl ml-5'>Tailwind CSS</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={mongoDb} alt="" width="50" />
                         <p className='text-xl ml-5'>MongoDB</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={mySQL} alt="" width="50" />
                         <p className='text-xl ml-5'>MySQL</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={axios} alt="" width="50" />
                         <p className='text-xl ml-5'>Axios</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={jQuery} alt="" width="50" />
                         <p className='text-xl ml-5'>JQuery</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={nodeJS} alt="" width="50" />
                         <p className='text-xl ml-5'>Node.js</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={express} alt="" width="50" />
                         <p className='text-xl ml-5'>Express.js</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={restApi} alt="" width="50" />
                         <p className='text-xl ml-5'>REST API</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={stripe} alt="" width="50" />
                         <p className='text-xl ml-5'>Stripe Payment</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={firebase} alt="" width="50" />
                         <p className='text-xl ml-5'>Firebase</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={git} alt="" width="50" />
                         <p className='text-xl ml-5'>Git</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={github} alt="" width="50" />
                         <p className='text-xl ml-5'>GitHub</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={heroku} alt="" width="50" />
                         <p className='text-xl ml-5'>Heroku</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={netlify} alt="" width="50" />
                         <p className='text-xl ml-5'>Netlify</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={vsCode} alt="" width="50" />
                         <p className='text-xl ml-5'>VS Code</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={chromeDevTool} alt="" width="50" />
                         <p className='text-xl ml-5'>Dev Tool</p>
                     </div>
 
-                    <div className='flex items-center border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={figma} alt="" width="50" />
                         <p className='text-xl ml-5'>Figma</p>
                     </div>
@@ -162,113 +162,6 @@ const Skills = () => {
 
         </section>
 
-        // <section className='px-10 bg-primary text-secondary'>
-
-        //     <div className='lg:py-20 py-10'>
-        //         <h1 className='text-4xl text-center text-secondary pb-10'>My <span className='text-orange-500'>Skills</span> </h1>
-        //         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 pt-5 text-secondary'>
-        //             <div className=''>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={cPlusPlus} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>C++</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={javaScript} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>JavaScript</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={es6} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>ES6</p>
-        //                 </div>
-        //             </div>
-
-        //             <div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={react} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>React</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={html} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>HTML5</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={bootstrap} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Bootstrap5</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={css} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>CSS3</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={tailwind} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Tailwind CSS</p>
-        //                 </div>
-        //             </div>
-
-        //             <div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={mongoDb} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>MongoDB</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={nodeJS} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Node.js</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={express} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Express.js</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={restApi} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>REST API</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={stripe} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Stripe Payment</p>
-        //                 </div>
-        //             </div>
-
-        //             <div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={firebase} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Firebase</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={git} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Git</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={github} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>GitHub</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={heroku} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Heroku</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={netlify} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Netlify</p>
-        //                 </div>
-        //             </div>
-
-        //             <div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={vsCode} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>VS Code</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={chromeDevTool} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Dev Tool</p>
-        //                 </div>
-        //                 <div className='flex items-center mb-5 border-solid border-2 border-indigo-600 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
-        //                     <img src={figma} alt="" width="50" />
-        //                     <p className='text-xl ml-5'>Figma</p>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-
-        // </section>
     );
 };
 

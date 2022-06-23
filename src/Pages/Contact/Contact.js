@@ -14,10 +14,10 @@ const Contact = () => {
             });
         event.target.reset()
     }
-    return (
-        <section className='py-10 flex justify-center bg-primary' id="contact">
-            <div>
 
+    return (
+        <section className='py-10 flex justify-center' id="contact">
+            <div>
                 <div className='container pb-5 lg:px-5 rounded-xl my-20'>
                     <h1 className='py-8 text-3xl text-accent font-bold'>Get In Touch</h1>
                     <form className='row' onSubmit={sendEmail}>
