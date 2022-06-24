@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'contact-backImg': "url('/src/assets/images/background-contactform.jpg')",
+        'banner-section-backImg': "url('/src/assets/images/animate.png')"
       }
     },
   },
@@ -11,7 +12,8 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#13203B",
+          // primary: "#13203B",
+          primary: "#112B3C",
           secondary: "#DEE1E6",
           accent: "#37cdbe",
           neutral: "#3d4451",

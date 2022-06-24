@@ -1,16 +1,35 @@
 import React from 'react';
-import Particle from "../../components/Particle.jsx"
+import { Link } from "react-scroll";
+import blogImg from '../../assets/images/blogImg.png'
 
 const Blogs = () => {
     return (
-        <section className='lg:px-20'>
-            <div className='text-secondary text-center py-10 lg:pt-20'>
-                <Particle />
-                <h1 className='text-center text-4xl text-secondary pb-10'>My <span className='text-orange-500'>Blogs</span> </h1>
-                <div>
-                    <h2 className='text-2xl'>Coming soon..</h2>
+        <section className='px-5 lg:px-40'>
+
+            <div className='text-secondary py-10 lg:py-20'>
+
+                <div class="flex flex-col h-screen items-center justify-center">
+
+                    <img class="md:w-60" src={blogImg} alt="" />
+
+                    <div class="mt-5  ">
+
+                        <h1 class="md:text-5xl text-3xl  font-bold  text-white">Blogs
+                            <span class="text-orange-600"> Comming Soon..</span>
+                        </h1>
+                        <p class="w-full bg-orange-500 rounded-full mt-3 h-[1px]"></p>
+                        <p class="ml-1 mt-2 text-center text-gray-400">Keep an eye on my portfolio</p>
+
+                        <div className='flex mt-10 items-center justify-center mx-auto'>
+                            <Link to="contact" className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 py-2 rounded-3xl mb-10 cursor-pointer' smooth={true} duration={1000}>Get In Touch</Link>
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
+
         </section>
     );
 };

@@ -9,10 +9,10 @@ const Projects = () => {
     ]
 
     return (
-        <section className='px-10 lg:px-20'>
+        <section className='px-10 lg:px-40'>
 
             <div className='lg:py-20'>
-                <h1 className='text-center text-4xl text-secondary pb-10'>Recent <span className='text-orange-500'>Projects</span> </h1>
+                <h1 className='text-5xl text-secondary pb-10'>Recent <span className='text-orange-500'>Projects</span> </h1>
                 <div>
                     {
                         projects.map(project => <Projected

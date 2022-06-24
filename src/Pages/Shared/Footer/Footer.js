@@ -6,6 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer class="footer footer-center p-10 bg-neutral text-white rounded">
+
                 <div>
                     <div class="grid grid-flow-col gap-4">
                         <a href='https://twitter.com/' className='hover:text-orange-400'>

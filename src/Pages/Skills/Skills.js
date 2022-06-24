@@ -28,13 +28,19 @@ import figma from '../../assets/images/figma_logo.png'
 
 const Skills = () => {
     return (
-        <section className='px-10 lg:px-20 text-secondary'>
+        <section className='px-10 lg:px-40 text-secondary'>
 
             <div className='lg:py-20 py-10'>
 
-                <h1 className='text-4xl text-center text-secondary pb-10'>My <span className='text-orange-500'>Skills</span> </h1>
+                <h1 className='text-5xl text-secondary pb-10'><span className='text-orange-500'>About </span>Me </h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-10 gap-y-10 pt-5 text-secondary'>
+                <div className='text-secondary lg:w-2/4'>
+                    <p className='text-lg'>Hi there, I'm Md. Mehedi Al Mamun with solid knowledge of Frontend Web Development. My knowledge enables me to create modern & eye-catching responsive websites. I am looking to start my career as an entry-level software engineer with a reputed firm driven by technology. I like to challenge myself to learn new things / new technologies.</p>
+                </div>
+
+                <h1 className='text-2xl text-secondary pt-10 pb-5'>My Development Skills :</h1>
+
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-5 pt-5 text-secondary'>
 
                     <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={cPlusPlus} alt="" width="50" />

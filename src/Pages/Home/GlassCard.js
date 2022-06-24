@@ -1,25 +1,19 @@
 import React from 'react';
-import profile from '../../assets/images/profile.png';
+import homeImg from "../../assets/images/home.png"
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 
 const Container = styled(animated.div)`
     display: inline-block;
-    padding: 2em;
-    background: #C7D2FE66;
-    border-radius: 30px;
     z-index: 1;
     position: relative;
-    backdrop-filter: blur(10px);
-    border: 2px solid transparent;
-    background-clid: border-box;
     cursor: pointer;
 `;
 
 const StyledImg = styled.img`
-    width: 200px;
+    width: 250px;
     height: auto;
-    border-radius: 30%;
+    border-radius: 50%;
 `;
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
@@ -35,7 +29,7 @@ const GlassCard = () => {
                 transform: props.xys.interpolate(trans)
             }}
         >
-            <StyledImg src={profile} alt="" />
+            <StyledImg className='bg-secondary' src={homeImg} alt="" />
         </Container>
     );
 };

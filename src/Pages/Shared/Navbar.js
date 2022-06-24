@@ -6,7 +6,7 @@ import { animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
 
     return (
-        <section className='sticky top-0 z-50 bg-neutral px-10'>
+        <section className='sticky top-0 z-50 bg-neutral'>
             <div class="navbar">
                 <div class="navbar-start mx-10">
                     <div class="dropdown">
@@ -43,10 +43,12 @@ const Navbar = () => {
                     <ul class="menu menu-horizontal p-0 text-secondary">
 
                         <li>
-                            <HashLink smooth to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
+                            <div onClick={() => scroll.scrollToTop()}>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg font-bold  hover:text-orange-400'>Home</HashLink>
+                            </div>
                         </li>
                         <li>
-                            <HashLink smooth to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About</HashLink>
+                            <HashLink smooth to="/home#about" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>About Me</HashLink>
                         </li>
                         <li>
                             <HashLink smooth to="/home#projects" className='text-lg font-bold lg:mx-2 hover:text-orange-400'>Projects</HashLink>
