@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-scroll";
-import blogImg from '../../assets/images/blogImg.png'
+import blogImg from '../../assets/images/blogImg.png';
+import touch from '../../assets/images/touch.png'
 
 const Blogs = () => {
     return (
@@ -20,8 +21,8 @@ const Blogs = () => {
                         <p class="w-full bg-orange-500 rounded-full mt-3 h-[1px]"></p>
                         <p class="ml-1 mt-2 text-center text-gray-400">Keep an eye on my portfolio</p>
 
-                        <div className='flex mt-10 items-center justify-center mx-auto'>
-                            <Link to="contact" className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 py-2 rounded-3xl mb-10 cursor-pointer' smooth={true} duration={1000}>Get In Touch</Link>
+                        <div className='flex mt-20 items-center justify-center mx-auto'>
+                            <Link to="contact" className='border-2 text-orange-400 hover:text-white border-orange-400 bg-primary px-5 rounded-3xl cursor-pointer' smooth={true} duration={1000}>Get In Touch <img className='inline' src={touch} alt="" width="40" /> </Link>
                         </div>
 
                     </div>

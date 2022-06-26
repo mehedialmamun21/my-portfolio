@@ -40,9 +40,9 @@ const HomeDetails = () => {
                                 }} />
                         </div>
 
-                        <div className='mt-5'>
+                        <div className='mt-10'>
                             <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf" className='inline-block'>
-                                <button className='flex items-center text-lg px-10 py-2 border-2 border-orange-400 hover:bg-gray-600 text-white rounded-3xl'>
+                                <button className='flex items-center text-lg px-10 py-1 bg-teal-700 text-white rounded-3xl hover:bg-teal-600'>
                                     <p className='mr-2'>Resume</p>
                                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                                 </button>
