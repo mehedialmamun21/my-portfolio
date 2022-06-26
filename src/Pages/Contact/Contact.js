@@ -20,7 +20,7 @@ const Contact = () => {
         <section className='px-5 py-10 lg:px-40 lg:py-20' id="contact">
 
             <div className='mb-10 lg:mb-20'>
-                <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-600'>Me</span></h1>
+                <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1>
                 <h1 className='text-lg text-gray-400'>Get in touch with me</h1>
             </div>
 
@@ -79,7 +79,7 @@ const Contact = () => {
                                 <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control bg-[#EFEFEF] w-full mt-2 py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
-                            <input type="submit" value="Send Message" className='form-control btn bg-orange-500 hover:bg-orange-600 text-white w-2/4 lg:w-1/3 py-3 lg:px-8 mt-5 rounded-sm font-bold' />
+                            <input type="submit" value="Send Message" className='form-control btn bg-orange-600 hover:bg-orange-500 text-white w-2/4 lg:w-1/3 py-3 lg:px-8 mt-5 rounded-sm font-bold' />
                         </div>
 
                     </form>

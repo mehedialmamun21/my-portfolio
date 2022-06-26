@@ -24,7 +24,7 @@ const HomeDetails = () => {
                 <center>
                     <div className='lg:px-5 lg:py-10 pt-10 pb-20 lg:w-1/2'>
                         <h2>
-                            <div className='text-4xl text-secondary'>{state.titleOne}</div>
+                            <div className='text-4xl text-secondary font-semibold'>{state.titleOne}</div>
                         </h2>
 
                         <div className='text text-xl text-secondary mt-4'>
@@ -42,7 +42,7 @@ const HomeDetails = () => {
 
                         <div className='mt-10'>
                             <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf" className='inline-block'>
-                                <button className='flex items-center text-lg px-10 py-1 bg-teal-700 text-white rounded-3xl hover:bg-teal-600'>
+                                <button className='flex items-center text-lg px-10 py-1 rounded text-white bg-teal-600 hover:bg-orange-500'>
                                     <p className='mr-2'>Resume</p>
                                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                                 </button>

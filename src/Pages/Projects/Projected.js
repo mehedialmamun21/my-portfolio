@@ -35,7 +35,7 @@ const Projected = ({ project }) => {
                     </div>
                     <br />
                     <center>
-                        <button className='btn rounded-md border-2 lg:border-none text-white w-2/3 lg:w-2/4 bg-orange-500 hover:bg-orange-600' onClick={() => navigateToProductDetail(id)}>Details</button>
+                        <button className='btn rounded-md text-white w-2/3 lg:w-2/4 bg-teal-500 hover:bg-orange-500' onClick={() => navigateToProductDetail(id)}>Details</button>
                     </center>
                 </div>
 

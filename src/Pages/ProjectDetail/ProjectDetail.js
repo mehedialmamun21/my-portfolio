@@ -64,11 +64,11 @@ const ProjectDetail = () => {
         <section className='bg-primary text-white lg:flex lg:px-20'>
 
             <div className='flex flex-col gap-4 py-10 lg:px-10 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
-                <a href={gitClient} target='_blank' rel='noreferrer' className='border-2 border-orange-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-orange-400 hover:text-white'>GitHub client</a>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='border-2 border-teal-600  mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-white hover:text-orange-500'>GitHub Client</a>
 
-                <a href={gitServer} target='_blank' rel='noreferrer' className='border-2 border-orange-600 hover:bg-green-800 mx-5 lg:mx-0 py-2 text-orange-400 lg:px-5 lg:py-2 hover:text-white'>GitHub server</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='border-2 border-teal-600 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-white hover:text-orange-500'>GitHub Server</a>
 
-                <a href={liveSite} target='_blank' rel='noreferrer' className='border-2 border-orange-600 bg-green-800 mx-5 lg:mx-0 py-2 hover:bg-green-600 lg:px-5 lg:py-2 text-white'>Live Site</a>
+                <a href={liveSite} target='_blank' rel='noreferrer' className='border-2 border-teal-600 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-white hover:text-orange-500'>Live Site</a>
             </div>
 
             <div className='flex flex-col gap-4 py-10 mx-4 lg:w-full lg:mx-0 relative'>

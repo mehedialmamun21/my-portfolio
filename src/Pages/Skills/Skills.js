@@ -34,8 +34,8 @@ const Skills = () => {
 
                 <h1 className='text-5xl text-secondary pb-10'><span className='text-orange-500'>About </span>Me </h1>
 
-                <div className='text-secondary lg:w-2/4'>
-                    <p className='text-lg'>Hi there, I'm Md. Mehedi Al Mamun with solid knowledge of Frontend Web Development. My knowledge enables me to create modern & eye-catching responsive websites. I am looking to start my career as an entry-level software engineer with a reputed firm driven by technology. I like to challenge myself to learn new things / new technologies.</p>
+                <div className='text-secondary rounded-md bg-gray-700 lg:w-2/4'>
+                    <p className='text-lg px-2 py-3'>Hi there, I'm Md. Mehedi Al Mamun with solid knowledge of Frontend Web Development. My knowledge enables me to create modern & eye-catching responsive websites. I am looking to start my career as an entry-level software engineer with a reputed firm driven by technology. I like to challenge myself to learn new technologies.</p>
                 </div>
 
                 <h1 className='text-2xl text-secondary pt-10 pb-5'>My Development Skills :</h1>
