@@ -3,6 +3,7 @@ import cPlusPlus from '../../assets/images/c++_logo.png'
 import javaScript from '../../assets/images/javaScript_logo.png'
 import es6 from '../../assets/images/ES6_logo.png'
 import react from '../../assets/images/react_logo.png'
+import redux from '../../assets/images/redux_logo.png'
 import html from '../../assets/images/html5_logo.png'
 import css from '../../assets/images/css3_logo.png'
 import bootstrap from '../../assets/images/bootstrap5_logo.png'
@@ -40,7 +41,7 @@ const Skills = () => {
 
                 <h1 className='text-2xl text-secondary pt-10 pb-5'>My Development Skills :</h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-5 pt-5 text-secondary'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-x-5 gap-y-5 pt-5 text-secondary'>
 
                     <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={cPlusPlus} alt="" width="50" />
@@ -60,6 +61,11 @@ const Skills = () => {
                     <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
                         <img src={react} alt="" width="50" />
                         <p className='text-xl ml-5'>React</p>
+                    </div>
+
+                    <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">
+                        <img src={redux} alt="" width="50" />
+                        <p className='text-xl ml-5'>Redux</p>
                     </div>
 
                     <div className='flex items-center border-solid border-2 border-cyan-400 py-4 px-2 justify-center  hover:border-b-4 hover:border-b-orange-500' data-aos="flip-right">

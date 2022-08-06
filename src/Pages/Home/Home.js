@@ -9,7 +9,7 @@ import Blogs from '../Blogs/Blogs';
 const Home = () => {
 
     return (
-        <section className='container bg-primary'>
+        <section className='bg-primary'>
 
             <div id='homeDetails'>
                 <HomeDetails />

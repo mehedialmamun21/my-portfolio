@@ -16,7 +16,7 @@ const HomeDetails = () => {
             <div className='lg:py-20'>
 
                 <center>
-                    <div className='lg:p-5'>
+                    <div className='pt-7 lg:p-5'>
                         <GlassCard />
                     </div>
                 </center>
