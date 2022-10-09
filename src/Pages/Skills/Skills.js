@@ -35,11 +35,24 @@ const Skills = () => {
 
                 <h1 className='text-5xl text-secondary pb-10'><span className='text-orange-500'>About </span>Me </h1>
 
-                <div className='text-secondary rounded-md bg-gray-700 lg:w-2/4'>
-                    <p className='text-lg px-2 py-3'>Hi there, I'm Md. Mehedi Al Mamun with solid knowledge of Frontend Web Development. My knowledge enables me to create modern & eye-catching responsive websites. I am looking to start my career as an entry-level software engineer with a reputed firm driven by technology. I like to challenge myself to learn new technologies.</p>
+                <div className='lg:flex lg:gap-4 grid grid-rows-2 gap-3'>
+                    <div className='text-secondary rounded-md bg-gray-700 lg:w-2/4'>
+                        <p className='text-lg px-2 py-3'>Hi there, I'm Md. Mehedi Al Mamun with solid knowledge of Frontend Web Development. My knowledge enables me to create modern & eye-catching responsive websites. I am looking to start my career as an entry-level software engineer with a reputed firm driven by technology. I like to challenge myself to learn new technologies.</p>
+                    </div>
+                    <div className='text-secondary rounded-md bg-gray-700 lg:w-2/4'>
+                        <p className='text-lg px-2 py-3'>
+                            <h2 className='text-cyan-400 text-xl font-semibold'>
+                                Educational Background :
+                            </h2>
+                            <p>BSc. (Engineering) in Computer Science,</p>
+                            <p>Final year,</p>
+                            <p>Hajee Mohammad Danesh Science & Technology University (HSTU)</p>
+                            <p>Dinajpur, Bangladesh</p>
+                        </p>
+                    </div>
                 </div>
 
-                <h1 className='text-2xl text-secondary pt-10 pb-5'>My Development Skills :</h1>
+                <h1 className='text-2xl text-cyan-400 pt-10 pb-5 font-semibold'>My Development Skills :</h1>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-x-5 gap-y-5 pt-5 text-secondary'>
 

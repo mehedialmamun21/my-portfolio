@@ -1,5 +1,5 @@
 import React from 'react';
-import homeImg from "../../assets/images/home.png"
+import homeImg from "../../assets/images/home.jpg"
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 
