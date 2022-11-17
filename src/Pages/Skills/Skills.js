@@ -41,8 +41,8 @@ const Skills = () => {
                     </div>
                     <div className='text-secondary rounded-md bg-gray-700 lg:w-2/4'>
                         <p className='text-lg px-2 py-3'>
-                            <h2 className='text-cyan-400 text-xl font-semibold'>
-                                Educational Background :
+                            <h2 className='text-orange-500 text-xl'>
+                                My Educational Background :
                             </h2>
                             <p>BSc. (Engineering) in Computer Science,</p>
                             <p>Final year,</p>
