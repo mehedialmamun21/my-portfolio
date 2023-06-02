@@ -5,7 +5,7 @@ import touch from '../../assets/images/touch.png'
 
 const Blogs = () => {
     return (
-        <section className='px-5 lg:px-40'>
+        <section className='px-5 lg:px-20'>
 
             <div className='text-secondary py-10 lg:py-20'>
 

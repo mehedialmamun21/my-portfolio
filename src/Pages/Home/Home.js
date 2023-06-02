@@ -15,9 +15,9 @@ const Home = () => {
                 <HomeDetails />
             </div>
 
-            <div id='about'>
+            {/* <div id='about'>
                 <Skills />
-            </div>
+            </div> */}
 
             <div id='projects'>
                 <Projects />
