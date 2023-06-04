@@ -51,7 +51,7 @@ const Wrapper = styled.section`
         font-size: 2.4 rem;
         width: 6 rem;
         height: 6 rem;
-        color: #fff;
+        color: rgb(20, 33, 61);
         
         
         border-radius: 50%;

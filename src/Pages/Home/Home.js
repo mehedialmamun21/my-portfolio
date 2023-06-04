@@ -9,7 +9,7 @@ import Footer from '../Shared/Footer/Footer';
 const Home = () => {
 
     return (
-        <section className='bg-primary'>
+        <section className='bg-zinc-200'>
 
             <div id='homeDetails'>
                 <HomeDetails />

@@ -61,17 +61,17 @@ const ProjectDetail = () => {
     const { gitClient, gitServer, liveSite } = linkData;
 
     return (
-        <section className='bg-primary text-white lg:flex lg:px-20'>
+        <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
 
-            <div className='flex flex-col gap-4 py-10 lg:px-10 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
-                <a href={gitClient} target='_blank' rel='noreferrer' className='border border-teal-600  mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-white hover:text-orange-500'>GitHub Client</a>
+            <div className='flex flex-col gap-4 py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='border border-teal-600 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-700 hover:text-orange-500'>GitHub Client</a>
 
-                <a href={gitServer} target='_blank' rel='noreferrer' className='border border-teal-600 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-white hover:text-orange-500'>GitHub Server</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='border border-teal-600 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-700 hover:text-orange-500'>GitHub Server</a>
 
-                <a href={liveSite} target='_blank' rel='noreferrer' className='border border-teal-600 mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-orange-500 hover:text-white'>Live Site</a>
+                <a href={liveSite} target='_blank' rel='noreferrer' className='border border-teal-600 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-orange-600 hover:text-zinc-700'>Live Site</a>
             </div>
 
-            <div className='flex flex-col gap-4 py-10 mx-4 lg:w-full lg:mx-0 relative'>
+            <div className='flex flex-col gap-4 pb-10 lg:py-10 mx-4 lg:w-full lg:mx-0 relative'>
                 <div className='flex lg:justify-end w-full'>
                     <img src={img1} alt="" className='lg:w-8/12' />
                 </div>

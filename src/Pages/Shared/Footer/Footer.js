@@ -5,10 +5,10 @@ const Footer = () => {
     var date = today.getFullYear();
     return (
         <div>
-            <footer class="footer footer-center p-10 text-white bg-primary rounded">
+            <footer class="footer footer-center p-10 text-black bg-zinc-200 rounded">
 
                 <div className='text-base'>
-                    <p>Copyright © {date} <span className='px-3'>||</span> All rights are reserved by <span className='text-orange-400'> Mehedi</span> </p>
+                    <p className='px-5 py-1'>Copyright © {date} <span className='px-1'>💛</span> All rights are reserved</p>
                 </div>
             </footer>
         </div>
