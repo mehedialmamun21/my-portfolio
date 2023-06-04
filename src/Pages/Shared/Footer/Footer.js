@@ -8,7 +8,7 @@ const Footer = () => {
             <footer class="footer footer-center p-10 text-black bg-zinc-200 rounded">
 
                 <div className='text-base'>
-                    <p className='px-5 py-1'>Copyright © {date} <span className='px-1'>💙</span> All rights are reserved</p>
+                    <p className='px-5 py-1'>Copyright © {date} <span className='px-1'> || </span> All rights are reserved by MEHEDI</p>
                 </div>
             </footer>
         </div>

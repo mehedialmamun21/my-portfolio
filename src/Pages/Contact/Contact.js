@@ -17,9 +17,9 @@ const Contact = () => {
     }
 
     return (
-        <section className='px-5 py-10 lg:px-20 lg:pt-20' id="contact">
+        <section className='px-5 pt-20 pb-10 lg:px-20 lg:pt-20' id="contact">
 
-            <div className='mb-10 lg:mb-20'>
+            <div className='pb-10 lg:pb-10'>
                 {/* <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1> */}
                 <h1 className='text-4xl text-zinc-700'>Get in <span className='text-orange-500'>touch</span> </h1>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                             </span>
                             <div>
                                 <h2 className='text-xl lg:text-2xl text-zinc-700'>Current Location</h2>
-                                <p class="text-zinc-600">Dhaka,Bangladesh.</p>
+                                <p class="text-zinc-600">Dhaka, Bangladesh</p>
                                 <p class="text-zinc-500">Serving clients worldwide</p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                             </span>
                             <div>
                                 <h2 className='text-xl lg:text-2xl text-zinc-700'>Contact With Me</h2>
-                                <p class="text-zinc-600">Email: csemehedihstu@gmail.com</p>
+                                <p class="text-zinc-600">Email: mehedialmamuncse@gmail.com</p>
                                 <p class="text-zinc-500">Phone : +8801521-413730</p>
                             </div>
                         </div>

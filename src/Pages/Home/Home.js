@@ -2,8 +2,8 @@ import React from 'react';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import HomeDetails from './HomeDetails';
-import Skills from '../Skills/Skills';
-import Blogs from '../Blogs/Blogs';
+// import Skills from '../Skills/Skills';
+// import Blogs from '../Blogs/Blogs';
 import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
@@ -23,9 +23,9 @@ const Home = () => {
                 <Projects />
             </div>
 
-            <div id='blogs'>
+            {/* <div id='blogs'>
                 <Blogs />
-            </div>
+            </div> */}
 
             <div id='contact'>
                 <Contact />

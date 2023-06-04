@@ -28,9 +28,9 @@ const Navbar = () => {
                             <li>
                                 <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Projects</HashLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <HashLink smooth to="/home#blogs" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Blogs</HashLink>
-                            </li>
+                            </li> */}
                             <li>
                                 <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Contact</HashLink>
                             </li>
@@ -64,9 +64,9 @@ const Navbar = () => {
                         <li>
                             <HashLink smooth to="/home#projects" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Projects</HashLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <HashLink smooth to="/home#blogs" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
-                        </li>
+                        </li> */}
                         <li>
                             <HashLink smooth to="/home#contact" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Contact</HashLink>
                         </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
 
                     <BsFacebook className='text-blue-500 text-xl lg:text-2xl' />
 
-                    <BsInstagram className='text-red-600 text-xl lg:text-2xl' />
+                    <BsInstagram className='text-red-500 text-xl lg:text-2xl' />
 
                     <BsTwitter className='text-blue-600 text-xl lg:text-2xl' />
                 </div>
