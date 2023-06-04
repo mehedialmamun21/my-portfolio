@@ -77,15 +77,15 @@ const Navbar = () => {
 
 
                 <div class="grid grid-flow-col gap-4 lg:ml-28">
-                    <BsGithub className='text-2xl lg:text-3xl' />
+                    <BsGithub className='text-xl lg:text-2xl' />
 
-                    <GrLinkedin className='text-blue-500 bg-white rounded text-2xl lg:text-3xl' />
+                    <GrLinkedin className='text-blue-500 bg-white rounded text-xl lg:text-2xl' />
 
-                    <BsFacebook className='text-blue-500 text-2xl lg:text-3xl' />
+                    <BsFacebook className='text-blue-500 text-xl lg:text-2xl' />
 
-                    <BsInstagram className='text-red-600 text-2xl lg:text-3xl' />
+                    <BsInstagram className='text-red-600 text-xl lg:text-2xl' />
 
-                    <BsTwitter className='text-blue-600 text-2xl lg:text-3xl' />
+                    <BsTwitter className='text-blue-600 text-xl lg:text-2xl' />
                 </div>
 
 

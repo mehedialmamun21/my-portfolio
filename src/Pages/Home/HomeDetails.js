@@ -9,11 +9,11 @@ import { ReactComponent as MySVG } from '../../assets/images/home1.svg'
 const HomeDetails = () => {
 
     const [state] = useState({
-        titleOne: "Mehedi Al Mamun",
+        titleOne: "Md. Mehedi Al Mamun",
     })
 
     return (
-        <section className='px-5 lg:px-20 lg:py-20'>
+        <section className='px-5 lg:px-20 lg:pt-20'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                 {/* <div className='pt-7 lg:p-5 flex justify-center'>
@@ -23,17 +23,17 @@ const HomeDetails = () => {
                 <center>
                     <div className='lg:py-10 pt-10 pb-20 lg:w-2/3'>
                         <h2>
-                            <div className='text-3xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
+                            <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
 
-                        <div className='text text-lg lg:text-xl text-orange-500 font-serif mt-4'>
+                        <div className='text text-lg lg:text-xl text-orange-600 font-serif mt-4'>
                             <Typewriter
                                 options={{
                                     autoStart: true,
                                     loop: true,
                                     delay: 40,
                                     strings: [
-                                        "Frontend Web Developer",
+                                        "Full-Stack Developer",
                                         "React Developer"
                                     ],
                                 }} />
@@ -58,7 +58,7 @@ const HomeDetails = () => {
                         </div>
 
                         <div className='mt-10 lg:border-l-4 lg:border-r-2 border-orange-500'>
-                            <p className='text-zinc-600 text-md lg:text-lg px-2 lg:px-1 font-sans '>
+                            <p className='text-zinc-500 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
                                 A passionate individual who always thrives to work on end to
                                 end products which develop sustainable and scalable social
                                 and technical systems to create impact.

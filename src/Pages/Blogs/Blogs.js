@@ -5,11 +5,11 @@ import touch from '../../assets/images/touch.png'
 
 const Blogs = () => {
     return (
-        <section className='px-5 lg:px-20'>
+        <section className='px-5 lg:px-20 py-20 lg:py-20'>
 
             <div className='text-secondary'>
 
-                <div class="flex flex-col h-screen items-center justify-center">
+                <div class="flex flex-col items-center justify-center">
 
                     <img class="w-40 lg:w-60" src={blogImg} alt="" />
 

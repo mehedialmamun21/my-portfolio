@@ -17,7 +17,7 @@ const Contact = () => {
     }
 
     return (
-        <section className='px-5 py-10 lg:px-20 lg:py-20' id="contact">
+        <section className='px-5 py-10 lg:px-20 lg:pt-20' id="contact">
 
             <div className='mb-10 lg:mb-20'>
                 {/* <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1> */}
@@ -29,21 +29,21 @@ const Contact = () => {
                 <div className='text-white w-full md:w-5/12 lg:w-5/12 space-y-5'>
                     <div className='flex gap-4'>
                         <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-orange-500"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-zinc-500"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                         </span>
                         <div>
-                            <h2 className='text-2xl text-zinc-700'>Have a question?</h2>
+                            <h2 className='text-xl lg:text-2xl text-zinc-700'>Have a question?</h2>
                             <p class="text-zinc-600">I am here to help</p>
-                            <p class="text-zinc-500">Email me at "mehedialmamuncse@gmail.com"</p>
+                            {/* <p class="text-zinc-500">Email me at "mehedialmamuncse@gmail.com"</p> */}
                         </div>
                     </div>
                     <div>
                         <div className='flex gap-4'>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-orange-500"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-zinc-500"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
                             </span>
                             <div>
-                                <h2 className='text-2xl text-zinc-700'>Current Location</h2>
+                                <h2 className='text-xl lg:text-2xl text-zinc-700'>Current Location</h2>
                                 <p class="text-zinc-600">Dhaka,Bangladesh.</p>
                                 <p class="text-zinc-500">Serving clients worldwide</p>
                             </div>
@@ -52,10 +52,10 @@ const Contact = () => {
                     <div>
                         <div className='flex gap-4'>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-orange-500"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-zinc-500"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
                             </span>
                             <div>
-                                <h2 className='text-2xl text-zinc-700'>Contact With Me</h2>
+                                <h2 className='text-xl lg:text-2xl text-zinc-700'>Contact With Me</h2>
                                 <p class="text-zinc-600">Email: csemehedihstu@gmail.com</p>
                                 <p class="text-zinc-500">Phone : +8801521-413730</p>
                             </div>

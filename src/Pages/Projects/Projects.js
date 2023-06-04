@@ -9,9 +9,9 @@ const Projects = () => {
     ]
 
     return (
-        <section className='px-5 lg:px-20'>
+        <section className='px-5 lg:px-20 lg:py-20'>
 
-            <div className='lg:py-20'>
+            <div className=''>
                 <h1 className='text-4xl text-zinc-700 pb-10'>Recent <span className='text-orange-500'>Projects</span> </h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {
