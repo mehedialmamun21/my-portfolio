@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      // colors: {
+      //   btn: 'blue',
+      // },
       backgroundImage: {
         'contact-backImg': "url('/src/assets/images/background-contactform.jpg')",
         'banner-section-backImg': "url('/src/assets/images/animate.png')"

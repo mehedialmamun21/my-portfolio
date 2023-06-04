@@ -20,13 +20,13 @@ const Contact = () => {
         <section className='px-5 py-10 lg:px-20 lg:py-20' id="contact">
 
             <div className='mb-10 lg:mb-20'>
-                <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1>
-                <h1 className='text-lg text-gray-400'>Get in touch with me</h1>
+                {/* <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1> */}
+                <h1 className='text-4xl text-gray-400'>Get in <span className='text-orange-500'>touch</span> </h1>
             </div>
 
-            <div className='flex flex-col md:flex-row lg:flex-row'>
+            <div className='flex flex-col md:flex-row lg:flex-row justify-center'>
 
-                <div className='text-white w-full md:w-5/12 space-y-5'>
+                <div className='text-white w-full md:w-5/12 lg:w-5/12 space-y-5'>
                     <div className='flex gap-4'>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-8 text-orange-500"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
@@ -34,7 +34,7 @@ const Contact = () => {
                         <div>
                             <h2 className='text-2xl'>Have a question?</h2>
                             <p class="text-gray-400">I am here to help</p>
-                            <p class="text-orange-500">Email me at "hello@youremail.com"</p>
+                            <p class="text-orange-500">Email me at "mehedialmamuncse@gmail.com"</p>
                         </div>
                     </div>
                     <div>
@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='w-full mt-8 md:mt-0 md:w-7/12 text-black'>
+                <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black'>
                     <form className='row' onSubmit={sendEmail}>
 
                         <div className='flex flex-col gap-4 w-full'>

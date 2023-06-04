@@ -13,6 +13,8 @@ import 'aos/dist/aos.css';
 
 import { useEffect } from 'react';
 
+import GoToTop from './components/GoToTop';
+
 function App() {
   useEffect(() => {
     AOS.init();
@@ -31,6 +33,7 @@ function App() {
 
         <Route path="/detail/:id" element={<ProjectDetail />}></Route>
       </Routes>
+      <GoToTop />
     </div>
   );
 }
