@@ -26,7 +26,7 @@ const HomeDetails = () => {
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
 
-                        <div className='text text-lg lg:text-xl text-orange-600 font-serif mt-4'>
+                        <div className='text text-lg lg:text-xl text-orange-500 font-serif mt-4'>
                             <Typewriter
                                 options={{
                                     autoStart: true,
