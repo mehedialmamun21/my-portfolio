@@ -26,7 +26,7 @@ const HomeDetails = () => {
                             <div className='text-3xl text-secondary font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
 
-                        <div className='text text-xl lg:text-xl text-orange-400 font-serif mt-4'>
+                        <div className='text text-lg lg:text-xl text-orange-400 font-serif mt-4'>
                             <Typewriter
                                 options={{
                                     autoStart: true,
@@ -57,8 +57,8 @@ const HomeDetails = () => {
                             </a>
                         </div>
 
-                        <div className='mt-10 border-l-4 border-orange-500'>
-                            <p className='text-slate-300 text-lg pl-2 font-serif'>
+                        <div className='mt-10 border-l-2 border-r-2 lg:border-l-4 lg:border-r-4 border-orange-500'>
+                            <p className='text-slate-300 text-md lg:text-lg px-2 lg:px-1 font-serif'>
                                 A passionate individual who always thrives to work on end to
                                 end products which develop sustainable and scalable social
                                 and technical systems to create impact.

@@ -3,8 +3,7 @@ import navIcon from '../../assets/images/nav_icon.png';
 import { HashLink } from 'react-router-hash-link';
 import { animateScroll as scroll } from "react-scroll";
 import { GrLinkedin } from 'react-icons/gr';
-import { BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebook } from 'react-icons/fa';
+import { BsGithub, BsTwitter, BsInstagram, BsFacebook } from 'react-icons/bs';
 
 const Navbar = () => {
 
@@ -16,7 +15,7 @@ const Navbar = () => {
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-200 rounded-none w-52 mt-4">
 
@@ -78,15 +77,15 @@ const Navbar = () => {
 
 
                 <div class="grid grid-flow-col gap-4 lg:ml-28">
-                    <BsGithub className='' size="2rem" />
+                    <BsGithub className='text-2xl lg:text-3xl' />
 
-                    <GrLinkedin className='text-blue-500 bg-white rounded' size="2rem" />
+                    <GrLinkedin className='text-blue-500 bg-white rounded text-2xl lg:text-3xl' />
 
-                    <FaFacebook className='text-blue-500 bg-white rounded-2xl' size="2rem" />
+                    <BsFacebook className='text-blue-500 text-2xl lg:text-3xl' />
 
-                    <BsInstagram className='text-red-600' size="2rem" />
+                    <BsInstagram className='text-red-600 text-2xl lg:text-3xl' />
 
-                    <BsTwitter className='text-blue-600' size="2rem" />
+                    <BsTwitter className='text-blue-600 text-2xl lg:text-3xl' />
                 </div>
 
 
