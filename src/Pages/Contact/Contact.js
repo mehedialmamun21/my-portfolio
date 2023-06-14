@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <section className='pt-20 pb-10 px-5 lg:px-20' id="contact">
 
-            <div className='pb-10 lg:pb-10'>
+            <div className='pb-10 lg:py-10'>
                 {/* <h1 className='text-5xl text-secondary font-semibold'>Contact <span className='text-orange-500'>Me</span></h1> */}
                 <h1 className='text-4xl text-zinc-700'>Get in <span className='text-orange-500'>touch</span> </h1>
             </div>

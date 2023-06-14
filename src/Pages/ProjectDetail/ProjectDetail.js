@@ -26,6 +26,22 @@ const ProjectDetail = () => {
             img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
             name: 'Service based Content Management System',
             about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
+        },
+        {
+            id: 4,
+            img1: "https://i.postimg.cc/YCYBNBXw/image.png",
+            img2: "https://i.postimg.cc/N01c7vjH/image.png",
+            img3: "https://i.postimg.cc/prHst3fK/image.png",
+            name: 'Service based Content Management System',
+            about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
+        },
+        {
+            id: 5,
+            img1: "https://i.postimg.cc/NfSFdYBJ/image.png",
+            img2: "https://i.postimg.cc/vBfCwrVx/image.png",
+            img3: "https://i.postimg.cc/sx2P4ysf/image.png",
+            name: 'Service based Content Management System',
+            about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
         }
     ]
 
@@ -47,6 +63,18 @@ const ProjectDetail = () => {
             gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
             gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
             liveSite: "https://doctors-portal-a0858.web.app/"
+        },
+        {
+            id: 4,
+            // gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
+            // gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
+            // liveSite: "https://doctors-portal-a0858.web.app/"
+        },
+        {
+            id: 5,
+            // gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
+            // gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
+            // liveSite: "https://doctors-portal-a0858.web.app/"
         }
     ]
 
