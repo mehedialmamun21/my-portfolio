@@ -13,10 +13,10 @@ import { SiMysql } from 'react-icons/si';
 
 const AboutMe = () => {
     return (
-        <section className='px-5 lg:px-20 lg:py-20'>
+        <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div>
-                <h1 className='text-4xl text-zinc-700 py-10'>About <span className='text-orange-500'>Me</span> </h1>
+                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-500'>Me</span> </h1>
                 {/* <h2 className='text-3xl text-zinc-700 pb-4'> What I Do? </h2> */}
             </div>
             <div>
@@ -32,7 +32,7 @@ const AboutMe = () => {
                         <div className='lg:pl-16 pt-5'>
 
                             <h1 className='text-2xl lg:text-3xl pb-3 lg:pb-5'>Full Stack Development</h1>
-                            <div className='grid grid-cols-7 lg:grid-cols-9 gap-2 lg:gap-5 pb-5'>
+                            <div className='grid grid-cols-5 lg:grid-cols-9 gap-2 lg:gap-5 pb-5'>
                                 <TbBrandJavascript className='text-yellow-600' size="3rem" />
                                 <TiHtml5 className='text-orange-700' size="3rem" />
                                 <IoLogoCss3 className='text-blue-600' size="3rem" />

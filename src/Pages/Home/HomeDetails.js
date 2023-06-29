@@ -21,7 +21,7 @@ const HomeDetails = () => {
                     </div> */}
 
                 <center>
-                    <div className='lg:py-10 pt-10 pb-20 lg:w-2/3'>
+                    <div className='lg:py-10 pt-20 pb-20 lg:w-2/3'>
                         <h2>
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
