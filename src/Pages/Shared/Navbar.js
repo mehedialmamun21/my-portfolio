@@ -20,15 +20,15 @@ const Navbar = () => {
                         <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-200 rounded-none w-52 mt-4">
 
                             <li>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary'>Home</HashLink>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary border border-b-black'>Home</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#about" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'>About Me</HashLink>
+                                <HashLink smooth to="/home#about" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>About Me</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Projects</HashLink>
+                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>Projects</HashLink>
                             </li>
                             {/* <li>
                                 <HashLink smooth to="/home#blogs" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Blogs</HashLink>
