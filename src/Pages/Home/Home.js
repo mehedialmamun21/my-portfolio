@@ -5,6 +5,7 @@ import HomeDetails from './HomeDetails';
 // import Skills from '../Skills/Skills';
 // import Blogs from '../Blogs/Blogs';
 import Footer from '../Shared/Footer/Footer';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Home = () => {
 
@@ -18,6 +19,10 @@ const Home = () => {
             {/* <div id='about'>
                 <Skills />
             </div> */}
+
+            <div id='about'>
+                <AboutMe />
+            </div>
 
             <div id='projects'>
                 <Projects />

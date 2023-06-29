@@ -32,7 +32,7 @@ const Skills = () => {
         <section className='px-10 lg:px-20 text-secondary'>
 
             <div className='lg:py-20 py-10'>
-
+                {/* <h1 className='text-4xl text-zinc-700 py-10'>About <span className='text-orange-500'>Me</span> </h1> */}
                 <h1 className='text-5xl text-secondary pb-10'><span className='text-orange-500'>About </span>Me </h1>
 
                 <h1 className='text-2xl pt-10 pb-5 font-semibold'>Development Skills</h1>

@@ -53,7 +53,6 @@ const Wrapper = styled.section`
         height: 6 rem;
         color: rgb(20, 33, 61);
         
-        
         border-radius: 50%;
         position: fixed;
         bottom: 2rem;
