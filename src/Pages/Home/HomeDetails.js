@@ -26,7 +26,7 @@ const HomeDetails = () => {
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
 
-                        <div className='text text-lg lg:text-xl text-orange-500 font-serif mt-4'>
+                        <div className='text text-xl lg:text-xl text-orange-500 font-serif mt-4'>
                             <Typewriter
                                 options={{
                                     autoStart: true,
@@ -48,7 +48,7 @@ const HomeDetails = () => {
                             </a>
                         </div> */}
 
-                        <div className='mt-10'>
+                        <div className='mt-5'>
                             <a href="#" className='inline-block'>
                                 <button className='flex items-center text-lg px-10 py-1 text-white bg-blue-400'>
                                     <p className='pr-3'>Resume</p>
@@ -57,7 +57,7 @@ const HomeDetails = () => {
                             </a>
                         </div>
 
-                        <div className='mt-10 lg:border-l-4 lg:border-r-2 border-orange-500'>
+                        <div className='mt-5 lg:border-l-4 lg:border-r-2 border-orange-500'>
                             <p className='text-zinc-500 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
                                 A passionate individual who always thrives to work on end to
                                 end products which develop sustainable and scalable social

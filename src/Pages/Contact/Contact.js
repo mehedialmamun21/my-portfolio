@@ -26,7 +26,7 @@ const Contact = () => {
 
             <div className='lg:flex justify-center items-center'>
 
-                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-2/3 lg:w-2/6 ml-16 lg:ml-0' alt="" />
+                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-3/4 lg:w-2/6 ml-12 lg:ml-0' alt="" />
 
                 <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20'>
                     <form className='row' onSubmit={sendEmail}>
@@ -39,10 +39,10 @@ const Contact = () => {
                                 <input type="email" name="user_email" placeholder='Your Email' className='form-control border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
-                            <input name="user_subject" type="text" placeholder="Subject" className="form-control border border-zinc-300 bg-white py-4 px-3 h-14 w-full mt-2 focus:outline-none rounded-sm"></input>
+                            <input name="user_subject" type="text" placeholder="Subject" className="form-control border border-zinc-300 bg-white py-4 px-3 h-14 w-full mt-0 lg:mt-2 focus:outline-none rounded-sm"></input>
 
                             <div>
-                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control border border-zinc-300 bg-white w-full mt-2 py-4 px-3 outline-none rounded-sm' required />
+                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control border border-zinc-300 bg-white w-full mt-0 lg:mt-2 py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
                             <input type="submit" value="Send Message" className='form-control border-none btn bg-green-500 hover:bg-green-600 text-white w-2/4 lg:w-1/3 py-3 lg:px-8 mt-2 rounded-sm font-bold' />

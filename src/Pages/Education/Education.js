@@ -12,17 +12,17 @@ const Education = () => {
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                    <div className="mb-5 lg:mb-0 pl-7 lg:pl-0 pt-0 lg:pt-5 flex justify-center">
+                    <div className="mb-5 lg:mb-0 pt-0 lg:pt-5 flex justify-center">
                         <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/3 lg:w-3/5' alt="" />
                     </div>
 
-                    <div className='pt-5 lg:pt-8'>
+                    <div className='pt-0 lg:pt-8'>
 
                         <div className='text-center'>
                             <h2 className='text-4xl lg:text-5xl font-semibold pb-3 lg:pb-5'>Education</h2>
                             <p className='text-2xl lg:text-3xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
                             <p className='text-xl lg:text-2xl pb-3 lg:pb-4'>All Handle including Leetcode, HackerRank, Codeforces, Atcoder, Codechef, etc</p>
-                            <div className='flex gap-4 items-center justify-center'>
+                            <div className='flex gap-7 items-center justify-center'>
                                 <a href="#"><SiLeetcode size="3rem" /></a>
                                 <a href="#"><SiHackerrank className='text-green-500' size="3rem" /></a>
                                 <a href="#"><SiStopstalk className='text-red-700' size="3rem" /></a>
