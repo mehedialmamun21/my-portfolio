@@ -13,7 +13,7 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:px-20 lg:pt-20'>
+        <section className='px-5 lg:px-20 lg:pt-20 lg:pb-6'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                 {/* <div className='pt-7 lg:p-5 flex justify-center'>

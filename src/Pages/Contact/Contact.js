@@ -45,7 +45,15 @@ const Contact = () => {
                                 <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control border border-zinc-300 bg-white w-full mt-0 lg:mt-2 py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
-                            <input type="submit" value="Send Message" className='form-control border-none btn bg-green-500 hover:bg-green-600 text-white w-2/4 lg:w-1/3 py-3 lg:px-8 mt-2 rounded-sm font-bold' />
+                            <div className='flex justify-between'>
+                                <div>
+
+                                </div>
+                                <div>
+                                    <input type="submit" value="Send Message" className='form-control border-none btn bg-green-500 hover:bg-green-600 text-white w-full py-3 px-7 lg:px-10 rounded-sm font-bold' />
+                                </div>
+                            </div>
+
                         </div>
 
                     </form>
