@@ -16,22 +16,22 @@ const AboutMe = () => {
         <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div>
-                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-500'>Me</span> </h1>
+                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-400'>Me</span> </h1>
             </div>
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                     <div className="mb-5 lg:mb-0 pl-7 lg:pl-0 pt-0 lg:pt-5 flex justify-center">
                         {/* <MySVG className="w-full h-3/4" /> */}
-                        <img src="https://i.postimg.cc/BbPFtdfN/home5-removebg-preview.png" className='w-3/4 lg:w-3/4' alt="" />
+                        <img src="https://i.postimg.cc/BbPFtdfN/home5-removebg-preview.png" className='w-4/5 lg:w-3/4' alt="" />
                     </div>
 
                     <div className='grid grid-cols-1'>
 
                         <div className='pt-5 lg:pt-5'>
-                            <h2 className='text-3xl pb-10 lg:pb-12 text-zinc-900 font-semibold'> What I Do? </h2>
-                            <h1 className='text-2xl lg:text-3xl pb-3 lg:pb-5 text-zinc-700'>Full Stack Development</h1>
-                            <div className='grid grid-cols-5 lg:grid-cols-8 gap-2 lg:gap-5 pb-5'>
+                            <h2 className='text-3xl pb-7 lg:pb-10 text-zinc-900 font-semibold'> What I Do? </h2>
+                            <h1 className='text-2xl lg:text-3xl pb-5 text-zinc-700'>Full Stack Development</h1>
+                            <div className='grid grid-cols-4 lg:grid-cols-8 gap-2 lg:gap-5 pb-5'>
                                 <TbBrandJavascript className='text-yellow-600' size="3rem" />
                                 <TiHtml5 className='text-orange-700' size="3rem" />
                                 <IoLogoCss3 className='text-blue-600' size="3rem" />

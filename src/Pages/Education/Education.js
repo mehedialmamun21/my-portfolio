@@ -7,7 +7,7 @@ const Education = () => {
         <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div>
-                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 font-semibold lg:py-10'>Basic <span className='text-orange-500'>Qualification</span> </h1>
+                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 font-semibold lg:py-10'>Basic <span className='text-orange-400'>Qualification</span> </h1>
             </div>
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>

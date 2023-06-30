@@ -68,9 +68,9 @@ const HomeDetails = () => {
                     </div>
                 </center>
 
-                <div className="">
-                    <MySVG className="w-full h-3/4" />
-                </div>
+                {/* <MySVG className="w-full h-3/4" /> */}
+                <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='pl-0 lg:pl-7' alt="" />
+
             </div>
         </section>
     );

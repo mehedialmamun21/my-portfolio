@@ -21,12 +21,12 @@ const Contact = () => {
 
             <div className='pb-10 lg:py-10'>
 
-                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700'>Get in <span className='text-green-500'>touch</span> </h1>
+                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700'>Get in <span className='text-orange-400'>touch</span> </h1>
             </div>
 
             <div className='lg:flex justify-center items-center'>
 
-                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-3/4 lg:w-2/6 ml-12 lg:ml-0' alt="" />
+                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-3/4 lg:w-2/6 ml-10 lg:ml-0' alt="" />
 
                 <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20'>
                     <form className='row' onSubmit={sendEmail}>
