@@ -34,15 +34,15 @@ const Contact = () => {
                         <div className='flex flex-col gap-4 w-full'>
                             <div className='flex gap-4 w-full'>
                                 {/* <input type="text" name="user_name" placeholder='Your Name' className='form-control border border-zinc-300 bg-[#EFEFEF] w-full py-4 px-3 outline-none rounded-sm' required /> */}
-                                <input type="text" name="user_name" placeholder='Your Name' className='form-control border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
+                                <input type="text" name="user_name" placeholder='Your Name' className='form-control shadow-2xl border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
 
-                                <input type="email" name="user_email" placeholder='Your Email' className='form-control border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
+                                <input type="email" name="user_email" placeholder='Your Email' className='form-control shadow-2xl border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
-                            <input name="user_subject" type="text" placeholder="Subject" className="form-control border border-zinc-300 bg-white py-4 px-3 h-14 w-full mt-0 lg:mt-2 focus:outline-none rounded-sm"></input>
+                            <input name="user_subject" type="text" placeholder="Subject" className="form-control shadow-2xl border border-zinc-300 bg-white py-4 px-3 h-14 w-full mt-0 lg:mt-2 focus:outline-none rounded-sm"></input>
 
                             <div>
-                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control border border-zinc-300 bg-white w-full mt-0 lg:mt-2 py-4 px-3 outline-none rounded-sm' required />
+                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control shadow-2xl border border-zinc-300 bg-white w-full mt-0 lg:mt-2 py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
                             <div className='flex justify-between'>
@@ -50,7 +50,7 @@ const Contact = () => {
 
                                 </div>
                                 <div>
-                                    <input type="submit" value="Send Message" className='form-control border-none btn bg-green-500 hover:bg-green-600 text-white w-full py-3 px-7 lg:px-10 rounded-sm font-bold' />
+                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-green-500 hover:bg-green-600 text-white w-full py-3 px-7 lg:px-10 rounded-sm font-bold' />
                                 </div>
                             </div>
 

@@ -31,7 +31,7 @@ const AboutMe = () => {
                                 <BsPatchQuestion size="2rem" />
                             </div>
                             <h1 className='text-2xl lg:text-3xl pb-5 text-zinc-800'>Full Stack Development</h1>
-                            <div className='grid grid-cols-6 lg:gap-0 lg:grid-cols-10 pb-5'>
+                            <div className='grid grid-cols-5 lg:gap-0 lg:grid-cols-10 pb-5'>
                                 <TbBrandJavascript className='text-yellow-600' size="3rem" />
                                 <TiHtml5 className='text-orange-700' size="3rem" />
                                 <IoLogoCss3 className='text-blue-600' size="3rem" />
