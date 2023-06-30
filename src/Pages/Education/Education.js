@@ -50,7 +50,7 @@ const Education = () => {
                         <div className='pb-1 lg:pb-0'>
                             <h2 className='text-lg lg:text-2xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
                             <p className='text-sm lg:text-md pt-1'>HSTU, Dinajpur, Bangladesh</p>
-                            <p className='text-md lg:text-md pt-3 font-semibold'>B.Sc (Engg.) in Computer Science and Engineering (CSE)</p>
+                            <p className='text-md lg:text-md pt-3 font-semibold'>B.Sc (Engg.) in Computer Science and Engineering</p>
                             <p className='text-sm lg:text-md pt-1'>2018 - JAN 2023</p>
                         </div>
 
