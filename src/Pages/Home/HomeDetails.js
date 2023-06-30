@@ -50,7 +50,7 @@ const HomeDetails = () => {
 
                         <div className='mt-10'>
                             <a href="#" className='inline-block'>
-                                <button className='flex items-center text-lg px-10 py-1 text-white bg-teal-600'>
+                                <button className='flex items-center text-lg px-10 py-1 text-white bg-blue-400'>
                                     <p className='pr-3'>Resume</p>
                                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                                 </button>

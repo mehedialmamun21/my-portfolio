@@ -16,21 +16,21 @@ const AboutMe = () => {
         <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div>
-                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-500'>Me</span> </h1>
+                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-500'>Me</span> </h1>
             </div>
             <div>
-                <div className='lg:flex'>
+                <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                    <div className="mb-5 lg:mb-0 pl-7 lg:pl-0 pt-0 lg:pt-5">
+                    <div className="mb-5 lg:mb-0 pl-7 lg:pl-0 pt-0 lg:pt-5 flex justify-center">
                         {/* <MySVG className="w-full h-3/4" /> */}
-                        <img src="https://i.postimg.cc/BbPFtdfN/home5-removebg-preview.png" alt="" />
+                        <img src="https://i.postimg.cc/BbPFtdfN/home5-removebg-preview.png" className='w-3/4 lg:w-3/4' alt="" />
                     </div>
 
                     <div className='grid grid-cols-1'>
 
-                        <div className='lg:pl-16 pt-5 lg:pt-10'>
-                            <h2 className='text-2xl font-semibold pb-8'> What I Do? </h2>
-                            <h1 className='text-2xl lg:text-2xl pb-3 lg:pb-5 text-zinc-600'>Full Stack Development</h1>
+                        <div className='pt-5 lg:pt-5'>
+                            <h2 className='text-3xl pb-10 lg:pb-12 text-zinc-900 font-semibold'> What I Do? </h2>
+                            <h1 className='text-2xl lg:text-3xl pb-3 lg:pb-5 text-zinc-700'>Full Stack Development</h1>
                             <div className='grid grid-cols-5 lg:grid-cols-8 gap-2 lg:gap-5 pb-5'>
                                 <TbBrandJavascript className='text-yellow-600' size="3rem" />
                                 <TiHtml5 className='text-orange-700' size="3rem" />
@@ -46,32 +46,27 @@ const AboutMe = () => {
                                 <span>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-500 pl-2'>Building responsive website front end using ReactJS</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Building responsive website front end using ReactJS</p>
                             </div>
                             <div className='flex items-center'>
                                 <span>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-500 pl-2'>Creating application backend in PHP, SQL & Flask</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in PHP, SQL & Flask</p>
                             </div>
                         </div>
 
-                        <div className='lg:pl-16 pt-5 lg:pt-0'>
+                        <div className='pt-5 lg:pt-0'>
 
-                            <h1 className='text-2xl lg:text-2xl text-zinc-600 pb-3 lg:pb-5'>Familiar with other tools</h1>
+                            <h1 className='text-2xl lg:text-3xl text-zinc-700 pb-3 lg:pt-7'>Familiar with other tools</h1>
 
                             <div className='flex items-center'>
                                 <span>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-500 pl-2'>Experience working on multiple cloud platforms</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Experience working on multiple cloud platforms</p>
                             </div>
-                            {/* <div className='flex items-center'>
-                                <span>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
-                                </span>
-                                <p className='text-lg lg:text-xl text-zinc-500 pl-2'>Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
-                            </div> */}
+
                         </div>
 
                     </div>

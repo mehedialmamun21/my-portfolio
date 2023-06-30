@@ -14,6 +14,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 import GoToTop from './components/GoToTop';
+import Education from './Pages/Education/Education';
+import AboutMe from './Pages/AboutMe/AboutMe';
 
 function App() {
   useEffect(() => {
@@ -26,7 +28,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
 
-        <Route path="/about" element={<Skills />} />
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />

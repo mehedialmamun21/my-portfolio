@@ -5,43 +5,38 @@ const ProjectDetail = () => {
     const projects = [
         {
             id: 1,
-            img1: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
-            img2: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
-            img3: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
-            name: 'Manufacturer Website',
-            about: "This website is build for a manufacturer company who manufactures a particular products and sell it on their website."
-        },
-        {
-            id: 2,
             img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
             img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
             img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png",
-            name: 'Warehouse Management',
-            about: "This site is build for selling modile phone. User can buying phone from here and admin can upload or delete products."
+            // name: 'Warehouse Management',
         },
         {
-            id: 3,
+            id: 2,
             img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
             img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
             img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
-            name: 'Service based Content Management System',
-            about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
+            // name: 'Dental Service Provider',
         },
         {
-            id: 4,
+            id: 3,
             img1: "https://i.postimg.cc/YCYBNBXw/image.png",
             img2: "https://i.postimg.cc/N01c7vjH/image.png",
             img3: "https://i.postimg.cc/prHst3fK/image.png",
-            name: 'Service based Content Management System',
-            about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
+            // name: 'Leaf Disease Classification',
+        },
+        {
+            id: 4,
+            img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
+            img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
+            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
+            // name: 'Manufacturer Website',
         },
         {
             id: 5,
-            img1: "https://i.postimg.cc/NfSFdYBJ/image.png",
-            img2: "https://i.postimg.cc/vBfCwrVx/image.png",
-            img3: "https://i.postimg.cc/sx2P4ysf/image.png",
-            name: 'Service based Content Management System',
-            about: "This site is build for offering Dental services for users. User can booking consaltant and make payment by cards."
+            img1: "https://i.postimg.cc/5NDW6m0s/Screenshot-2023-06-30-015436.png",
+            img2: "https://i.postimg.cc/8PfMR1pT/Screenshot-2023-06-30-020327.png",
+            img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png",
+            // name: 'License Plate Detection',
         }
     ]
 
@@ -92,12 +87,12 @@ const ProjectDetail = () => {
         <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
 
             <div className='flex flex-col gap-4 py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
-                <a href={gitClient} target='_blank' rel='noreferrer' className='border lg:border-2 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-700 hover:text-orange-500'>GitHub Client</a>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='border lg:border-1 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-400'>GitHub Client</a>
 
-                <a href={gitServer} target='_blank' rel='noreferrer' className='border lg:border-2 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-700 hover:text-orange-500'>GitHub Server</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='border lg:border-1 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-400'>GitHub Server</a>
 
                 {/* <a href={liveSite} target='_blank' rel='noreferrer' className='border lg:border-2 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-600 text-zinc-700'>Live Site</a> */}
-                <a href="#" rel='noreferrer' className='border lg:border-2 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-600 text-zinc-700'>Live Site</a>
+                <a href="#" rel='noreferrer' className='border lg:border-1 border-orange-400 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-600 text-zinc-800'>Live Site</a>
             </div>
 
             <div className='flex flex-col gap-4 pb-10 lg:py-10 mx-4 lg:w-full lg:mx-0 relative'>

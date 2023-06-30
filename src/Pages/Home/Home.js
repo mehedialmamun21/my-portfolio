@@ -6,6 +6,7 @@ import HomeDetails from './HomeDetails';
 // import Blogs from '../Blogs/Blogs';
 import Footer from '../Shared/Footer/Footer';
 import AboutMe from '../AboutMe/AboutMe';
+import Education from '../Education/Education';
 
 const Home = () => {
 
@@ -16,12 +17,12 @@ const Home = () => {
                 <HomeDetails />
             </div>
 
-            {/* <div id='about'>
-                <Skills />
-            </div> */}
-
-            <div id='about'>
+            <div id='aboutme'>
                 <AboutMe />
+            </div>
+
+            <div id='education'>
+                <Education />
             </div>
 
             <div id='projects'>

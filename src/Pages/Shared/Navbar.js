@@ -24,7 +24,11 @@ const Navbar = () => {
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#about" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>About Me</HashLink>
+                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>About Me</HashLink>
+                            </li>
+
+                            <li>
+                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>Education</HashLink>
                             </li>
 
                             <li>
@@ -55,24 +59,32 @@ const Navbar = () => {
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0 text-white">
 
-                        <li>
+                        {/* <li>
                             <div onClick={() => scroll.scrollToTop()}>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400'>Home</HashLink>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400 font-semibold'>Home</HashLink>
                             </div>
+                        </li> */}
+
+                        <li>
+                            <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400 font-semibold'>Home</HashLink>
                         </li>
 
                         <li>
-                            <HashLink smooth to="/home#about" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>About Me</HashLink>
+                            <HashLink smooth to="/home#aboutme" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>About Me</HashLink>
                         </li>
 
                         <li>
-                            <HashLink smooth to="/home#projects" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Projects</HashLink>
+                            <HashLink smooth to="/home#education" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Education</HashLink>
+                        </li>
+
+                        <li>
+                            <HashLink smooth to="/home#projects" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Projects</HashLink>
                         </li>
                         {/* <li>
                             <HashLink smooth to="/home#blogs" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                         </li> */}
                         <li>
-                            <HashLink smooth to="/home#contact" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Contact</HashLink>
+                            <HashLink smooth to="/home#contact" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Contact</HashLink>
                         </li>
 
                     </ul>
