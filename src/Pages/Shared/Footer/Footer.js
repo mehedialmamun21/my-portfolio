@@ -6,11 +6,14 @@ const Footer = () => {
     var date = today.getFullYear();
     return (
         <div className='mt-10 lg:mt-20'>
-            <footer class="footer footer-center py-10 text-black bg-gray-600">
+            <footer class="footer footer-center p-10 text-black bg-gray-600">
 
-                <div className='text-base flex items-center text-white'>
-                    <p>Copyright © {date} <span className='px-1'> || </span> All rights are reserved</p>
-                    <BiWinkSmile size="2rem" />
+                <div className='text-base text-white lg:flex lg:items-center'>
+                    <p>Copyright © {date}</p>
+                    <div className='flex items-center'>
+                        <p className='pr-3'>All rights are reserved</p>
+                        <BiWinkSmile size="2rem" />
+                    </div>
                 </div>
             </footer>
         </div>

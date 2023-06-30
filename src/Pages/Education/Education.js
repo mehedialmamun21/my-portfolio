@@ -45,7 +45,7 @@ const Education = () => {
                 <h1 className='text-2xl lg:text-4xl text-center mt-24 mb-8 text-zinc-800 pr-4 lg:pr-7 font-semibold'>Degrees Received</h1>
 
                 <div className='shadow-2xl'>
-                    <div className='bg-blue-300 rounded-lg px-5 pt-5 flex justify-between'>
+                    <div className='bg-blue-300 rounded-lg px-5 pt-5 pb-2 flex justify-between'>
 
                         <div className='pb-1 lg:pb-0'>
                             <h2 className='text-lg lg:text-2xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
@@ -54,7 +54,7 @@ const Education = () => {
                             <p className='text-sm lg:text-md pt-1'>2018 - JAN 2023</p>
                         </div>
 
-                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='w-4/12 lg:w-2/12 px-4 py-1' alt="" />
+                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='w-4/12 h-28 lg: lg:h-32 lg:w-2/12' alt="" />
 
                     </div>
                     <div className='px-5 py-5'>
@@ -76,7 +76,7 @@ const Education = () => {
                             </div>
                             <div className='flex items-center justify-center'>
                                 <BsArrowRight size="2rem" />
-                                <a href="https://www.hstu.ac.bd/" className='bg-blue-500 text-white px-5 py-2 rounded text-lg ml-3' target="_blank">Visit Website</a>
+                                <a href="https://www.hstu.ac.bd/" className='bg-blue-300 px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>
                     </div>
