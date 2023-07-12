@@ -34,9 +34,7 @@ const Navbar = () => {
                             <li>
                                 <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>Projects</HashLink>
                             </li>
-                            {/* <li>
-                                <HashLink smooth to="/home#blogs" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Blogs</HashLink>
-                            </li> */}
+
                             <li>
                                 <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Contact</HashLink>
                             </li>
@@ -58,12 +56,6 @@ const Navbar = () => {
 
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0 text-white">
-
-                        {/* <li>
-                            <div onClick={() => scroll.scrollToTop()}>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400 font-semibold'>Home</HashLink>
-                            </div>
-                        </li> */}
 
                         <li>
                             <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400 font-semibold'>Home</HashLink>

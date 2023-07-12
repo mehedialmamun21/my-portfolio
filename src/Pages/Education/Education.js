@@ -13,7 +13,7 @@ const Education = () => {
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                     <div className="mb-5 lg:mb-0 pt-0 lg:pt-5 flex justify-center">
-                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/5 lg:w-3/6' alt="" />
+                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/6 lg:w-3/8' alt="" />
                     </div>
 
                     <div className='pt-0 lg:pt-8'>
@@ -54,7 +54,7 @@ const Education = () => {
                             <p className='text-sm lg:text-md pt-1'>2018 - JAN 2023</p>
                         </div>
 
-                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='w-4/12 h-28 lg: lg:h-32 lg:w-2/12' alt="" />
+                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-28 lg:h-36 w-4/12 lg:w-2/12' alt="" />
 
                     </div>
                     <div className='px-5 py-5'>
@@ -76,7 +76,7 @@ const Education = () => {
                             </div>
                             <div className='flex items-center justify-center'>
                                 <BsArrowRight size="2rem" />
-                                <a href="https://www.hstu.ac.bd/" className='bg-blue-300 px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                <a href="https://www.hstu.ac.bd/" className='bg-blue-500 hover:bg-blue-600 text-white px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>
                     </div>

@@ -26,16 +26,15 @@ const Contact = () => {
 
             <div className='lg:flex justify-center items-center'>
 
-                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-3/4 lg:w-2/6 ml-10 lg:ml-0' alt="" />
+                <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-6/12 lg:w-3/12 ml-10 lg:ml-0' alt="" />
 
-                <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20'>
+                <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20 lg:mt-20'>
+
                     <form className='row' onSubmit={sendEmail}>
 
                         <div className='flex flex-col gap-4 w-full'>
                             <div className='flex gap-4 w-full'>
-                                {/* <input type="text" name="user_name" placeholder='Your Name' className='form-control border border-zinc-300 bg-[#EFEFEF] w-full py-4 px-3 outline-none rounded-sm' required /> */}
                                 <input type="text" name="user_name" placeholder='Your Name' className='form-control shadow-2xl border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
-
                                 <input type="email" name="user_email" placeholder='Your Email' className='form-control shadow-2xl border border-zinc-300 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
                             </div>
 
@@ -50,7 +49,7 @@ const Contact = () => {
 
                                 </div>
                                 <div>
-                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-green-500 hover:bg-green-600 text-white w-full py-3 px-7 lg:px-10 rounded-sm font-bold' />
+                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-blue-500 hover:bg-blue-600 text-white w-full px-7 lg:px-10 py-3 mt-0 lg:mt-2 rounded-sm font-bold' />
                                 </div>
                             </div>
 
