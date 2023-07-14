@@ -13,7 +13,7 @@ const Education = () => {
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                     <div className="mb-5 lg:mb-0 pt-0 lg:pt-5 flex justify-center">
-                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/6 lg:w-3/8' alt="" />
+                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-3/6 lg:w-5/12' alt="" />
                     </div>
 
                     <div className='pt-0 lg:pt-8'>
@@ -45,16 +45,17 @@ const Education = () => {
                 <h1 className='text-2xl lg:text-4xl text-center mt-24 mb-8 text-zinc-800 pr-4 lg:pr-7 font-semibold'>Degrees Received</h1>
 
                 <div className='shadow-2xl'>
-                    <div className='bg-blue-300 rounded-lg px-5 pt-5 pb-2 flex justify-between'>
 
-                        <div className='pb-1 lg:pb-0'>
+                    <div className='bg-blue-300 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-5 lg:flex lg:justify-between'>
+
+                        <div className='pt-0 lg:pt-3'>
                             <h2 className='text-lg lg:text-2xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
                             <p className='text-sm lg:text-md pt-1'>HSTU, Dinajpur, Bangladesh</p>
-                            <p className='text-md lg:text-md pt-3 font-semibold'>B.Sc (Engg.) in Computer Science and Engineering</p>
+                            <p className='text-md lg:text-lg pt-3 font-semibold'>B.Sc (Engg.) in Computer Science and Engineering</p>
                             <p className='text-sm lg:text-md pt-1'>2018 - JAN 2023</p>
                         </div>
 
-                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-28 lg:h-36 w-4/12 lg:w-2/12' alt="" />
+                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-2 lg:h-36 w-4/12 lg:w-2/12 invisible lg:visible' alt="" />
 
                     </div>
                     <div className='px-5 py-5'>
@@ -75,7 +76,7 @@ const Education = () => {
 
                             </div>
                             <div className='flex items-center justify-center'>
-                                <BsArrowRight size="2rem" />
+                                <BsArrowRight size="2rem" className='text-blue-500' />
                                 <a href="https://www.hstu.ac.bd/" className='bg-blue-500 hover:bg-blue-600 text-white px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>

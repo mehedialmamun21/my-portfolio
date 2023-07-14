@@ -5,18 +5,20 @@ const ProjectDetail = () => {
     const projects = [
         {
             id: 1,
-            img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
-            img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
-            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png",
-            // name: 'Warehouse Management',
-        },
-        {
-            id: 2,
             img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
             img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
             img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
             // name: 'Dental Service Provider',
         },
+
+        {
+            id: 2,
+            img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
+            img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
+            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png",
+            // name: 'Warehouse Management',
+        },
+
         {
             id: 3,
             img1: "https://i.postimg.cc/YCYBNBXw/image.png",
@@ -41,35 +43,42 @@ const ProjectDetail = () => {
     ]
 
     const siteLinks = [
+
         {
             id: 1,
-            gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
-            gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
-            liveSite: "https://parts-supplier.web.app/"
-        },
-        {
-            id: 2,
-            gitClient: "https://github.com/mehedialmamun21/warehouse-management-client",
-            gitServer: "https://github.com/mehedialmamun21/warehouse-management-server",
-            liveSite: "https://smartphone-warehouse-7f130.web.app/"
-        },
-        {
-            id: 3,
             gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
             gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
             liveSite: "https://doctors-portal-a0858.web.app/"
         },
+
+        {
+            id: 2,
+            gitClient: "https://github.com/mehedialmamun21/warehouse-management-client",
+            gitServer: "https://github.com/mehedialmamun21/warehouse-management-server",
+            // liveSite: "https://smartphone-warehouse-7f130.web.app/"
+            liveSite: ""
+        },
+
+        {
+            id: 3,
+            gitClient: "",
+            gitServer: "",
+            liveSite: ""
+        },
+
         {
             id: 4,
-            // gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
-            // gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
-            // liveSite: "https://doctors-portal-a0858.web.app/"
+            gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
+            gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
+            // liveSite: "https://parts-supplier.web.app/",
+            liveSite: ""
         },
+
         {
             id: 5,
-            // gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
-            // gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
-            // liveSite: "https://doctors-portal-a0858.web.app/"
+            gitClient: "",
+            gitServer: "",
+            liveSite: ""
         }
     ]
 
@@ -87,15 +96,14 @@ const ProjectDetail = () => {
         <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
 
             <div className='flex flex-col gap-4 py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
-                <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-full border-2 lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Client</a>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-full border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Client</a>
 
-                <a href={gitServer} target='_blank' rel='noreferrer' className='rounded-full border-2 lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Server</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='rounded-full border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Server</a>
 
-                {/* <a href={liveSite} target='_blank' rel='noreferrer' className='border lg:border-2 border-orange-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-600 text-zinc-700'>Live Site</a> */}
-                <a href="#" rel='noreferrer' className='rounded-full border-2 lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 text-zinc-800'>Live Site</a>
+                <a href={liveSite} target='_blank' rel='noreferrer' className='rounded-full border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 text-zinc-800'>Live Site</a>
             </div>
 
-            <div className='flex flex-col gap-4 pb-10 lg:py-10 mx-4 lg:w-full lg:mx-0 relative'>
+            <div className='flex flex-col gap-5 lg:gap-7 pb-10 lg:py-10 mx-4 lg:w-full lg:mx-0 relative'>
                 <div className='flex lg:justify-end w-full'>
                     <img src={img1} alt="" className='lg:w-8/12' />
                 </div>
