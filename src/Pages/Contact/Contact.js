@@ -25,10 +25,13 @@ const Contact = () => {
 
             </div>
 
-            <div className='lg:flex justify-center items-center shadow-none lg:shadow-2xl lg:pb-20'>
+            {/* <div className='lg:flex justify-center items-center shadow-none lg:shadow-2xl lg:pb-20'> */}
+            <div className='lg:flex justify-center items-center lg:pb-20'>
 
                 <center>
-                    <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-6/12 lg:w-8/12 ml-10 lg:ml-0' alt="" />
+                    <div className='shadow-2xl py-2'>
+                        <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-9/12 lg:w-8/12 ml-10 lg:ml-0' alt="" />
+                    </div>
                 </center>
 
                 <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20 lg:mt-20'>
