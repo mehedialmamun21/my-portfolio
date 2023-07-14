@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-// import GlassCard from './GlassCard';
 
-import { ReactComponent as MySVG } from '../../assets/images/home1.svg'
+import GlassCard from './GlassCard';
+import { BsFillPhoneFill, BsTelephoneInbound } from 'react-icons/bs';
 
 const HomeDetails = () => {
 
@@ -13,15 +13,12 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:px-20 lg:pt-20 lg:pb-6'>
+        <section className='px-5 lg:px-20 lg:py-20'>
+
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
-                {/* <div className='pt-7 lg:p-5 flex justify-center'>
-                        <GlassCard />
-                    </div> */}
-
                 <center>
-                    <div className='lg:py-10 pt-20 pb-20 lg:w-2/3'>
+                    <div className='pt-20 pb-5 lg:py-20 lg:mt-10 lg:w-2/3'>
                         <h2>
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
@@ -58,7 +55,7 @@ const HomeDetails = () => {
                         </div>
 
                         <div className='mt-5 lg:border-l-4 lg:border-r-2 border-orange-500'>
-                            <p className='text-zinc-500 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
+                            <p className='text-zinc-600 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
                                 A passionate individual who always thrives to work on end to
                                 end products which develop sustainable and scalable social
                                 and technical systems to create impact.
@@ -68,9 +65,13 @@ const HomeDetails = () => {
                     </div>
                 </center>
 
-                {/* <MySVG className="w-full h-3/4" /> */}
                 <center>
-                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='pl-0 lg:pl-10 w-3/5 lg:w-3/4' alt="" />
+                    <div className='px-16 pt-12 pb-7 lg:px-28 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-2xl lg:shadow-2xl'>
+                        <div className='shadow-2xl lg:shadow-2xl px-14 lg:px-16 py-4 lg:py-5'>
+                            <GlassCard />
+                        </div>
+                        <p className='pt-6 flex justify-center items-center'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
+                    </div>
                 </center>
 
             </div>

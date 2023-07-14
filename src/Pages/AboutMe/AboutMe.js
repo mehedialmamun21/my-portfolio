@@ -7,6 +7,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPhp, FaAws, FaDocker } from 'react-icons/fa';
 // import { SiFlask } from 'react-icons/si';
 import { SiMysql } from 'react-icons/si';
+import GlassCard from '../Home/GlassCard';
 
 const AboutMe = () => {
     return (
@@ -18,14 +19,15 @@ const AboutMe = () => {
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                    <div className="mb-5 lg:mb-0 pl-7 lg:pl-0 pt-0 lg:pt-5 flex justify-center">
-                        {/* <MySVG className="w-full h-3/4" /> */}
-                        <img src="https://i.postimg.cc/BbPFtdfN/home5-removebg-preview.png" className='w-4/5 lg:w-3/4' alt="" />
+                    <div className="my-5 lg:my-0 flex justify-center">
+
+                        <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-4/6' alt="" />
+
                     </div>
 
                     <div className='grid grid-cols-1'>
 
-                        <div className='pt-5 lg:pt-5'>
+                        <div className='pt-5 lg:pt-0'>
                             <div className='flex items-center pb-5 lg:pb-5'>
                                 <h2 className='text-3xl pr-2 text-zinc-900 font-semibold'> What I Do </h2>
                                 <BsPatchQuestion size="2rem" />

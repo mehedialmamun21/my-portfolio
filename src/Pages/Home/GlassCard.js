@@ -11,9 +11,9 @@ const Container = styled(animated.div)`
 `;
 
 const StyledImg = styled.img`
-    width: 250px;
+    width: 280px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 0%;
 `;
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
