@@ -69,7 +69,9 @@ const HomeDetails = () => {
                 </center>
 
                 {/* <MySVG className="w-full h-3/4" /> */}
-                <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='pl-0 lg:pl-7' alt="" />
+                <center>
+                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='pl-0 lg:pl-10 w-3/5 lg:w-3/4' alt="" />
+                </center>
 
             </div>
         </section>
