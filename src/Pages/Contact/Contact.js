@@ -29,7 +29,7 @@ const Contact = () => {
             <div className='lg:flex justify-center items-center lg:pb-20'>
 
                 <center>
-                    <div className='shadow-2xl py-2'>
+                    <div className='lg:shadow-2xl lg:py-2'>
                         <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-9/12 lg:w-8/12 ml-10 lg:ml-0' alt="" />
                     </div>
                 </center>
