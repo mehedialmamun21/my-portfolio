@@ -26,19 +26,21 @@ const ProjectDetail = () => {
             img3: "https://i.postimg.cc/prHst3fK/image.png",
             // name: 'Leaf Disease Classification',
         },
+
         {
             id: 4,
-            img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
-            img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
-            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
-            // name: 'Manufacturer Website',
-        },
-        {
-            id: 5,
             img1: "https://i.postimg.cc/5NDW6m0s/Screenshot-2023-06-30-015436.png",
             img2: "https://i.postimg.cc/8PfMR1pT/Screenshot-2023-06-30-020327.png",
             img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png",
             // name: 'License Plate Detection',
+        },
+
+        {
+            id: 5,
+            img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
+            img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
+            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
+            // name: 'Manufacturer Website',
         }
     ]
 
@@ -68,16 +70,16 @@ const ProjectDetail = () => {
 
         {
             id: 4,
-            gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
-            gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
-            // liveSite: "https://parts-supplier.web.app/",
+            gitClient: "",
+            gitServer: "",
             liveSite: ""
         },
 
         {
             id: 5,
-            gitClient: "",
-            gitServer: "",
+            gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
+            gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
+            // liveSite: "https://parts-supplier.web.app/",
             liveSite: ""
         }
     ]
