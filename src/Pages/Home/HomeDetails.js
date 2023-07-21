@@ -13,7 +13,7 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:px-20 lg:py-20'>
+        <section className='px-5 lg:px-24 py-0 lg:py-20'>
 
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
@@ -66,11 +66,11 @@ const HomeDetails = () => {
                 </center>
 
                 <center>
-                    <div className='px-10 pt-12 pb-7 lg:px-24 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-2xl lg:shadow-2xl'>
-                        <div className='shadow-2xl lg:shadow-2xl px-7 lg:px-16 py-5 lg:py-5'>
+                    <div className='px-10 pt-12 pb-7 lg:px-24 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-2xl'>
+                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-3 rounded-2xl'>
                             <GlassCard />
                         </div>
-                        <p className='pt-6 flex justify-center items-center'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
+                        <p className='pt-8 lg:pt-8 flex justify-center items-center'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
                     </div>
                 </center>
 

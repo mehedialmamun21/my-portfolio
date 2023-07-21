@@ -26,15 +26,15 @@ const Contact = () => {
             </div>
 
             {/* <div className='lg:flex justify-center items-center shadow-none lg:shadow-2xl lg:pb-20'> */}
-            <div className='lg:flex justify-center items-center lg:pb-20'>
+            <div className='lg:flex justify-center items-center lg:pb-10 lg:shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]'>
 
                 <center>
-                    <div className='lg:shadow-2xl lg:py-2'>
+                    <div className='lg: lg:py-2'>
                         <img src="https://i.postimg.cc/BnRqLz8G/lovepik-small-fresh-note-graduation-book-message-text-box-png-image-401397627-wh1200-removebg-previe.png" className='w-9/12 lg:w-8/12' alt="" />
                     </div>
                 </center>
 
-                <div className='w-full mt-8 md:mt-0 md:w-5/12 text-black lg:pl-20 lg:mt-20'>
+                <div className='w-full mt-8 lg:mt-10 md:mt-0 md:w-5/12 text-black lg:px-20 lg:py-5 lg:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
 
                     <form className='row' onSubmit={sendEmail}>
 
@@ -55,7 +55,7 @@ const Contact = () => {
 
                                 </div>
                                 <div>
-                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-blue-500 hover:bg-blue-600 text-white w-full px-7 lg:px-10 py-3 mt-3 lg:mt-4 rounded-sm font-bold' />
+                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-blue-500 hover:bg-blue-600 text-white w-full px-7 lg:px-10 py-3 mt-2 lg:mt-2 rounded-sm font-bold' />
                                 </div>
                             </div>
 
