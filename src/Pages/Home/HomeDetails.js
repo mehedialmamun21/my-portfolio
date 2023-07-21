@@ -66,8 +66,8 @@ const HomeDetails = () => {
                 </center>
 
                 <center>
-                    <div className='px-10 pt-12 pb-7 lg:px-24 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-2xl'>
-                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-3 rounded-2xl'>
+                    <div className='px-10 pt-12 pb-7 lg:px-24 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
+                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-3'>
                             <GlassCard />
                         </div>
                         <p className='pt-8 lg:pt-8 flex justify-center items-center'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>

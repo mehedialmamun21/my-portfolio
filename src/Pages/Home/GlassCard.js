@@ -13,7 +13,7 @@ const Container = styled(animated.div)`
 const StyledImg = styled.img`
     width: 280px;
     height: auto;
-    border-radius: 5%;
+    border-radius: 2%;
 `;
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
