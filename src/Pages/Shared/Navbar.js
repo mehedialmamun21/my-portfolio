@@ -93,7 +93,7 @@ const Navbar = () => {
 
                     <BsInstagram className='text-red-500 text-xl lg:text-2xl' />
 
-                    <BsTwitter className='text-blue-600 text-xl lg:text-2xl' />
+                    <BsTwitter className='text-blue-500 text-xl lg:text-2xl' />
                 </div>
 
 
