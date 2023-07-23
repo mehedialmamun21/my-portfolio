@@ -3,8 +3,9 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 
-import GlassCard from './GlassCard';
-import { BsFillPhoneFill, BsTelephoneInbound } from 'react-icons/bs';
+import { BsTelephoneInbound } from 'react-icons/bs';
+
+import homeImg from '../../assets/images/home.jpg'
 
 const HomeDetails = () => {
 
@@ -66,11 +67,11 @@ const HomeDetails = () => {
                 </center>
 
                 <center>
-                    <div className='px-10 pt-12 pb-7 lg:px-24 lg:pt-12 lg:pb-6 lg:my-20 w-full lg:w-5/6 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
-                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-3'>
-                            <GlassCard />
+                    <div className='px-10 lg:px-24 pt-12 lg:pt-10 pb-7 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rotate-12'>
+                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-5 rotate-12'>
+                            <img src={homeImg} className='rotate-0' alt="" />
                         </div>
-                        <p className='pt-8 lg:pt-8 flex justify-center items-center'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
+                        <p className='pt-8 lg:pt-6 flex rotate-6'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
                     </div>
                 </center>
 

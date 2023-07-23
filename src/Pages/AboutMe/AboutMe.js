@@ -7,7 +7,6 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPhp, FaAws, FaDocker } from 'react-icons/fa';
 // import { SiFlask } from 'react-icons/si';
 import { SiMysql } from 'react-icons/si';
-import GlassCard from '../Home/GlassCard';
 
 const AboutMe = () => {
     return (
