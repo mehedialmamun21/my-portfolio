@@ -19,7 +19,7 @@ const HomeDetails = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                 <center>
-                    <div className='pt-20 pb-5 lg:py-20 lg:my-12 lg:w-2/3'>
+                    <div className='pt-20 pb-10 lg:py-20 lg:my-12 lg:w-2/3'>
                         <h2>
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
@@ -67,11 +67,11 @@ const HomeDetails = () => {
                 </center>
 
                 <center>
-                    <div className='px-10 lg:px-24 pt-12 lg:pt-10 pb-7 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rotate-12'>
-                        <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] px-7 lg:px-10 py-5 lg:py-5 rotate-12'>
-                            <img src={homeImg} className='rotate-0' alt="" />
+                    <div className='px-10 lg:px-24 pt-12 lg:pt-10 pb-7 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-2xl'>
+                        <div className='shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] px-7 lg:px-10 py-5 lg:py-5 rounded-2xl'>
+                            <img src={homeImg} className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-2xl' alt="" />
                         </div>
-                        <p className='pt-8 lg:pt-6 flex rotate-6'> <BsTelephoneInbound size="2rem" className='text-green-500' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
+                        <p className='pt-8 lg:pt-6 flex items-center justify-center'> <BsTelephoneInbound size="2rem" className='text-green-500 font' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
                     </div>
                 </center>
 
