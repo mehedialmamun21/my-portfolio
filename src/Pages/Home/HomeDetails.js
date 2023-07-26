@@ -67,11 +67,11 @@ const HomeDetails = () => {
                 </center>
 
                 <center>
-                    <div className='px-10 lg:px-24 pt-12 lg:pt-10 pb-7 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-2xl'>
-                        <div className='shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] px-7 lg:px-10 py-5 lg:py-5 rounded-2xl'>
-                            <img src={homeImg} className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-2xl' alt="" />
+                    <div className='px-5 lg:px-20 pt-0 lg:pt-10 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
+                        <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-sm'>
+                            <img src={homeImg} className='rounded-sm' alt="" />
                         </div>
-                        <p className='pt-8 lg:pt-6 flex items-center justify-center'> <BsTelephoneInbound size="2rem" className='text-green-500 font' /> <span className='pl-5 text-lg lg:text-xl'>+880 1521413730</span> </p>
+                        <p className='pt-0 lg:pt-3 flex items-center justify-center'> <BsTelephoneInbound size="1.7rem" className='text-green-600 font' /> <span className='pl-5 text-lg lg:text-lg'>+880 1521413730</span> </p>
                     </div>
                 </center>
 

@@ -25,9 +25,13 @@ const Contact = () => {
 
             </div>
 
-            <div className='lg:flex justify-center items-center lg:pb-10 lg:shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]'>
+            <div className='lg:pb-10 lg:flex justify-center items-center'>
 
-                <div className='w-full mt-8 lg:mt-10 md:mt-0 md:w-5/12 text-black lg:px-20 lg:py-5 lg:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
+                <div className='hidden lg:block'>
+                    <img src="https://i.postimg.cc/wjR0JxFT/background-textbox-label-frame-flowers-wallpaper-plant-floral-design-pattern-graphics-transparent-pn.png" className='' alt="" />
+                </div>
+
+                <div className='w-full mt-8 lg:mt-0 md:w-5/12 text-black lg:px-5 lg:py-5'>
 
                     <form className='row' onSubmit={sendEmail}>
 
@@ -48,7 +52,7 @@ const Contact = () => {
 
                                 </div>
                                 <div>
-                                    <input type="submit" value="Send Message" className='form-control shadow-2xl border-none btn bg-blue-500 hover:bg-blue-600 text-white w-full px-7 lg:px-10 py-3 mt-2 lg:mt-2 rounded-sm font-bold' />
+                                    <input type="submit" value="Send Message" className='form-control bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] shadow-2xl border-none btn text-white w-full px-7 lg:px-10 py-3 mt-2 lg:mt-2 rounded-sm font-bold' />
                                 </div>
                             </div>
 
@@ -56,6 +60,8 @@ const Contact = () => {
 
                     </form>
                 </div>
+
+
             </div>
 
         </section>

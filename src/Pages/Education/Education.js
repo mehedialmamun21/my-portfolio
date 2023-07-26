@@ -76,8 +76,8 @@ const Education = () => {
 
                             </div>
                             <div className='flex items-center justify-center'>
-                                <BsArrowRight size="2rem" className='text-blue-500' />
-                                <a href="https://www.hstu.ac.bd/" className='bg-blue-500 hover:bg-blue-600 text-white px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                <BsArrowRight size="2rem" className='text-blue-600' />
+                                <a href="https://www.hstu.ac.bd/" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] text-white px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>
                     </div>
