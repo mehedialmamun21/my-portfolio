@@ -5,9 +5,12 @@ const ProjectDetail = () => {
     const projects = [
         {
             id: 1,
-            img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
-            img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
-            img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
+            // img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
+            img1: "https://i.postimg.cc/8P71NxTD/image.png",
+            // img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
+            img2: "https://i.postimg.cc/SNRWqQXs/image.png",
+            // img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
+            img3: "https://i.postimg.cc/QN2TLgr6/image.png",
             // name: 'Dental Service Provider',
         },
 
