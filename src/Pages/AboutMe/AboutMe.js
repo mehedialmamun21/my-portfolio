@@ -18,7 +18,7 @@ const AboutMe = () => {
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                    <div className="my-5 lg:my-0 flex justify-center items-center">
+                    <div className="my-5 lg:my-0 flex justify-center items-center sm:hidden md:block lg:block">
 
                         <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-3/6' alt="" />
 
