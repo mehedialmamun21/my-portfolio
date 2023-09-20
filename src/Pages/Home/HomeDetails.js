@@ -77,7 +77,7 @@ const HomeDetails = () => {
 
                 <div className="my-5 lg:my-0 flex justify-center items-center">
 
-                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-4/6 lg:h-4/6' alt="" />
+                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/5 lg:w-4/6 lg:h-4/6' alt="" />
 
                 </div>
 
