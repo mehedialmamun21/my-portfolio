@@ -13,7 +13,7 @@ const Education = () => {
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                     <div className="mb-5 lg:mb-0 pt-0 lg:pt-5 flex justify-center">
-                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-3/6 lg:w-5/12' alt="" />
+                        <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-3/6 lg:w-4/12' alt="" />
                     </div>
 
                     <div className='pt-0 lg:pt-8'>

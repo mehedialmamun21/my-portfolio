@@ -66,14 +66,20 @@ const HomeDetails = () => {
                     </div>
                 </center>
 
-                <center>
+                {/* <center>
                     <div className='px-5 lg:px-20 pt-0 lg:pt-10 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
                         <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-sm'>
                             <img src={homeImg} className='rounded-sm' alt="" />
                         </div>
                         <p className='pt-0 lg:pt-3 flex items-center justify-center'> <BsTelephoneInbound size="1.7rem" className='text-green-600 font' /> <span className='pl-5 text-lg lg:text-lg'>+880 1521413730</span> </p>
                     </div>
-                </center>
+                </center> */}
+
+                <div className="my-5 lg:my-0 flex justify-center items-center">
+
+                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-4/6 lg:h-4/6' alt="" />
+
+                </div>
 
             </div>
         </section>
