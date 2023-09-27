@@ -59,17 +59,17 @@ const Education = () => {
 
                     </div>
                     <div className='px-5 py-5'>
-                        <div className='flex items-center pb-3'>
-                            <span>
+                        <div className='flex pb-3'>
+                            <span className=''>
                                 <BsLightningChargeFill className='text-orange-500' size="1rem" />
                             </span>
-                            <p className='text-md lg:text-lg text-zinc-800 pl-2'> I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.</p>
+                            <p className='text-md lg:text-md text-zinc-800 pl-2'> I have studied basic software engineering subjects like Data Structure, Algorithms, DBMS, Operating System, OOP, Artificial Intelligence, Machine Learning, Computer Architecture and Organization, Software Engineering, Web Engineering, Numerical Analysis, Cybersecurity, Cloud Computing, Data Communication and Networking etc.</p>
                         </div>
-                        <div className='flex items-center'>
+                        <div className='flex'>
                             <span>
                                 <BsLightningChargeFill className='text-orange-500' size="1rem" />
                             </span>
-                            <p className='text-md lg:text-lg text-zinc-800 pl-2'>Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.</p>
+                            <p className='text-md lg:text-md text-zinc-800 pl-2'>Apart from this, I have done courses on Deep Learning, Cloud Computing and Full Stack Development.</p>
                         </div>
                         <div className='flex justify-end mt-7'>
                             <div>
