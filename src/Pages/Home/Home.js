@@ -11,7 +11,7 @@ import Education from '../Education/Education';
 const Home = () => {
 
     return (
-        <section className='bg-zinc-200'>
+        <section className='bg-zinc-100'>
 
             <div id='homeDetails'>
                 <HomeDetails />

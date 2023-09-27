@@ -47,8 +47,8 @@ const HomeDetails = () => {
                         </div> */}
 
                         <div className='mt-5'>
-                            <a href="#" className='inline-block'>
-                                <button className='flex items-center text-lg px-10 py-1 text-white'>
+                            <a href="/home" className='inline-block'>
+                                <button className='flex items-center text-lg px-10 py-1 text-white hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]'>
                                     <p className='pr-3'>Resume</p>
                                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                                 </button>

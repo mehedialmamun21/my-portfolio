@@ -8,7 +8,7 @@ import { BsGithub, BsTwitter, BsInstagram, BsFacebook } from 'react-icons/bs';
 const Navbar = () => {
 
     return (
-        <section className='sticky top-0 z-50 bg-gray-100 lg:px-20 shadow-sm bg-opacity-80 backdrop-blur'>
+        <section className='sticky top-0 z-50 bg-zinc-100 lg:px-20 shadow-sm bg-opacity-80 backdrop-blur'>
             <div class="navbar">
 
 

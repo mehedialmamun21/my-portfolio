@@ -12,11 +12,11 @@ const Education = () => {
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                    <div className="mb-5 lg:mb-0 pt-0 lg:pt-5 flex justify-center">
+                    <div className="mb-5 lg:mb-0 flex justify-center">
                         <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-3/6 lg:w-4/12' alt="" />
                     </div>
 
-                    <div className='pt-0 lg:pt-8'>
+                    <div className=''>
 
                         <div className='text-center'>
                             <h2 className='text-4xl lg:text-5xl font-semibold pb-3 lg:pb-5'>Education</h2>
@@ -46,7 +46,7 @@ const Education = () => {
 
                 <div className='shadow-2xl'>
 
-                    <div className='bg-blue-300 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-5 lg:flex lg:justify-between'>
+                    <div className='bg-blue-200 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-5 lg:flex lg:justify-between'>
 
                         <div className='pt-0 lg:pt-3'>
                             <h2 className='text-lg lg:text-2xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
@@ -55,7 +55,7 @@ const Education = () => {
                             <p className='text-sm lg:text-md pt-1'>2018 - JAN 2023</p>
                         </div>
 
-                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-2 lg:h-36 w-4/12 lg:w-2/12 invisible lg:visible' alt="" />
+                        <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-2 lg:h-40 w-4/12 lg:w-2/12 invisible lg:visible' alt="" />
 
                     </div>
                     <div className='px-5 py-5'>
@@ -76,8 +76,8 @@ const Education = () => {
 
                             </div>
                             <div className='flex items-center justify-center'>
-                                <BsArrowRight size="2rem" className='text-blue-600' />
-                                <a href="https://www.hstu.ac.bd/" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] text-white px-5 lg:px-10 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                <BsArrowRight size="2rem" className='text-blue-700' />
+                                <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsLightningChargeFill, BsPatchQuestion } from 'react-icons/bs'
+import { BsArrowRight, BsLightningChargeFill, BsPatchQuestion } from 'react-icons/bs'
 
 import { TbBrandJavascript } from 'react-icons/tb';
 import { TiHtml5 } from 'react-icons/ti';
@@ -22,13 +22,13 @@ const AboutMe = () => {
 
                         <center>
                             <div className=''>
-                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-3/6 rounded-3xl border border-gray-500' alt="" />
+                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-4/5 lg:w-6/12 rounded-2xl border border-gray-400' alt="" />
                             </div>
                         </center>
 
                     </div>
 
-                    <div className='grid grid-cols-1'>
+                    <div className='grid grid-cols-1 lg:border lg:border-gray-400 lg:rounded-2xl lg:pl-7 lg:py-4'>
 
                         <div className='pt-5 lg:pt-0'>
                             <div className='flex items-center pb-5 lg:pb-5'>
@@ -77,6 +77,20 @@ const AboutMe = () => {
                     </div>
 
                 </div>
+
+
+
+                <div className='flex justify-start lg:justify-center mt-7 lg:pl-52'>
+                    <div>
+
+                    </div>
+                    <div className='px-5 lg:px-8 py-2 flex items-center justify-center bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] 
+                        hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white'>
+                        <a href="/home" className='text-lg pr-3 rounded-sm' target="_blank">More Details</a>
+                        <BsArrowRight size="1.5rem" className='text-white' />
+                    </div>
+                </div>
+
 
                 <div className='flex'>
 
