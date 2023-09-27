@@ -21,8 +21,8 @@ const AboutMe = () => {
                     <div className="my-5 lg:my-0 flex justify-center items-center">
 
                         <center>
-                            <div className='hidden lg:block'>
-                                <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-4/6' alt="" />
+                            <div className=''>
+                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-3/6 rounded-3xl border border-gray-500' alt="" />
                             </div>
                         </center>
 
