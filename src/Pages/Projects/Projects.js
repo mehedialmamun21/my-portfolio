@@ -14,8 +14,8 @@ const Projects = () => {
         <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div className=''>
-                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 font-semibold lg:py-10'>Recent <span className='text-orange-400'>Projects</span> </h1>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-9'>
+                <h1 className='text-3xl lg:text-4xl text-zinc-700 pb-10 font-semibold lg:py-10 flex justify-center'>Recent <span className='text-orange-400'>Projects</span> </h1>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7'>
                     {
                         projects.map(project => <Projected
                             key={project.id}

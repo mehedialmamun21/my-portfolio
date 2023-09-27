@@ -21,7 +21,7 @@ const Contact = () => {
 
             <div className='pb-10 lg:py-10'>
 
-                <h1 className='text-3xl lg:text-4xl font-semibold text-zinc-700'>Get in <span className='text-orange-400'>Touch</span> </h1>
+                <h1 className='text-3xl text-center lg:text-4xl font-semibold text-zinc-700'>Get in <span className='text-orange-400'>Touch</span> </h1>
 
             </div>
 
