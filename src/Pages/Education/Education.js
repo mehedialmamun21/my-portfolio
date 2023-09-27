@@ -96,12 +96,14 @@ const Education = () => {
 
                 <center>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 items-center'>
-                        <div className=''>
-                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-96' alt="" />
-                        </div>
+
                         <div className=''>
                             <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-96' alt="" />
                         </div>
+                        <div className=''>
+                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-96' alt="" />
+                        </div>
+
                     </div>
                 </center>
 
