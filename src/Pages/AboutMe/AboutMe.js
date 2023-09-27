@@ -35,17 +35,17 @@ const AboutMe = () => {
                                 <h2 className='text-3xl pr-2 text-zinc-900 font-semibold'> What I Do </h2>
                                 <BsPatchQuestion size="2rem" />
                             </div>
-                            <h1 className='text-2xl lg:text-3xl pb-5 text-zinc-800'>Full Stack Development</h1>
+                            <h1 className='text-2xl lg:text-2xl pb-5 text-zinc-800'>Full Stack Development</h1>
                             <div className='grid grid-cols-5 lg:gap-0 lg:grid-cols-10 pb-5'>
-                                <TbBrandJavascript className='text-yellow-600' size="3rem" />
-                                <TiHtml5 className='text-orange-700' size="3rem" />
-                                <IoLogoCss3 className='text-blue-600' size="3rem" />
-                                <FaPhp className='text-violet-700' size="3rem" />
-                                <FaReact className='text-blue-600' size="3rem" />
-                                {/* <SiFlask className='text-green-600' size="3rem" /> */}
-                                <FaDocker className='text-blue-500' size="3rem" />
-                                <SiMysql className='text-violet-700' size="3rem" />
-                                <FaAws className='text-orange-500' size="3rem" />
+                                <TbBrandJavascript className='text-yellow-600' size="2.5rem" />
+                                <TiHtml5 className='text-orange-700' size="2.5rem" />
+                                <IoLogoCss3 className='text-blue-600' size="2.5rem" />
+                                <FaPhp className='text-violet-700' size="2.5rem" />
+                                <FaReact className='text-blue-600' size="2.5rem" />
+                                {/* <SiFlask className='text-green-600' size="2.5rem" /> */}
+                                <FaDocker className='text-blue-500' size="2.5rem" />
+                                <SiMysql className='text-violet-700' size="2.5rem" />
+                                <FaAws className='text-orange-500' size="2.5rem" />
                             </div>
                             <div className='flex items-center'>
                                 <span>
@@ -63,7 +63,7 @@ const AboutMe = () => {
 
                         <div className='pt-5 lg:pt-0'>
 
-                            <h1 className='text-2xl lg:text-3xl text-zinc-800 pb-3 lg:pt-7'>Familiar with other tools</h1>
+                            <h1 className='text-2xl lg:text-2xl text-zinc-800 pb-3 lg:pt-7'>Familiar with other tools</h1>
 
                             <div className='flex items-center'>
                                 <span>

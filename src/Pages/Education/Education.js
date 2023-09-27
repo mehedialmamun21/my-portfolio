@@ -46,9 +46,9 @@ const Education = () => {
 
                 <div className='shadow-2xl'>
 
-                    <div className='bg-blue-200 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-5 lg:flex lg:justify-between'>
+                    <div className='bg-blue-200 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
 
-                        <div className='pt-0 lg:pt-3'>
+                        <div className='pt-0 lg:pt-4'>
                             <h2 className='text-lg lg:text-2xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
                             <p className='text-sm lg:text-md pt-1'>HSTU, Dinajpur, Bangladesh</p>
                             <p className='text-md lg:text-lg pt-3 font-semibold'>B.Sc (Engg.) in Computer Science and Engineering</p>
@@ -76,14 +76,39 @@ const Education = () => {
 
                             </div>
                             <div className='flex items-center justify-center'>
-                                <BsArrowRight size="2rem" className='text-blue-700' />
-                                <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                <BsArrowRight size="1.6rem" className='text-blue-700' />
+                                <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r 
+                                from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r 
+                                hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] 
+                                text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+
+
+
+            <div className='lg:px-48'>
+
+                <h1 className='text-2xl lg:text-4xl text-center mt-24 mb-8 text-zinc-800 pr-4 lg:pr-7 font-semibold'>Certifications</h1>
+
+                <center>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 items-center'>
+                        <div className=''>
+                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-96' alt="" />
+                        </div>
+                        <div className=''>
+                            <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-96' alt="" />
+                        </div>
+                    </div>
+                </center>
+
+            </div>
+
+
+
 
 
         </section>
