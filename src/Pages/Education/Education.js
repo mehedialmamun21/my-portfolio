@@ -44,7 +44,7 @@ const Education = () => {
 
                 <h1 className='text-2xl lg:text-4xl text-center mt-24 mb-8 text-zinc-800 pr-4 lg:pr-7 font-semibold'>Degrees Received</h1>
 
-                <div className='shadow-2xl'>
+                <div className='shadow-2xl border border-zinc-400'>
 
                     <div className='bg-blue-200 px-10 py-5 lg:pl-10 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
 

@@ -28,7 +28,7 @@ const AboutMe = () => {
 
                     </div>
 
-                    <div className='grid grid-cols-1 lg:border lg:border-gray-400 lg:rounded-2xl lg:pl-7 lg:py-4'>
+                    <div className='grid grid-cols-1 lg:py-2'>
 
                         <div className='pt-5 lg:pt-0'>
                             <div className='flex items-center pb-5 lg:pb-5'>

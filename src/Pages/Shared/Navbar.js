@@ -2,8 +2,10 @@ import React from 'react';
 import navIcon from '../../assets/images/nav_icon.png';
 import { HashLink } from 'react-router-hash-link';
 import { animateScroll as scroll } from "react-scroll";
-import { GrLinkedin } from 'react-icons/gr';
+import { GrLinkedin, GrProjects, GrContactInfo } from 'react-icons/gr';
 import { BsGithub, BsTwitter, BsInstagram, BsFacebook } from 'react-icons/bs';
+import { AiOutlineHome } from 'react-icons/ai';
+import { MdOutlineRoundaboutRight, MdCastForEducation } from 'react-icons/md';
 
 const Navbar = () => {
 
@@ -17,26 +19,26 @@ const Navbar = () => {
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-200 rounded-none w-52 mt-4">
+                        <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-100 rounded-none w-52 mt-4">
 
-                            <li>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary border border-b-black'>Home</HashLink>
+                            <li className=''>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary'><AiOutlineHome />Home</HashLink>
+                            </li>
+
+                            <li className=''>
+                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdOutlineRoundaboutRight />About Me</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>About Me</HashLink>
+                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdCastForEducation />Education</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>Education</HashLink>
+                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrProjects />Projects</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary border border-b-black'>Projects</HashLink>
-                            </li>
-
-                            <li>
-                                <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'>Contact</HashLink>
+                                <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrContactInfo />Contact</HashLink>
                             </li>
 
                         </ul>
