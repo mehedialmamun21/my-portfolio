@@ -82,7 +82,7 @@ const AboutMe = () => {
 
 
 
-                <div className='flex justify-start lg:justify-center mt-7 lg:pl-52'>
+                <div className='flex justify-start lg:justify-center mt-7 lg:pl-44'>
                     <div>
 
                     </div>
