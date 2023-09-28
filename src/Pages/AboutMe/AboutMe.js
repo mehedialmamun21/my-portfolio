@@ -6,7 +6,7 @@ import { TiHtml5 } from 'react-icons/ti';
 import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPhp, FaAws, FaDocker } from 'react-icons/fa';
 // import { SiFlask } from 'react-icons/si';
-import { SiMysql } from 'react-icons/si';
+import { SiMysql, SiFirebase } from 'react-icons/si';
 
 const AboutMe = () => {
     return (
@@ -42,12 +42,13 @@ const AboutMe = () => {
                                 <TbBrandJavascript className='text-yellow-600' size="2.5rem" />
                                 <TiHtml5 className='text-orange-700' size="2.5rem" />
                                 <IoLogoCss3 className='text-blue-600' size="2.5rem" />
+                                <SiFirebase className='text-orange-500' size="2.5rem" />
                                 <FaPhp className='text-violet-700' size="2.5rem" />
                                 <FaReact className='text-blue-600' size="2.5rem" />
                                 {/* <SiFlask className='text-green-600' size="2.5rem" /> */}
                                 <FaDocker className='text-blue-500' size="2.5rem" />
                                 <SiMysql className='text-violet-700' size="2.5rem" />
-                                <FaAws className='text-orange-500' size="2.5rem" />
+
                             </div>
                             <div className='flex items-center'>
                                 <span>

@@ -54,7 +54,7 @@ const Wrapper = styled.section`
         background-color: none;
         
         position: fixed;
-        bottom: 8rem;
+        bottom: 3rem;
         right: 0.5rem;
         z-index: 999;
         display: flex;

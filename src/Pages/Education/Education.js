@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsArrowRight, BsLightningChargeFill, BsStackOverflow } from 'react-icons/bs';
 import { SiHackerrank, SiLeetcode, SiStopstalk } from 'react-icons/si';
+import { GiTrophyCup } from 'react-icons/gi';
 
 const Education = () => {
     return (
@@ -78,10 +79,7 @@ const Education = () => {
                                 </div>
                                 <div className='flex items-center justify-center'>
                                     <BsArrowRight size="1.6rem" className='text-blue-700' />
-                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r 
-from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r 
-hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] 
-text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                                 </div>
                             </div>
                         </div>
@@ -95,17 +93,21 @@ text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
 
             <div className='lg:px-48'>
 
-                <h1 className='text-2xl lg:text-4xl text-center mt-12 mb-8 text-zinc-800 pr-4 lg:pr-7 font-semibold'>Certifications</h1>
+                <div className='flex items-center justify-center mt-12 lg:mt-20 mb-8 lg:mb-14'>
+                    <GiTrophyCup size="2rem" className='text-orange-600' />
+                    <h1 className='text-lg lg:text-3xl text-center text-zinc-800 px-1 lg:px-7 font-semibold'>Certifications and Achievements </h1>
+                    <GiTrophyCup size="2rem" className='text-orange-600' />
+                </div>
 
                 <center>
-                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-1 items-center'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-0 lg:pl-10 items-center'>
 
                         <div className=''>
                             <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-96' alt="" />
                         </div>
 
                         <div className=''>
-                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-96 rounded-xl w-10/12' alt="" />
+                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-96 rounded-xl' alt="" />
                         </div>
 
                     </div>

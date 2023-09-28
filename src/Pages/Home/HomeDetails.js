@@ -14,7 +14,7 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:px-24 py-0 lg:py-20'>
+        <section className='px-5 lg:px-24 py-0 lg:pb-20'>
 
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 

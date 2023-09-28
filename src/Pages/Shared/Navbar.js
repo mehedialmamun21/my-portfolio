@@ -87,15 +87,17 @@ const Navbar = () => {
 
 
                 <div class="grid grid-flow-col gap-4 lg:ml-28">
-                    <BsGithub className='text-xl lg:text-2xl' />
 
-                    <GrLinkedin className='text-blue-500 bg-white rounded text-xl lg:text-2xl' />
+                    <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer"><BsGithub className='text-xl lg:text-2xl' /></a>
 
-                    <BsFacebook className='text-blue-500 text-xl lg:text-2xl' />
+                    <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer"><GrLinkedin className='text-blue-500 bg-white rounded text-xl lg:text-2xl' /></a>
+
+                    <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer"><BsFacebook className='text-blue-500 text-xl lg:text-2xl' /></a>
 
                     <BsInstagram className='text-red-500 text-xl lg:text-2xl' />
 
                     <BsTwitter className='text-blue-500 text-xl lg:text-2xl' />
+
                 </div>
 
 
