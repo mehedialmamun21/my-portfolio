@@ -22,7 +22,7 @@ const AboutMe = () => {
 
                         <center>
                             <div className=''>
-                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-4/5 lg:w-6/12 border border-gray-400 rounded-full' alt="" />
+                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-6/12 border border-gray-400 rounded-full' alt="" />
                             </div>
                         </center>
 
@@ -38,7 +38,7 @@ const AboutMe = () => {
                             <span className='flex items-center justify-center lg:justify-start'>
                                 <h1 className='text-2xl lg:text-2xl pb-5 text-zinc-800'>Full Stack Development</h1>
                             </span>
-                            <div className='grid grid-cols-5 lg:gap-0 lg:grid-cols-10 pb-5'>
+                            <div className='grid grid-cols-5 lg:grid-cols-10 pb-5'>
                                 <TbBrandJavascript className='text-yellow-600' size="2.5rem" />
                                 <TiHtml5 className='text-orange-700' size="2.5rem" />
                                 <IoLogoCss3 className='text-blue-600' size="2.5rem" />
@@ -50,14 +50,14 @@ const AboutMe = () => {
                                 <SiMysql className='text-violet-700' size="2.5rem" />
 
                             </div>
-                            <div className='flex items-center'>
-                                <span>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
                                 <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Building responsive website front end using ReactJS</p>
                             </div>
-                            <div className='flex items-center'>
-                                <span>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
                                 <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in PHP, SQL & Flask</p>
@@ -68,8 +68,8 @@ const AboutMe = () => {
 
                             <h1 className='text-2xl lg:text-2xl text-zinc-800 pb-3 lg:pt-7'>Familiar with other tools</h1>
 
-                            <div className='flex items-center'>
-                                <span>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
                                 <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Experience working on multiple cloud platforms</p>
@@ -83,13 +83,13 @@ const AboutMe = () => {
 
 
 
-                <div className='flex justify-start lg:justify-center mt-7 lg:pl-44'>
+                <div className='flex justify-end pr-5 lg:pr-0 lg:justify-center mt-7 lg:pl-44'>
                     <div>
 
                     </div>
-                    <div className='px-5 rounded-full lg:px-5 py-1 flex items-center justify-center bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] 
+                    <div className='px-4 rounded-sm lg:px-5 py-1 flex items-center justify-center bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] 
                         hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white'>
-                        <a href="/home" className='text-lg pr-3' target="_blank">More Details</a>
+                        <a href="/home" className='text-lg pr-2' target="_blank">More Details</a>
                         <BsArrowRight size="1.3rem" className='text-white' />
                     </div>
                 </div>
