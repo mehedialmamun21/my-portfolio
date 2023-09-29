@@ -15,9 +15,9 @@ const Navbar = () => {
             <div class="navbar">
 
                 <div class="navbar-start">
-                    <div class="dropdown bg-cyan-500 rounded-md mr-3 lg:mr-0">
+                    <div class="dropdown  rounded-md mr-1 lg:mr-0">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 20 20" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-100 rounded-none w-52 mt-4">
 

@@ -22,7 +22,7 @@ const AboutMe = () => {
 
                         <center>
                             <div className=''>
-                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-6/12 border border-gray-400 rounded-full' alt="" />
+                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-6/12 border border-gray-400 rounded-xl' alt="" />
                             </div>
                         </center>
 
@@ -83,7 +83,7 @@ const AboutMe = () => {
 
 
 
-                <div className='flex justify-end pr-5 lg:pr-0 lg:justify-center mt-7 lg:pl-44'>
+                {/* <div className='flex justify-end pr-5 lg:pr-0 lg:justify-center mt-7 lg:pl-44'>
                     <div>
 
                     </div>
@@ -92,7 +92,7 @@ const AboutMe = () => {
                         <a href="/home" className='text-lg pr-2' target="_blank">More Details</a>
                         <BsArrowRight size="1.3rem" className='text-white' />
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className='flex'>
