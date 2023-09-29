@@ -5,7 +5,7 @@ import { GiTrophyCup } from 'react-icons/gi';
 
 const Education = () => {
     return (
-        <section className='pt-10 pb-10 lg:pt-20'>
+        <section className='pt-20 lg:pt-20 pb-10'>
 
             <div>
                 <h1 className='text-3xl lg:text-4xl flex items-center justify-center text-zinc-700 pb-10 font-semibold lg:py-10'>Basic <span className='text-orange-400'>Qualification</span> </h1>
@@ -95,7 +95,7 @@ const Education = () => {
 
                 <div className='flex items-center justify-center mt-12 lg:mt-20 mb-8 lg:mb-14'>
                     <GiTrophyCup size="2rem" className='text-orange-600' />
-                    <h1 className='text-lg lg:text-3xl text-center text-zinc-800 px-1 lg:px-7 font-semibold'>Certifications and Achievements </h1>
+                    <h1 className='text-2xl lg:text-3xl text-center text-zinc-800 px-5 lg:px-7 font-semibold'>Certifications and <br className='block lg:hidden' /> Achievements </h1>
                     <GiTrophyCup size="2rem" className='text-orange-600' />
                 </div>
 

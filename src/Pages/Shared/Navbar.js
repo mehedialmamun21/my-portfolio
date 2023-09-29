@@ -11,34 +11,34 @@ const Navbar = () => {
 
     return (
         <section className='sticky top-0 z-50 bg-zinc-100 lg:px-20 shadow-sm bg-opacity-80 backdrop-blur'>
+
             <div class="navbar">
 
-
                 <div class="navbar-start">
-                    <div class="dropdown">
+                    <div class="dropdown bg-cyan-500 rounded-md mr-3 lg:mr-0">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-100 rounded-none w-52 mt-4">
 
                             <li className=''>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary'><AiOutlineHome />Home</HashLink>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary'><AiOutlineHome className='' />Home</HashLink>
                             </li>
 
                             <li className=''>
-                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdOutlineRoundaboutRight />About Me</HashLink>
+                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdOutlineRoundaboutRight className='' />About Me</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdCastForEducation />Education</HashLink>
+                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdCastForEducation className='' />Education</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrProjects />Projects</HashLink>
+                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrProjects className='' />Projects</HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrContactInfo />Contact</HashLink>
+                                <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrContactInfo className='' />Contact</HashLink>
                             </li>
 
                         </ul>
@@ -86,7 +86,7 @@ const Navbar = () => {
 
 
 
-                <div class="grid grid-flow-col gap-4 lg:ml-28">
+                <div class="grid grid-flow-col gap-4 ml-6 lg:ml-28">
 
                     <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer"><BsGithub className='text-xl lg:text-2xl' /></a>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
 
                     <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer"><BsFacebook className='text-blue-500 text-xl lg:text-2xl' /></a>
 
-                    <BsInstagram className='text-red-500 text-xl lg:text-2xl' />
+                    {/* <BsInstagram className='text-red-500 text-xl lg:text-2xl' /> */}
 
                     <BsTwitter className='text-blue-500 text-xl lg:text-2xl' />
 
