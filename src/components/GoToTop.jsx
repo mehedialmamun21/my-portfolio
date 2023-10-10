@@ -31,7 +31,7 @@ const GoToTop = () => {
         <Wrapper>
             {isVisible && (
                 <div className='top-btn' onClick={goToBtn} >
-                    <BsArrowUpCircleFill className='rounded-sm bg-orange-500 text-white' size="2.3rem" />
+                    <BsArrowUpCircleFill className='rounded-full bg-orange-500 text-white' size="2.3rem" />
                 </div>
             )}
 

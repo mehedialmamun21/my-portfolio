@@ -94,9 +94,9 @@ const Education = () => {
             <div className='lg:px-48'>
 
                 <div className='flex items-center justify-center mt-12 lg:mt-20 mb-8 lg:mb-14'>
-                    <GiTrophyCup size="2rem" className='text-yellow-600' />
-                    <h1 className='text-2xl lg:text-3xl text-center text-zinc-800 px-5 lg:px-7 font-semibold'>Certifications and <br className='block lg:hidden' /> Achievements </h1>
-                    <GiTrophyCup size="2rem" className='text-yellow-600' />
+                    {/* <GiTrophyCup size="2rem" className='text-yellow-600' /> */}
+                    <h1 className='text-2xl lg:text-4xl text-center text-zinc-800 px-5 lg:px-7 font-semibold'>Certifications and <br className='block lg:hidden' /> Achievements </h1>
+                    {/* <GiTrophyCup size="2rem" className='text-yellow-600' /> */}
                 </div>
 
                 <center>

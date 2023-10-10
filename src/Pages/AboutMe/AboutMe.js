@@ -22,7 +22,7 @@ const AboutMe = () => {
 
                         <center>
                             <div className=''>
-                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-6/12 border border-gray-400 rounded-xl' alt="" />
+                                <img src="https://i.postimg.cc/7L85jd2D/IMG-20230927-094858.jpg" className='w-3/5 lg:w-6/12 border border-gray-400 rounded-full' alt="" />
                             </div>
                         </center>
 
