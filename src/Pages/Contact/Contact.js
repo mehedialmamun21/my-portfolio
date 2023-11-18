@@ -1,71 +1,134 @@
-import React from 'react';
-import emailjs from 'emailjs-com';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { BiMessageDots } from 'react-icons/bi';
+import './Contact.css';
 
 const Contact = () => {
+    const form = useRef();
 
-    function sendEmail(event) {
-        event.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-        emailjs.sendForm('service_tmmdrwb', 'template_ldytsjj', event.target, 'hw9Ysv3f0-IYVBsp0')
+        emailjs.sendForm('service_8c82sgd', 'template_ycoyo1p', form.current, 'WPhPoqlYxWHkHvPyC')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
+
         alert("Thank you! Your message has been successfully sent.");
-        event.target.reset();
-    }
+        e.target.reset()
+    };
 
     return (
-        <section className='pt-20 pb-10 lg:pb-0 px-5 lg:px-20' id="contact">
+        <section className='flex flex-col items-center justify-center mb-5 lg:mb-40 mt-10 lg:mt-20'>
 
-            <div className='pb-10 lg:py-10'>
+            <div className='w-full lg:w-6/12 mt-8 lg:mt-0 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
 
-                <h1 className='text-3xl text-center lg:text-4xl font-semibold text-zinc-700'>Get in <span className='text-orange-400'>Touch</span> </h1>
+                <div className='flex items-center justify-center'>
+                    <h4 className='text-2xl lg:text-3xl text-black font-semibold pb-4 lg:pb-7 flex items-center justify-center'> Get In Touch </h4>
+                </div>
 
-            </div>
+                <div className='flex justify-center items-center mb-10'>
+                    <p> <span className='border border-zinc-400 bg-blue-300 px-2 py-1'>Email :</span> <span className='border border-zinc-400 px-2 py-1 font-semibold'>mehedi.hstu.cse@gmail.com</span> </p>
+                </div>
 
-            <div className='lg:pb-10 lg:flex justify-center items-center'>
+                <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[0_3px_10px_rgb(0,0,0,0.2)] border border-gray-400 rounded-sm'>
 
-                {/* <div className='hidden lg:block'>
-                    <img src="https://i.postimg.cc/wjR0JxFT/background-textbox-label-frame-flowers-wallpaper-plant-floral-design-pattern-graphics-transparent-pn.png" className='' alt="" />
-                </div> */}
-
-                <div className='w-full mt-8 lg:mt-0 md:w-5/12 text-black lg:px-0 lg:py-5'>
-
-                    <form className='row' onSubmit={sendEmail}>
-
-                        <div className='flex flex-col gap-4 w-full'>
+                    <form className='row' ref={form} onSubmit={sendEmail}>
+                        <div className='flex flex-col gap-5 w-full'>
                             <div className='flex gap-4 w-full'>
-                                <input type="text" name="user_name" placeholder='Your Name' className='form-control shadow-2xl border border-zinc-500 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
-                                <input type="email" name="user_email" placeholder='Your Email' className='form-control shadow-2xl border border-zinc-500 bg-white w-full py-4 px-3 outline-none rounded-sm' required />
+                                <input type="text" name="user_name" placeholder='Your Name' className='form-control stylish-input' required />
+
+                                <input type="email" name="user_email" placeholder='Your Email' className='form-control stylish-input' required />
                             </div>
 
-                            <input name="user_subject" type="text" placeholder="Subject" className="form-control shadow-2xl border border-zinc-500 bg-white py-4 px-3 h-14 w-full mt-0 lg:mt-2 focus:outline-none rounded-sm"></input>
+                            <input name="user_subject" type="text" placeholder="Subject" className="form-control stylish-input"></input>
 
                             <div>
-                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control shadow-2xl border border-zinc-500 bg-white w-full mt-0 lg:mt-2 py-4 px-3 outline-none rounded-sm' required />
+                                <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control stylish-textarea' required />
                             </div>
 
-                            <div className='flex justify-between'>
-                                <div>
-
-                                </div>
-                                <div>
-                                    <input type="submit" value="Send Message" className='form-control bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] shadow-2xl border-none btn text-white w-full px-7 lg:px-10 py-3 mt-2 lg:mt-2 rounded-sm font-bold' />
-                                </div>
+                            <div className='flex justify-end'>
+                                <input type="submit" value="Send Message" className='form-control stylish-button' />
                             </div>
 
                         </div>
 
                     </form>
                 </div>
-
-
             </div>
 
-        </section>
+        </section >
     );
 };
 
 export default Contact;
+
+
+
+
+// import React, { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+// import { BiMessageDots } from 'react-icons/bi';
+
+// const ContactUs = () => {
+
+//     const form = useRef();
+
+//     const sendEmail = (e) => {
+//         e.preventDefault();
+
+//         emailjs.sendForm('service_8c82sgd', 'template_ycoyo1p', form.current, 'WPhPoqlYxWHkHvPyC')
+//             .then((result) => {
+//                 console.log(result.text);
+//             }, (error) => {
+//                 console.log(error.text);
+//             });
+
+//         alert("Thank you! Your message has been successfully sent.");
+//         e.target.reset()
+
+//     };
+
+//     return (
+//         <section className='flex flex-col items-center justify-center mb-14 mt-20'>
+
+//             <div className='w-full lg:w-6/12 mt-8 lg:mt-0 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
+
+//                 <div className='flex items-cetner justify-center'>
+//                     <h4 className='text-2xl lg:text-3xl text-black font-semibold pb-7 flex items-center justify-center'> Get In Touch </h4>
+//                     <span className='pl-5 text-gray-700 flex items-center pb-7'><BiMessageDots size="2rem" /></span>
+//                 </div>
+
+//                 <div className='px-2 lg:px-24 py-5 lg:py-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+
+//                     <form className='row' ref={form} onSubmit={sendEmail}>
+//                         <div className='flex flex-col gap-5 w-full'>
+//                             <div className='flex gap-4 w-full'>
+//                                 <input type="text" name="user_name" placeholder='Your Name' className='form-control bg-white w-full py-4 px-3 border border-zinc-500 rounded-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
+
+//                                 <input type="email" name="user_email" placeholder='Your Email' className='form-control bg-white w-full py-4 px-3 border border-zinc-500 rounded-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
+//                             </div>
+
+//                             <input name="user_subject" type="text" placeholder="Subject" className="form-control bg-white py-4 px-3 h-14 w-full mt-2 border border-zinc-500 rounded-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"></input>
+
+//                             <div>
+//                                 <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control bg-white w-full mt-2 py-4 px-3 border border-zinc-500 rounded-sm shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
+//                             </div>
+
+//                             <div className='flex justify-end'>
+//                                 <input type="submit" value="Send Message" className='form-control hover:scale-105 duration-300 btn text-white bg-gradient-to-r from-sky-500 to-orange-500 w-2/4 lg:w-5/12 lg:px-8 mt-2 rounded-sm font-semibold border-none' />
+//                             </div>
+
+//                         </div>
+
+//                     </form>
+//                 </div>
+//             </div>
+
+//         </section >
+//     );
+// };
+
+// export default ContactUs;

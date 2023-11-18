@@ -14,12 +14,12 @@ const HomeDetails = () => {
     })
 
     return (
-        <section className='px-5 lg:px-24 py-0 lg:pb-20'>
+        <section className='px-5 lg:px-24 py-0 lg:pb-10'>
 
             <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                 <center>
-                    <div className='pt-20 pb-10 lg:py-20 lg:my-12 lg:w-2/3'>
+                    <div className='pt-20 pb-10 lg:py-20 lg:my-0 lg:w-2/3'>
                         <h2>
                             <div className='text-2xl lg:text-4xl text-zinc-700 font-serif font-semibold'>{state.titleOne}</div>
                         </h2>
@@ -75,9 +75,11 @@ const HomeDetails = () => {
                     </div>
                 </center> */}
 
+
                 <div className="my-5 lg:my-0 flex justify-center items-center">
 
-                    <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/5 lg:w-4/6 lg:h-4/6' alt="" />
+                    {/* <img src="https://i.postimg.cc/Fz0Q8bc1/IMG-20231101-175910.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
+                    <img src="https://i.postimg.cc/KzymDvRn/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-md' alt="" />
 
                 </div>
 

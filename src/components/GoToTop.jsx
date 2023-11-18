@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { BsArrowUpCircleFill } from 'react-icons/bs';
+import { BsArrowUp } from 'react-icons/bs';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
@@ -31,7 +31,7 @@ const GoToTop = () => {
         <Wrapper>
             {isVisible && (
                 <div className='top-btn' onClick={goToBtn} >
-                    <BsArrowUpCircleFill className='rounded-full bg-orange-500 text-white' size="2.3rem" />
+                    <BsArrowUp className='' size="1.7rem" />
                 </div>
             )}
 
@@ -39,27 +39,19 @@ const GoToTop = () => {
     );
 };
 
-// background - color: ${ ({ theme }) => theme.colors.btn };
-// box - shadow: ${ ({ theme }) => theme.colors.shadow };
-
 const Wrapper = styled.section`
     display:flex;
     justify-content: center;
     align-items: center;
 
     .top-btn {
-        font-size: 2.4 rem;
-        width: 6 rem;
-        height: 6 rem;
-        background-color: none;
-        
+        width: 2.3rem;
+        color: black;
         position: fixed;
-        bottom: 3rem;
-        right: 0.5rem;
+        bottom: 7.8rem;
+        right: 2.3rem;
         z-index: 999;
         display: flex;
-        justify-content: center;
-        align-items: center;
         cursor: pointer;
 
         &--icon {

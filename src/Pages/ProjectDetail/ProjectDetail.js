@@ -1,24 +1,22 @@
 import { useParams } from 'react-router-dom';
-
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 const ProjectDetail = () => {
 
     const projects = [
         {
             id: 1,
-            // img1: "https://i.postimg.cc/XJPYjmP1/cms2.png",
-            img1: "https://i.postimg.cc/8P71NxTD/image.png",
-            // img2: "https://i.postimg.cc/XYnGzS69/cms3.png",
-            img2: "https://i.postimg.cc/SNRWqQXs/image.png",
-            // img3: "https://i.postimg.cc/PqRCJCpM/cms4.png",
-            img3: "https://i.postimg.cc/QN2TLgr6/image.png",
-            // name: 'Dental Service Provider',
+            img1: "https://i.postimg.cc/sgfgG2bq/image.png",
+            img2: "https://i.postimg.cc/hjcycHXL/image.png",
+            img3: "https://i.postimg.cc/6pBf7dWK/image.png"
         },
 
         {
             id: 2,
             img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
             img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
-            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png",
+            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png"
             // name: 'Warehouse Management',
         },
 
@@ -26,7 +24,7 @@ const ProjectDetail = () => {
             id: 3,
             img1: "https://i.postimg.cc/YCYBNBXw/image.png",
             img2: "https://i.postimg.cc/N01c7vjH/image.png",
-            img3: "https://i.postimg.cc/prHst3fK/image.png",
+            img3: "https://i.postimg.cc/prHst3fK/image.png"
             // name: 'Leaf Disease Classification',
         },
 
@@ -34,7 +32,7 @@ const ProjectDetail = () => {
             id: 4,
             img1: "https://i.postimg.cc/5NDW6m0s/Screenshot-2023-06-30-015436.png",
             img2: "https://i.postimg.cc/8PfMR1pT/Screenshot-2023-06-30-020327.png",
-            img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png",
+            img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png"
             // name: 'License Plate Detection',
         },
 
@@ -42,7 +40,7 @@ const ProjectDetail = () => {
             id: 5,
             img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
             img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
-            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png",
+            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png"
             // name: 'Manufacturer Website',
         }
     ]
@@ -51,7 +49,7 @@ const ProjectDetail = () => {
 
         {
             id: 1,
-            gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client",
+            gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client-new",
             gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
             liveSite: "https://doctors-portal-a0858.web.app/"
         },
@@ -101,11 +99,11 @@ const ProjectDetail = () => {
         <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
 
             <div className='flex flex-col gap-4 py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
-                <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-sm border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Client</a>
+                <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 lg:text-lg hover:text-orange-500'><span className='flex justify-center items-center gap-3'><FiGithub size="1.3rem" /> GitHub Client</span></a>
 
-                <a href={gitServer} target='_blank' rel='noreferrer' className='rounded-sm border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 hover:text-orange-500'>GitHub Server</a>
+                <a href={gitServer} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 lg:text-lg hover:text-orange-500'> <span className='flex justify-center items-center gap-3'><FaGithub size="1.3rem" /> GitHub Server</span> </a>
 
-                <a href={liveSite} target='_blank' rel='noreferrer' className='rounded-sm border lg:border-2 border-purple-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 text-zinc-800'>Live Site</a>
+                <a href={liveSite} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-orange-500 lg:text-lg hover:text-zinc-800'> <span className='flex justify-center items-center gap-3'><FaExternalLinkAlt size="1rem" /> Live Site</span> </a>
             </div>
 
             <div className='flex flex-col gap-5 lg:gap-7 pb-10 lg:py-10 mx-4 lg:w-full lg:mx-0 relative'>
