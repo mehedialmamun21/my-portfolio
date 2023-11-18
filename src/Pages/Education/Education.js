@@ -156,7 +156,7 @@ const Education = () => {
             <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                 <div className="mb-5 lg:mb-0 flex justify-center lg:pl-40">
-                    <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-3/6 lg:w-4/12' alt="" />
+                    <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/6 lg:w-3/12 h-5/6' alt="" />
                 </div>
 
                 <div className=''>
@@ -205,7 +205,7 @@ const Education = () => {
                                 <span className='pt-1'>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
-                                <p className='text-md lg:text-md text-zinc-800 pl-2'>Apart from this, I have done courses on Deep Learning, Cloud Computing and Full Stack Development.</p>
+                                <p className='text-md lg:text-md text-zinc-800 pl-2'>Apart from this, I have done courses on Front-end Web Development, Machine Learning and Cloud Computing.</p>
                             </div>
                             <div className='flex justify-end mt-7'>
                                 <div>
@@ -249,18 +249,16 @@ const Education = () => {
                         </div>
                     </div>
 
-
-
                 </center>
             </div>
 
             <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{ overlay: { backgroundColor: 'rgba(0, 0, 0, 0.8)' } }}>
-                <div style={{ position: 'absolute', top: '20px', right: '40px', cursor: 'pointer' }} onClick={closeModal}>
+                <div style={{ position: 'absolute', top: '32px', right: '32px', cursor: 'pointer' }} onClick={closeModal}>
                     <span className='text-red-500 text-lg'>
                         Close [X]
                     </span>
                 </div>
-                <img src={selectedImage} alt="" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
+                <img src={selectedImage} className='mt-12 lg:mt-5' alt="" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
             </Modal>
 
         </section>

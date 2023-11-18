@@ -28,7 +28,7 @@ const Projected = ({ project }) => {
                 <h2 class="card-title text-xl text-zinc-700 flex mb-3">{name}</h2>
                 <p className='text-zinc-600 text-sm mb-3'>{about}</p>
                 <div className='flex justify-between items-center'>
-                    <button className='btn text-white w-2/4 lg:w-2/6 mt-2 border-none rounded-none hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]' onClick={() => navigateToProjectDetail(id)}>Details</button>
+                    <button className='btn text-white w-2/4 lg:w-2/6 border-none rounded-none hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]' onClick={() => navigateToProjectDetail(id)}>Details</button>
                     <div className='flex gap-1'>
                         <TbBrandJavascript className='text-yellow-600' size="2rem" />
                         <TiHtml5 className='text-orange-700' size="2rem" />

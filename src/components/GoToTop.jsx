@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import { BsArrowUp } from 'react-icons/bs';
+
+import { IoIosArrowDropupCircle } from "react-icons/io";
+
 import { useEffect } from 'react';
 import { useState } from 'react';
 
@@ -31,7 +33,7 @@ const GoToTop = () => {
         <Wrapper>
             {isVisible && (
                 <div className='top-btn' onClick={goToBtn} >
-                    <BsArrowUp className='' size="1.7rem" />
+                    <IoIosArrowDropupCircle className='bg-zinc-800 text-white' size="2rem" />
                 </div>
             )}
 
