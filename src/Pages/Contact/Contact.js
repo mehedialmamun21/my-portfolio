@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <section className='flex flex-col items-center justify-center mb-5 lg:mb-40 mt-10 lg:mt-20'>
+        <section className='flex flex-col items-center justify-center pb-5 lg:pb-40 lg:pt-20'>
 
             <div className='w-full lg:w-6/12 mt-8 lg:mt-0 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
 
