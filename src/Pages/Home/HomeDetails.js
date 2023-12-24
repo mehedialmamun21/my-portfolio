@@ -37,6 +37,8 @@ const HomeDetails = () => {
                                 }} />
                         </div>
 
+
+
                         {/* <div className='mt-10'>
                             <a href="Mehedi_Resume.pdf" download="Mehedi_Resume.pdf" className='inline-block'>
                                 <button className='flex items-center text-lg px-10 py-1 rounded text-white bg-teal-600 hover:bg-orange-500'>
@@ -45,6 +47,8 @@ const HomeDetails = () => {
                                 </button>
                             </a>
                         </div> */}
+
+
 
                         <div className='mt-5'>
                             <a href="/home" className='inline-block'>
@@ -79,7 +83,10 @@ const HomeDetails = () => {
                 <div className="my-5 lg:my-0 flex justify-center items-center">
 
                     {/* <img src="https://i.postimg.cc/Fz0Q8bc1/IMG-20231101-175910.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
-                    <img src="https://i.postimg.cc/KzymDvRn/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" />
+                    {/* <img src="https://i.postimg.cc/KzymDvRn/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
+                    <img src="https://i.postimg.cc/wMsCwz0b/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" />
+                    {/* <img src="https://i.postimg.cc/hvqzGDz9/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
+                    {/* <img src="https://i.postimg.cc/DwctjBPF/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
 
                 </div>
 
