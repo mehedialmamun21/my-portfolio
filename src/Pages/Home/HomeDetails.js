@@ -84,7 +84,7 @@ const HomeDetails = () => {
 
                     {/* <img src="https://i.postimg.cc/Fz0Q8bc1/IMG-20231101-175910.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
                     {/* <img src="https://i.postimg.cc/KzymDvRn/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
-                    <img src="https://i.postimg.cc/wMsCwz0b/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" />
+                    <img src="https://i.postimg.cc/wMsCwz0b/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-xl' alt="" />
                     {/* <img src="https://i.postimg.cc/hvqzGDz9/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
                     {/* <img src="https://i.postimg.cc/DwctjBPF/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
 

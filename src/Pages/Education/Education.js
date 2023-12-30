@@ -130,9 +130,9 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { BsArrowRight, BsLightningChargeFill, BsStackOverflow } from 'react-icons/bs';
 import { SiHackerrank, SiLeetcode, SiStopstalk } from 'react-icons/si';
-import { GiTrophyCup } from 'react-icons/gi';
 
 const Education = () => {
+
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState('');
 
@@ -240,8 +240,12 @@ const Education = () => {
             white-space: nowrap;
         }
         `}
+
                         </style>
-                        <div className='' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')} title="Click for details in big screen">
+                        <div className='' onClick={() => openModal('https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg')} title="Click for details in big screen">
+                            <img src="https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg" className='h-64 lg:h-64 lg:w-72' alt="" />
+                        </div>
+                        <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')} title="Click for details in big screen">
                             <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 lg:w-72' alt="" />
                         </div>
                         <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/nL7qprNs/b-belt-poster.png')} title="Click for details in big screen">
@@ -252,13 +256,26 @@ const Education = () => {
                 </center>
             </div>
 
-            <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{ overlay: { backgroundColor: 'rgba(0, 0, 0, 0.8)' } }}>
-                <div style={{ position: 'absolute', top: '32px', right: '32px', cursor: 'pointer' }} onClick={closeModal}>
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                style={{
+                    overlay: { backgroundColor: 'rgba(0, 0, 0, 0.8)' },
+                    content: {
+                        marginTop: '20px',
+                        top: '64px', // Adjust the top property
+                        bottom: '20px', // Add a bottom property
+                        left: '20px', // Add a left property
+                        right: '20px', // Add a right property
+                    }
+                }}
+            >
+                <div style={{ position: 'absolute', top: '12px', right: '20px', cursor: 'pointer' }} onClick={closeModal}>
                     <span className='text-red-500 text-lg'>
                         Close [X]
                     </span>
                 </div>
-                <img src={selectedImage} className='mt-12 lg:mt-5' alt="" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
+                <img src={selectedImage} className='mt-12 lg:mt-0' alt="" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
             </Modal>
 
         </section>

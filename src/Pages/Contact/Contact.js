@@ -29,13 +29,13 @@ const Contact = () => {
                     <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-4 lg:pb-7 flex items-center justify-center'> Get In  <span className='text-orange-500 ml-2'>Touch</span> </h4>
                 </div>
 
-                <div className='flex justify-center items-center mb-5'>
+                {/* <div className='flex justify-center items-center mb-5'>
                     <p className='border border-blue-600 rounded-sm'> <span className='px-2 py-1 rounded-sm'>Email:</span>  <span className='text-blue-700 pr-2 py-1'>mehedi.hstu.cse@gmail.com</span> </p>
-                </div>
+                </div> */}
 
-                <center>
+                {/* <center>
                     <div className="divider font-mono text-slate-700 text-xl lg:w-6/12">Or,</div>
-                </center>
+                </center> */}
 
                 <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[0_3px_10px_rgb(0,0,0,0.2)] border border-gray-400 rounded-sm'>
 
