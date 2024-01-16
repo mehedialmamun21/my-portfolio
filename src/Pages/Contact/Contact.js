@@ -21,12 +21,12 @@ const Contact = () => {
     };
 
     return (
-        <section className='flex flex-col items-center justify-center pb-5 lg:pb-40 lg:pt-20'>
+        <section className='flex flex-col items-center justify-center pb-10 lg:pb-40 pt-20 lg:pt-20'>
 
-            <div className='w-full lg:w-6/12 mt-8 lg:mt-0 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
+            <div className='w-full lg:w-6/12 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
 
                 <div className='flex items-center justify-center'>
-                    <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-4 lg:pb-7 flex items-center justify-center'> Get In  <span className='text-orange-500 ml-2'>Touch</span> </h4>
+                    <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-10 lg:py-10 flex items-center justify-center'> Get In  <span className='text-orange-500 ml-2'>Touch</span> </h4>
                 </div>
 
                 {/* <div className='flex justify-center items-center mb-5'>
@@ -54,7 +54,8 @@ const Contact = () => {
                             </div>
 
                             <div className='flex justify-end'>
-                                <input type="submit" value="Send Message" className='form-control stylish-button' />
+                                {/* <input type="submit" value="Send Message" className='form-control stylish-button' /> */}
+                                <input type="submit" value="Send Message" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 cursor-pointer' />
                             </div>
 
                         </div>

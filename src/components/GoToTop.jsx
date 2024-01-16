@@ -33,7 +33,7 @@ const GoToTop = () => {
         <Wrapper>
             {isVisible && (
                 <div className='top-btn' onClick={goToBtn} >
-                    <IoIosArrowDropupCircle className='bg-zinc-800 text-white' size="2rem" />
+                    <IoIosArrowDropupCircle className='text-green-500' size="3.7rem" />
                 </div>
             )}
 
@@ -47,11 +47,10 @@ const Wrapper = styled.section`
     align-items: center;
 
     .top-btn {
-        width: 2.3rem;
-        color: black;
+    
         position: fixed;
-        bottom: 7.8rem;
-        right: 2.3rem;
+        bottom: 0.8rem;
+        right: 0.1rem;
         z-index: 999;
         display: flex;
         cursor: pointer;

@@ -23,23 +23,23 @@ const Navbar = () => {
                         <ul tabindex="0" class="menu menu-compact dropdown-content p-2 shadow bg-gray-100 rounded-none w-52 mt-4">
 
                             <li className=''>
-                                <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-800  hover:text-white hover:bg-primary'><AiOutlineHome className='' />Home</HashLink>
+                                <HashLink smooth to="/home#homeDetails" className='text-lg hover:text-white hover:bg-primary'><AiOutlineHome /> <span className='text-sky-500'>Home</span> </HashLink>
                             </li>
 
                             <li className=''>
-                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdOutlineRoundaboutRight className='' />About Me</HashLink>
+                                <HashLink smooth to="/home#aboutme" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdOutlineRoundaboutRight /> <span className='text-sky-500'>About Me</span> </HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdCastForEducation className='' />Education</HashLink>
+                                <HashLink smooth to="/home#education" className='text-lg  lg:mx-2 hover:text-white hover:bg-primary'><MdCastForEducation /> <span className='text-sky-500'>Education</span> </HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#projects" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrProjects className='' />Projects</HashLink>
+                                <HashLink smooth to="/home#projects" className='text-lg lg:mx-2 hover:text-white hover:bg-primary'><GrProjects /> <span className='text-sky-500'>Projects</span> </HashLink>
                             </li>
 
                             <li>
-                                <HashLink smooth to="/home#contact" className='text-lg text-zinc-800 lg:mx-2 hover:text-white hover:bg-primary'><GrContactInfo className='' />Contact</HashLink>
+                                <HashLink smooth to="/home#contact" className='text-lg lg:mx-2 hover:text-white hover:bg-primary'><GrContactInfo /> <span className='text-sky-500'>Contact</span> </HashLink>
                             </li>
 
                         </ul>
@@ -61,25 +61,25 @@ const Navbar = () => {
                     <ul class="menu menu-horizontal p-0 text-white">
 
                         <li>
-                            <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-400 font-semibold'>Home</HashLink>
+                            <HashLink smooth to="/home#homeDetails" className='text-lg text-zinc-600  hover:text-orange-500 font-semibold'>Home</HashLink>
                         </li>
 
                         <li>
-                            <HashLink smooth to="/home#aboutme" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>About Me</HashLink>
+                            <HashLink smooth to="/home#aboutme" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-500 font-semibold'>About Me</HashLink>
                         </li>
 
                         <li>
-                            <HashLink smooth to="/home#education" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Education</HashLink>
+                            <HashLink smooth to="/home#education" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-500 font-semibold'>Education</HashLink>
                         </li>
 
                         <li>
-                            <HashLink smooth to="/home#projects" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Projects</HashLink>
+                            <HashLink smooth to="/home#projects" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-500 font-semibold'>Projects</HashLink>
                         </li>
                         {/* <li>
                             <HashLink smooth to="/home#blogs" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400'>Blogs</HashLink>
                         </li> */}
                         <li>
-                            <HashLink smooth to="/home#contact" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-400 font-semibold'>Contact</HashLink>
+                            <HashLink smooth to="/home#contact" className='text-lg text-zinc-600 lg:mx-2 hover:text-orange-500 font-semibold'>Contact</HashLink>
                         </li>
 
                     </ul>
@@ -91,13 +91,13 @@ const Navbar = () => {
 
                     <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer"><BsGithub className='text-xl lg:text-2xl' /></a>
 
-                    <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer"><GrLinkedin className='text-blue-500 bg-white rounded text-xl lg:text-2xl' /></a>
+                    <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer"><GrLinkedin className='bg-white rounded text-xl lg:text-2xl' /></a>
 
-                    <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer"><BsFacebook className='text-blue-500 text-xl lg:text-2xl' /></a>
+                    <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer"><BsFacebook className='text-xl lg:text-2xl' /></a>
 
                     {/* <BsInstagram className='text-red-500 text-xl lg:text-2xl' /> */}
 
-                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"><BsTwitter className='text-blue-500 text-xl lg:text-2xl' /></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"><BsTwitter className='text-xl lg:text-2xl' /></a>
 
                 </div>
 

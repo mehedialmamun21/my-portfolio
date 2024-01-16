@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 import { BsTelephoneInbound } from 'react-icons/bs';
 
-import homeImg from '../../assets/images/home.jpg'
+// import homeImg from '../../assets/images/home.jpg'
 
 const HomeDetails = () => {
 
@@ -72,7 +72,7 @@ const HomeDetails = () => {
 
                 {/* <center>
                     <div className='px-5 lg:px-20 pt-0 lg:pt-10 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
-                        <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-sm'>
+                        <div className='px-7 lg:px-10 py-4 lg:py-1'>
                             <img src={homeImg} className='rounded-sm' alt="" />
                         </div>
                         <p className='pt-0 lg:pt-3 flex items-center justify-center'> <BsTelephoneInbound size="1.7rem" className='text-green-600 font' /> <span className='pl-5 text-lg lg:text-lg'>+880 1521413730</span> </p>
@@ -80,15 +80,17 @@ const HomeDetails = () => {
                 </center> */}
 
 
-                <div className="my-5 lg:my-0 flex justify-center items-center">
+                <center>
+                    <div className='pt-10'>
+                        <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/6 lg:w-8/12 rounded-md' alt="" />
+                    </div>
+                </center>
 
-                    {/* <img src="https://i.postimg.cc/Fz0Q8bc1/IMG-20231101-175910.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
-                    {/* <img src="https://i.postimg.cc/KzymDvRn/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-sm' alt="" /> */}
-                    <img src="https://i.postimg.cc/wMsCwz0b/IMG-20231101-1759310.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-xl' alt="" />
-                    {/* <img src="https://i.postimg.cc/hvqzGDz9/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
-                    {/* <img src="https://i.postimg.cc/DwctjBPF/2143.jpg" className='w-4/5 lg:w-3/6 lg:h-4/6 rounded-lg' alt="" /> */}
 
-                </div>
+
+                {/* <div className="my-5 lg:my-0 flex justify-center items-center bg-gray-200 lg:bg-gray-100">
+                    <img src="https://i.postimg.cc/05WVtM9v/2143.jpg" className='w-4/5 lg:w-3/6 h-4/6 lg:h-4/6 rounded-sm' alt="" />
+                </div> */}
 
             </div>
         </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsArrowRight, BsLightningChargeFill, BsPatchQuestion } from 'react-icons/bs'
+import { BsArrowRight, BsLightningChargeFill, BsPatchQuestion, BsTelephoneInbound } from 'react-icons/bs'
 
 import { TbBrandJavascript } from 'react-icons/tb';
 import { TiHtml5 } from 'react-icons/ti';
@@ -7,6 +7,8 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPhp, FaAws, FaDocker } from 'react-icons/fa';
 // import { SiFlask } from 'react-icons/si';
 import { SiMysql, SiFirebase } from 'react-icons/si';
+
+import homeImg from '../../assets/images/home.jpg'
 
 const AboutMe = () => {
     return (
@@ -20,9 +22,18 @@ const AboutMe = () => {
 
                     <div className="my-5 lg:my-0 flex justify-center items-center">
 
-                        <center>
+                        {/* <center>
                             <div className=''>
                                 <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-3/5 lg:w-8/12 rounded-md' alt="" />
+                            </div>
+                        </center> */}
+
+                        <center>
+                            <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
+                                <div className='px-7 lg:px-10 py-4 lg:py-1'>
+                                    <img src={homeImg} className='rounded-2xl' alt="" />
+                                </div>
+                                <p className='pt-0 lg:pt-3 flex items-center justify-center'> <BsTelephoneInbound size="1.7rem" className='text-green-600 font' /> <span className='pl-5 text-lg lg:text-lg'>+880 1521413730</span> </p>
                             </div>
                         </center>
 

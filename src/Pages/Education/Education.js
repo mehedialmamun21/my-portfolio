@@ -211,7 +211,7 @@ const Education = () => {
                                 <div>
                                 </div>
                                 <div className='flex items-center justify-center'>
-                                    <BsArrowRight size="1.6rem" className='text-blue-700' />
+                                    {/* <BsArrowRight size="1.6rem" className='text-blue-700' /> */}
                                     <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
                                 </div>
                             </div>
@@ -226,7 +226,9 @@ const Education = () => {
                     <h1 className='text-2xl lg:text-4xl text-center text-zinc-800 px-5 lg:px-7 font-semibold'>Certifications and <br className='block lg:hidden' /> Achievements </h1>
                 </div>
                 <center>
-                    <div className='lg:flex justify-center gap-3 lg:gap-5 lg:pl-0 items-center bg-blue-200 rounded-sm py-5'>
+                    <p className='bg-gray-200 pt-8 text-red-500 font-serif'>For Better View - Click on Images </p>
+                    <div className='lg:flex justify-center gap-3 lg:gap-5 lg:pl-0 items-center bg-gray-200 rounded-sm py-8'>
+
                         <style>
                             {`
         [title]:hover::before {
@@ -242,13 +244,13 @@ const Education = () => {
         `}
 
                         </style>
-                        <div className='' onClick={() => openModal('https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg')} title="Click for details in big screen">
+                        <div className='' onClick={() => openModal('https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg')} >
                             <img src="https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg" className='h-64 lg:h-64 lg:w-72' alt="" />
                         </div>
-                        <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')} title="Click for details in big screen">
+                        <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')} >
                             <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 lg:w-72' alt="" />
                         </div>
-                        <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/nL7qprNs/b-belt-poster.png')} title="Click for details in big screen">
+                        <div className='mt-5 lg:mt-0' onClick={() => openModal('https://i.postimg.cc/nL7qprNs/b-belt-poster.png')} >
                             <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-64 lg:w-72 rounded-sm' alt="" />
                         </div>
                     </div>
