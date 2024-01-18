@@ -26,10 +26,10 @@ const AboutMe = () => {
                             {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-slate-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
                             <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12'>
                                 <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-full overflow-hidden'>
-                                    <img src={homeImg} className='w-full h-auto' alt="" />
+                                    <img src={homeImg} className='w-full h-auto lg:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]' alt="" />
                                 </div>
 
-                                <p className='pt-0 lg:pt-4 flex items-center justify-center'> <TfiEmail size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
+                                <p className='pt-0 lg:pt-5 flex items-center justify-center'> <TfiEmail size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
                                 <p className='pt-2 flex items-center justify-center'> <BsTelephoneInbound size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>+880 1521413730</span> </p>
 
                             </div>

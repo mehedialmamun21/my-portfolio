@@ -4,6 +4,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import { GrLinkedin, GrProjects, GrContactInfo } from 'react-icons/gr';
 import { BsGithub, BsTwitter, BsFacebook } from 'react-icons/bs';
 import { AiOutlineHome } from 'react-icons/ai';
+import { FaInstagram } from 'react-icons/fa';
 import { MdOutlineRoundaboutRight, MdCastForEducation } from 'react-icons/md';
 import navIcon from '../../assets/images/nav_icon.png';
 
@@ -15,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <section className='sticky top-0 z-50 bg-zinc-100 lg:px-20 shadow-sm bg-opacity-80 backdrop-blur'>
+        <section className='sticky top-0 z-50 bg-zinc-100 lg:px-40 shadow-sm bg-opacity-80 backdrop-blur'>
             <div class="navbar">
 
                 <div class="navbar-start">
@@ -118,20 +119,24 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div class="grid grid-flow-col gap-4 ml-6 lg:ml-28">
+                {/* <div class="grid grid-flow-col gap-4 ml-6 lg:ml-28 hidden lg:block">
                     <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer">
-                        <BsGithub className='text-xl lg:text-2xl' />
+                        <BsGithub className='text-xl lg:text-2xl text-black' />
                     </a>
                     <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer">
-                        <GrLinkedin className='bg-white rounded text-xl lg:text-2xl' />
+                        <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' />
+                    </a>
+                    <a href="https://twitter.com/mehedihstu" target="_blank" rel="noreferrer">
+                        <BsTwitter className='text-xl lg:text-2xl text-teal-400' />
                     </a>
                     <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer">
-                        <BsFacebook className='text-xl lg:text-2xl' />
+                        <BsFacebook className='text-xl lg:text-2xl text-blue-500' />
                     </a>
-                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                        <BsTwitter className='text-xl lg:text-2xl' />
+                    <a href="" target="_blank" rel="noreferrer">
+                        <FaInstagram className='text-xl lg:text-2xl text-pink-500' />
                     </a>
-                </div>
+                </div> */}
+
             </div>
         </section>
     );

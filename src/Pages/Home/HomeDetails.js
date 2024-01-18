@@ -2,8 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-
-import { BsTelephoneInbound } from 'react-icons/bs';
+import { BsFacebook, BsGithub, BsTwitter } from 'react-icons/bs';
+import { GrLinkedin } from 'react-icons/gr';
+import { FaInstagram } from 'react-icons/fa';
 
 // import homeImg from '../../assets/images/home.jpg'
 
@@ -59,12 +60,30 @@ const HomeDetails = () => {
                             </a>
                         </div>
 
-                        <div className='mt-5 lg:border-l-4 lg:border-r-2 border-orange-500'>
+                        <div className='my-7 lg:border-l-4 lg:border-r-2 border-orange-500'>
                             <p className='text-zinc-700 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
                                 A passionate individual who always thrives to work on end to
                                 end products which develop sustainable and scalable social
                                 and technical systems to create impact.
                             </p>
+                        </div>
+
+                        <div class="flex gap-4 justify-center items-center">
+                            <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer">
+                                <BsGithub className='text-xl lg:text-2xl text-black' size="1.9rem" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer">
+                                <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' size="1.9rem" />
+                            </a>
+                            <a href="https://twitter.com/mehedihstu" target="_blank" rel="noreferrer">
+                                <BsTwitter className='text-xl lg:text-2xl text-teal-400' size="1.9rem" />
+                            </a>
+                            <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer">
+                                <BsFacebook className='text-xl lg:text-2xl text-blue-500' size="1.9rem" />
+                            </a>
+                            <a href="" target="_blank" rel="noreferrer">
+                                <FaInstagram className='text-xl lg:text-2xl text-pink-500' size="1.9rem" />
+                            </a>
                         </div>
 
                     </div>
