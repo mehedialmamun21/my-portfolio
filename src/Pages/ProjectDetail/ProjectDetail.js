@@ -10,16 +10,16 @@ const ProjectDetail = () => {
             id: 1,
             img1: "https://i.postimg.cc/sgfgG2bq/image.png",
             img2: "https://i.postimg.cc/hjcycHXL/image.png",
-            img3: "https://i.postimg.cc/6pBf7dWK/image.png"
+            img3: "https://i.postimg.cc/SsbQxbNh/Screenshot-2024-01-18-051432.png"
         },
 
-        {
-            id: 2,
-            img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
-            img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
-            img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png"
-            // name: 'Warehouse Management',
-        },
+        // {
+        //     id: 2,
+        //     img1: "https://i.postimg.cc/3x4v5jbZ/warehouse1.png",
+        //     img2: "https://i.postimg.cc/t4xYmqYS/warehouse2.png",
+        //     img3: "https://i.postimg.cc/QCvjp7kX/warehouse3.png"
+        //     // name: 'Warehouse Management',
+        // },
 
         {
             id: 3,
@@ -37,13 +37,13 @@ const ProjectDetail = () => {
             // name: 'License Plate Detection',
         },
 
-        {
-            id: 5,
-            img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
-            img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
-            img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png"
-            // name: 'Manufacturer Website',
-        }
+        // {
+        //     id: 5,
+        //     img1: "https://i.postimg.cc/cHh43P2c/manufacturer-2.png",
+        //     img2: "https://i.postimg.cc/13DS6LNN/manufacturer-3.png",
+        //     img3: "https://i.postimg.cc/4dgmV6dX/manufacturer-1.png"
+        //     // name: 'Manufacturer Website',
+        // }
     ]
 
     const siteLinks = [
@@ -52,38 +52,41 @@ const ProjectDetail = () => {
             id: 1,
             gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client-new",
             gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
-            liveSite: "https://doctors-portal-a0858.web.app/"
+            liveSite: "https://doctors-portal-a0858.web.app/",
+            projectReport: "https://drive.google.com/file/d/1Av3MzRO8BCIYCI4aLD_qcb5DB0pu7Zgc/view?usp=sharing"
         },
 
-        {
-            id: 2,
-            gitClient: "https://github.com/mehedialmamun21/warehouse-management-client",
-            gitServer: "https://github.com/mehedialmamun21/warehouse-management-server",
-            // liveSite: "https://smartphone-warehouse-7f130.web.app/"
-            liveSite: ""
-        },
+        // {
+        //     id: 2,
+        //     gitClient: "https://github.com/mehedialmamun21/warehouse-management-client",
+        //     gitServer: "https://github.com/mehedialmamun21/warehouse-management-server",
+        //     // liveSite: "https://smartphone-warehouse-7f130.web.app/"
+        //     liveSite: ""
+        // },
 
         {
             id: 3,
             gitClient: "",
             gitServer: "",
-            liveSite: ""
+            liveSite: "",
+            projectReport: ""
         },
 
         {
             id: 4,
             gitClient: "",
             gitServer: "",
-            liveSite: ""
+            liveSite: "",
+            projectReport: ""
         },
 
-        {
-            id: 5,
-            gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
-            gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
-            // liveSite: "https://parts-supplier.web.app/",
-            liveSite: ""
-        }
+        // {
+        //     id: 5,
+        //     gitClient: "https://github.com/mehedialmamun21/manufacturer-website-client",
+        //     gitServer: "https://github.com/mehedialmamun21/manufacturer-website-server",
+        //     // liveSite: "https://parts-supplier.web.app/",
+        //     liveSite: ""
+        // }
     ]
 
     const { id } = useParams();
@@ -94,19 +97,19 @@ const ProjectDetail = () => {
 
     const linkData = siteLinks.find(siteLink => siteLink.id === parseInt(id))
 
-    const { gitClient, gitServer, liveSite } = linkData;
+    const { gitClient, gitServer, liveSite, projectReport } = linkData;
 
     return (
         <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
 
-            <div className='flex flex-col gap-4 py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
+            <div className='flex flex-col gap-4 py-7 lg:py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
                 <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 lg:text-lg hover:text-orange-500'><span className='flex justify-center items-center gap-3'><FiGithub size="1.3rem" /> GitHub Client</span></a>
 
                 <a href={gitServer} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 lg:text-lg hover:text-orange-500'> <span className='flex justify-center items-center gap-3'><FaGithub size="1.3rem" /> GitHub Server</span> </a>
 
                 <a href={liveSite} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800'> <span className='flex justify-center items-center gap-3'><FaExternalLinkAlt size="1rem" /> Live Site Link</span> </a>
 
-                <a href="https://drive.google.com/file/d/1Av3MzRO8BCIYCI4aLD_qcb5DB0pu7Zgc/view?usp=sharing" target="_blank" rel="noreferrer" className="rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800">
+                <a href={projectReport} target="_blank" rel="noreferrer" className="rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800">
                     <span className="flex justify-center items-center gap-3">
                         <HiOutlineDocumentReport size="1.4rem" /> Project Report
                     </span>

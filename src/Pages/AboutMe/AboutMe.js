@@ -7,6 +7,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPhp, FaAws, FaDocker } from 'react-icons/fa';
 // import { SiFlask } from 'react-icons/si';
 import { SiMysql, SiFirebase } from 'react-icons/si';
+import { TfiEmail } from "react-icons/tfi";
 
 import homeImg from '../../assets/images/home.jpg'
 
@@ -29,11 +30,13 @@ const AboutMe = () => {
                         </center> */}
 
                         <center>
-                            <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
+                            <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-slate-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'>
                                 <div className='px-7 lg:px-10 py-4 lg:py-1'>
-                                    <img src={homeImg} className='rounded-2xl' alt="" />
+                                    <img src={homeImg} className='rounded-full' alt="" />
                                 </div>
-                                <p className='pt-0 lg:pt-3 flex items-center justify-center'> <BsTelephoneInbound size="1.7rem" className='text-green-600 font' /> <span className='pl-5 text-lg lg:text-lg'>+880 1521413730</span> </p>
+                                <p className='pt-0 lg:pt-1 flex items-center justify-center'> <BsTelephoneInbound size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>+880 1521413730</span> </p>
+                                <p className='pt-0 lg:pt-1 flex items-center justify-center'> <TfiEmail size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
+
                             </div>
                         </center>
 
@@ -73,6 +76,24 @@ const AboutMe = () => {
                                 </span>
                                 <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in PHP, SQL & Flask</p>
                             </div>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing database interactions and ensuring data integrity</p>
+                            </div>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing deployment processes to ensure efficient updates</p>
+                            </div>
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Optimizing code for better performance</p>
+                            </div>
                         </div>
 
                         <div className='pt-5 lg:pt-0'>
@@ -83,7 +104,14 @@ const AboutMe = () => {
                                 <span className='pt-2 lg:pt-0'>
                                     <BsLightningChargeFill className='text-orange-500' size="1rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Experience working on multiple cloud platforms</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Proficient in deploying, managing, and optimizing applications</p>
+                            </div>
+
+                            <div className='flex lg:items-center'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Working on multiple cloud platforms</p>
                             </div>
 
                         </div>

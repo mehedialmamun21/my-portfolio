@@ -17,15 +17,16 @@ const Projected = ({ project }) => {
 
     return (
 
-        // <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-2xl lg:px-3" data-aos="zoom-in-right">
-        <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-7">
+        <div class="card lg:card-side border-2 border-t-red-500 border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-0">
+            {/* <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-0" data-aos="zoom-in-right"> */}
+            {/* <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-7"> */}
 
             {/* <figure class="px-5 lg:px-5 py-5 lg:py-10">
                 <img src={img} alt="" class="rounded-xl " />
             </figure> */}
 
             <div class="card-body ">
-                <h2 class="card-title text-xl text-zinc-700 flex mb-3">{name}</h2>
+                <h2 class="card-title text-lg text-zinc-700 flex mb-3">{name}</h2>
                 <p className='text-zinc-600 text-sm mb-3'>{about}</p>
                 <div className='flex justify-between items-center'>
                     {/* <button className='btn text-white w-2/4 lg:w-2/6 border-none rounded-none hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]' onClick={() => navigateToProjectDetail(id)}>Details</button> */}
