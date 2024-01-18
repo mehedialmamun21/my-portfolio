@@ -28,7 +28,7 @@ const Contact = () => {
                     <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-10 lg:py-10 flex items-center justify-center'> Get In  <span className='text-orange-500 ml-2'>Touch</span> </h4>
                 </div>
 
-                <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border-2 border-slate-300'>
+                <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] lg:border-2 lg:border-slate-300'>
 
                     <form className='row' ref={form} onSubmit={sendEmail}>
                         <div className='flex flex-col gap-5 w-full'>

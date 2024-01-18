@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { BsLightningChargeFill, BsStackOverflow } from 'react-icons/bs';
-import { SiHackerrank, SiLeetcode, SiStopstalk } from 'react-icons/si';
+import { SiHackerrank, SiLeetcode, SiStopstalk, SiCodeforces } from 'react-icons/si';
 
 const Education = () => {
 
@@ -31,12 +31,13 @@ const Education = () => {
                     <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/6 lg:w-3/12 h-5/6' alt="" />
                 </div>
 
-                <div className=''>
+                <div className='px-5'>
                     <div className='text-center lg:pr-48'>
                         <h2 className='text-3xl lg:text-3xl font-semibold pb-3 lg:pb-5'>Education</h2>
                         <p className='text-xl lg:text-xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
-                        <p className='text-lg lg:text-lg pb-5 lg:pb-5 lg:px-5'>All Handle including Leetcode, HackerRank, Codeforces, Atcoder, Codechef, etc</p>
+                        <p className='text-lg lg:text-lg pb-5 lg:pb-5 lg:px-5'>All Handle including CodeForces, LeetCode, HackerRank, Atcoder, Codechef etc</p>
                         <div className='flex gap-7 items-center justify-center'>
+                            <a href="https://codeforces.com/submissions/AlMamunAvro" target='blank'><SiCodeforces className='text-blue-500' size="2rem" /></a>
                             <a href="#"><SiLeetcode size="2rem" /></a>
                             <a href="#"><SiHackerrank className='text-green-500' size="2rem" /></a>
                             <a href="#"><SiStopstalk className='text-red-700' size="2rem" /></a>
@@ -110,13 +111,13 @@ const Education = () => {
                     }
 
                     .image-container img {
-                        transition: transform 0.3s ease, filter 0.3s ease;
+                        transition: transform 0.8s ease-out, filter 0.8s ease-out;
                         transform-origin: 50% 100%;
-                        filter: blur(1px); /* Initial full blur */
+                        filter: blur(0px); /* Initial full blur */
                     }
 
                     .image-container:hover img {
-                        transform: rotateX(0deg);
+                        transform: scale(1.1); /* Increase the scale for zoom effect on hover */
                         filter: blur(0); /* Clear the blur on hover */
                     }
 
@@ -143,19 +144,19 @@ const Education = () => {
                 `}
                         </style>
 
-                        <div className='image-container' onClick={() => openModal('https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg')}>
-                            <div className='overlay text-white bg-slate-700 px-3 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/15Tv4TFp/IMG-20231230-220729.jpg" className='h-64 lg:h-64 lg:w-72 border border-slate-400 rounded-sm' alt="" />
+                        <div className='image-container' onClick={() => openModal('https://i.postimg.cc/ZK6RGPsw/IMG-20240118-155130.jpg')}>
+                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/ZK6RGPsw/IMG-20240118-155130.jpg" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
                         </div>
 
                         <div className='mt-5 lg:mt-0 image-container' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')}>
-                            <div className='overlay text-white bg-slate-700 px-3 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 lg:w-72 border border-slate-400 rounded-sm' alt="" />
+                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
                         </div>
 
                         <div className='mt-5 lg:mt-0 image-container' onClick={() => openModal('https://i.postimg.cc/nL7qprNs/b-belt-poster.png')}>
-                            <div className='overlay text-white bg-slate-700 px-3 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-64 lg:w-72 border border-slate-400 rounded-sm' alt="" />
+                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
                         </div>
                     </div>
                 </center>
