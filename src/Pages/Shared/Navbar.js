@@ -66,7 +66,7 @@ const Navbar = () => {
                                 smooth
                                 to="/home#homeDetails"
                                 className={`text-lg ${activeLink === 'home' ? 'underline' : 'text-zinc-600'
-                                    }  hover:text-orange-500 font-semibold`}
+                                    } lg:mx-2 hover:text-orange-500 font-semibold`}
                                 onClick={() => handleLinkClick('home')}
                             >
                                 Home

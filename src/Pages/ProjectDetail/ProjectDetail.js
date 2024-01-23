@@ -100,7 +100,7 @@ const ProjectDetail = () => {
     const { gitClient, gitServer, liveSite, projectReport } = linkData;
 
     return (
-        <section className='bg-zinc-200 text-white lg:flex lg:px-20'>
+        <section className='bg-zinc-200 text-white lg:flex lg:px-40'>
 
             <div className='flex flex-col gap-4 py-7 lg:py-10 lg:px-5 text-center px-20 t-0 b-0 lg:fixed z-10 w-full lg:w-2/12'>
                 <a href={gitClient} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 text-zinc-800 lg:text-lg hover:text-orange-500'><span className='flex justify-center items-center gap-3'><FiGithub size="1.3rem" /> GitHub Client</span></a>
