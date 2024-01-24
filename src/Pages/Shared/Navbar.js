@@ -5,11 +5,14 @@ import { GrLinkedin, GrProjects, GrContactInfo } from 'react-icons/gr';
 import { BsGithub, BsTwitter, BsFacebook } from 'react-icons/bs';
 import { AiOutlineHome } from 'react-icons/ai';
 import { FaInstagram } from 'react-icons/fa';
+import { BiSearchAlt2 } from 'react-icons/bi';
 import { MdOutlineRoundaboutRight, MdCastForEducation } from 'react-icons/md';
 import navIcon from '../../assets/images/nav_icon.png';
 
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState('');
+
+    const [searchQuery, setSearchQuery] = useState('');
 
     const handleLinkClick = (section) => {
         setActiveLink(section);
@@ -58,6 +61,32 @@ const Navbar = () => {
                     </div>
 
                 </div>
+
+
+
+
+                <div className='ml-3 lg:mx-14' style={{ position: 'relative', width: '45%' }}>
+                    <input
+                        type="text"
+                        placeholder="Search"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        style={{
+                            backgroundColor: '#FFFFFF',
+                            border: '1px solid #808080',
+                            borderRadius: '0px',
+                            fontSize: '12px',
+                            padding: '5px 40px 5px 5px', // Adjust padding as needed
+                            width: '100%', // Adjust width as needed
+                        }}
+                    />
+                    <span className="bg-slate-500 text-white px-2 py-1 cursor-pointer" style={{ position: 'absolute', right: '0px', top: '0px' }}>
+                        <BiSearchAlt2 size="1.3rem" />
+                    </span>
+                </div>
+
+
+
 
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0 text-black">

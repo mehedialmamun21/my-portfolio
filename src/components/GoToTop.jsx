@@ -29,7 +29,7 @@ const GoToTop = () => {
         <Wrapper>
             {isVisible && (
                 <div className='top-btn' onClick={goToTop}>
-                    <IoIosArrowDropupCircle className='icon' size='3.7rem' color='#30b36d' />
+                    <IoIosArrowDropupCircle className='icon' size='3.7rem' color='#4974a5' />
                 </div>
             )}
         </Wrapper>

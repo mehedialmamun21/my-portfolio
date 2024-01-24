@@ -140,9 +140,9 @@ const HomeDetails = () => {
 
                         <div className='mt-5'>
                             <a href="/home" className='inline-block'>
-                                <button className='flex items-center text-lg px-10 py-1 text-white hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]'>
-                                    <p className='pr-3'>Resume</p>
-                                    <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                                <button className='flex items-center text-lg px-5 py-0 text-white hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]'>
+                                    <p className='pr-3 text-md'>Resume</p>
+                                    <FontAwesomeIcon icon={faDownload} />
                                 </button>
                             </a>
                         </div>
@@ -155,27 +155,27 @@ const HomeDetails = () => {
 
                         <div className='flex gap-4 justify-center items-center'>
                             <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer">
-                                <BsGithub className='text-xl lg:text-2xl text-black' size="1.9rem" />
+                                <BsGithub className='text-xl lg:text-2xl text-black' size="1.6rem" />
                             </a>
                             <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer">
-                                <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' size="1.9rem" />
+                                <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' size="1.6rem" />
                             </a>
                             <a href="https://twitter.com/mehedihstu" target="_blank" rel="noreferrer">
-                                <BsTwitter className='text-xl lg:text-2xl text-teal-400' size="1.9rem" />
+                                <BsTwitter className='text-xl lg:text-2xl text-teal-400' size="1.6rem" />
                             </a>
                             <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer">
-                                <BsFacebook className='text-xl lg:text-2xl text-blue-500' size="1.9rem" />
+                                <BsFacebook className='text-xl lg:text-2xl text-blue-500' size="1.6rem" />
                             </a>
                             <a href="#" target="_blank" rel="noreferrer">
-                                <FaInstagram className='text-xl lg:text-2xl text-pink-500' size="1.9rem" />
+                                <FaInstagram className='text-xl lg:text-2xl text-pink-500' size="1.6rem" />
                             </a>
                         </div>
                     </div>
                 </center>
 
                 <center>
-                    <div className='pt-10'>
-                        <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/6 lg:w-8/12 rounded-md' alt="" />
+                    <div className='pt-10 lg:pt-16'>
+                        <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/6 lg:w-7/12 rounded-md' alt="" />
                     </div>
                 </center>
             </div>

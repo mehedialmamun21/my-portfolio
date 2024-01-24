@@ -25,7 +25,7 @@ const Contact = () => {
             <div className='w-full lg:w-6/12 rounded-sm text-black px-5 lg:px-5 pb-0 lg:pb-0'>
 
                 <div className='flex items-center justify-center'>
-                    <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-10 lg:py-10 flex items-center justify-center'> Get In  <span className='text-orange-500 ml-2'>Touch</span> </h4>
+                    <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-10 lg:py-10 flex items-center justify-center'> Get In  <span className='text-orange-400 ml-2'>Touch</span> </h4>
                 </div>
 
                 <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] lg:border-2 lg:border-slate-300'>

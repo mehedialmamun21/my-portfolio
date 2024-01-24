@@ -26,11 +26,11 @@ const AboutMe = () => {
                             {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-slate-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
                             <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12'>
                                 <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-full overflow-hidden'>
-                                    <img src={homeImg} className='w-full h-auto lg:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]' alt="" />
+                                    <img src={homeImg} className='w-full h-auto' alt="" />
                                 </div>
 
-                                <p className='pt-0 lg:pt-5 flex items-center justify-center'> <TfiEmail size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
-                                <p className='pt-2 flex items-center justify-center'> <BsTelephoneInbound size="1rem" className='text-green-600 font' /> <span className='pl-3 text-md lg:text-md'>+880 1521413730</span> </p>
+                                <p className='pt-2 lg:pt-5 flex items-center justify-center'> <TfiEmail size="1rem" className='text-orange-600' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
+                                <p className='pt-2 flex items-center justify-center'> <BsTelephoneInbound size="1rem" className='text-orange-600' /> <span className='pl-3 text-md lg:text-md'>+880 1521413730</span> </p>
 
                             </div>
                         </center>
@@ -40,78 +40,80 @@ const AboutMe = () => {
                     <div className='grid grid-cols-1'>
 
                         <div className='pt-5 lg:pt-0'>
-                            <div className='flex items-center justify-center lg:justify-start pb-3 lg:pb-5'>
+                            <div className='flex items-center justify-center lg:justify-start pb-3 lg:pb-3'>
                                 <h2 className='text-2xl pr-2 text-zinc-700 font-semibold'> What I Do </h2>
                                 <BsPatchQuestion size="2rem" />
                             </div>
                             <span className='flex items-center justify-center lg:justify-start'>
-                                <h1 className='text-2xl lg:text-2xl pb-5 text-zinc-800'>Full Stack Development</h1>
+                                <h1 className='text-2xl lg:text-2xl pb-3 text-zinc-800'>Full Stack Development</h1>
                             </span>
-                            <div className='grid grid-cols-6 lg:grid-cols-10 pb-5'>
-                                <FaReact className='text-blue-600' size="2.5rem" />
+                            <div className='grid grid-cols-6 lg:grid-cols-12 pb-3'>
+                                <FaReact className='text-blue-600' size="2.2rem" />
                                 <TbBrandJavascript className='text-yellow-600' size="2.5rem" />
-                                <TiHtml5 className='text-orange-700' size="2.5rem" />
-                                <IoLogoCss3 className='text-blue-600' size="2.5rem" />
-                                <FaNodeJs className='text-green-600' size="2.5rem" />
-                                <SiMongodb className='text-green-500 bg-black rounded-full' size="2.5rem" />
+                                <TiHtml5 className='text-orange-700' size="2.2rem" />
+                                <IoLogoCss3 className='text-blue-600' size="2.2rem" />
+                                <FaNodeJs className='text-green-600' size="2.2rem" />
+                                <SiMongodb className='text-green-500 bg-black rounded-full' size="2.2rem" />
                             </div>
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Building responsive website front end using ReactJS</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Building responsive website front end using ReactJS.</p>
                             </div>
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in Node.js, MongoDB & SQL</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in Node.js, MongoDB & SQL.</p>
                             </div>
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing database interactions and ensuring data integrity</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing database interactions and ensuring data integrity.</p>
                             </div>
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing deployment processes to ensure efficient updates</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing deployment processes to ensure efficient updates.</p>
                             </div>
-                            <div className='flex lg:items-center'>
-                                <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
-                                </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Optimizing code for better performance</p>
-                            </div>
+
                         </div>
 
                         <div className='pt-5 lg:pt-0'>
 
                             <h1 className='text-2xl lg:text-2xl flex justify-center lg:justify-start text-zinc-800 pb-3 lg:pt-3'>Familiar with other tools</h1>
 
-                            <div className='grid grid-cols-6 lg:grid-cols-10 pb-5'>
-                                <FaAngular className='text-red-600' size="2.5rem" />
-                                <TbBrandDjango className='text-black' size="2.5rem" />
-                                <FaDocker className='text-blue-500' size="2.5rem" />
-                                <SiFirebase className='text-orange-500' size="2.5rem" />
-                                <SiMysql className='text-blue-600' size="2.5rem" />
-                                <FaAws className='text-orange-600' size="2.5rem" />
+                            <div className='grid grid-cols-6 lg:grid-cols-12 pb-3'>
+                                <FaAngular className='text-red-600' size="2.2rem" />
+                                <TbBrandDjango className='text-black' size="2.2rem" />
+                                <FaDocker className='text-blue-500' size="2.2rem" />
+                                <SiFirebase className='text-orange-500' size="2.2rem" />
+                                <SiMysql className='text-blue-600' size="2.2rem" />
+                                <FaAws className='text-orange-600' size="2.2rem" />
                             </div>
 
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Proficient in deploying, managing, and optimizing applications</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Familiar with containerization technologies for streamlined deployment and scaling.</p>
                             </div>
 
-                            <div className='flex lg:items-center'>
+                            <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Working on multiple cloud platforms</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Optimizing code for better performance.</p>
+                            </div>
+
+                            <div className='flex'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Working on multiple cloud platforms.</p>
                             </div>
 
                         </div>
