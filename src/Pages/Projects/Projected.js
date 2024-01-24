@@ -26,8 +26,8 @@ const Projected = ({ project }) => {
             </figure> */}
 
             <div class="card-body ">
-                <h2 class="card-title text-lg text-zinc-700 flex mb-3">{name}</h2>
-                <p className='text-zinc-600 text-sm mb-3'>{about}</p>
+                <h2 class="card-title text-lg text-zinc-700 flex mb-3 font-sans">{name}</h2>
+                <p className='text-zinc-600 text-sm mb-3 font-sans'>{about}</p>
                 <div className='flex justify-between items-center'>
                     {/* <button className='btn text-white w-2/4 lg:w-2/6 border-none rounded-none hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]' onClick={() => navigateToProjectDetail(id)}>Details</button> */}
                     <button className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-7 lg:px-7 py-2 text-lg' onClick={() => navigateToProjectDetail(id)}>Details</button>

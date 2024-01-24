@@ -37,7 +37,7 @@ const Education = () => {
                         <p className='text-xl lg:text-xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
                         <p className='text-lg lg:text-lg pb-5 lg:pb-5 lg:px-5'>All Handle including CodeForces, LeetCode, HackerRank, Atcoder, Codechef etc</p>
                         <div className='flex gap-7 items-center justify-center'>
-                            <a href="https://codeforces.com/submissions/AlMamunAvro" target='blank'><SiCodeforces className='text-blue-500' size="2rem" /></a>
+                            <a href="https://codeforces.com/submissions/AlMamunAvro" target='blank'><SiCodeforces className='text-blue-400' size="2rem" /></a>
                             <a href="#"><SiLeetcode size="2rem" /></a>
                             <a href="#"><SiHackerrank className='text-green-500' size="2rem" /></a>
                             <a href="#"><SiStopstalk className='text-red-700' size="2rem" /></a>
@@ -58,27 +58,27 @@ const Education = () => {
                         <div className='bg-teal-200 border-2 border-t-teal-600 px-10 py-5 lg:pl-6 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
 
                             <div className='pt-0 lg:pt-4'>
-                                <h2 className='text-lg lg:text-xl font-semibold'>Hajee Mohammad Danesh Science & Technology University</h2>
-                                <p className='text-sm lg:text-md pt-1'>HSTU, Dinajpur, Bangladesh</p>
-                                <p className='text-md lg:text-lg pt-3'>B.Sc (Engineering) in Computer Science and Engineering</p>
-                                <p className='text-sm lg:text-md pt-1'>2018 - 2021</p>
+                                <h2 className='text-lg lg:text-xl font-semibold font-mono'>Hajee Mohammad Danesh Science & Technology University</h2>
+                                <p className='text-sm lg:text-sm pt-1 font-mono'>HSTU, Dinajpur, Bangladesh</p>
+                                <p className='text-md lg:text-md pt-3 font-semibold font-mono'>B.Sc (Engineering) in Computer Science and Engineering</p>
+                                <p className='text-sm lg:text-sm pt-1 font-mono'>( 2018 - 2021 )</p>
                             </div>
 
                             <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-2 lg:h-40 w-4/12 lg:w-2/12 invisible lg:visible' alt="" />
 
                         </div>
-                        <div className='px-5 py-5'>
+                        <div className='px-5 py-5 bg-white'>
                             <div className='flex pb-3'>
-                                <span className='pt-1'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                <span className='mt-1'>
+                                    <BsLightningChargeFill className='text-orange-500' size="0.9rem" />
                                 </span>
-                                <p className='text-md lg:text-md text-zinc-800 pl-2'> I have studied basic software engineering subjects like Data Structure, Algorithms, DBMS, Operating System, OOP, Artificial Intelligence, Machine Learning, Computer Architecture and Organization, Software Engineering, Web Engineering, Numerical Analysis, Cybersecurity, Cloud Computing, Data Communication and Networking etc.</p>
+                                <p className='text-md lg:text-md text-zinc-800 pl-2 font-sans'> I have studied basic software engineering subjects like Data Structure, Algorithms, DBMS, Operating System, OOP, Artificial Intelligence, Machine Learning, Computer Architecture and Organization, Software Engineering, Web Engineering, Numerical Analysis, Cybersecurity, Cloud Computing, Data Communication and Networking etc.</p>
                             </div>
                             <div className='flex'>
-                                <span className='pt-1'>
-                                    <BsLightningChargeFill className='text-orange-500' size="1rem" />
+                                <span className='mt-1'>
+                                    <BsLightningChargeFill className='text-orange-500' size="0.9rem" />
                                 </span>
-                                <p className='text-md lg:text-md text-zinc-800 pl-2'>Apart from this, I have done courses on Front-end Web Development, Machine Learning and Cloud Computing.</p>
+                                <p className='text-md lg:text-md text-zinc-800 pl-2 font-sans'>Apart from this, I have done courses on Front-end Web Development, Machine Learning and Cloud Computing.</p>
                             </div>
                             <div className='flex justify-end mt-7'>
                                 <div>

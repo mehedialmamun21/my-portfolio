@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <div className="my-5 lg:my-0 flex justify-center items-center">
 
                         <center>
-                            {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-slate-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
+                            {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-orange-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
                             <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12'>
                                 <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-full overflow-hidden'>
                                     <img src={homeImg} className='w-full h-auto' alt="" />
@@ -57,27 +57,27 @@ const AboutMe = () => {
                             </div>
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Building responsive website front end using ReactJS.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Building responsive website front end using ReactJS.</p>
                             </div>
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Creating application backend in Node.js, MongoDB & SQL.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Creating application backend in Node.js, MongoDB & SQL.</p>
                             </div>
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing database interactions and ensuring data integrity.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Managing database interactions and ensuring data integrity.</p>
                             </div>
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Managing deployment processes to ensure efficient updates.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Managing deployment processes to ensure efficient updates.</p>
                             </div>
 
                         </div>
@@ -95,25 +95,25 @@ const AboutMe = () => {
                                 <FaAws className='text-orange-600' size="2.2rem" />
                             </div>
 
+                            {/* <div className='flex'>
+                                <span className='pt-2 lg:pt-0'>
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
+                                </span>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-serif'>Familiar with containerization technologies for streamlined deployment and scaling.</p>
+                            </div> */}
+
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Familiar with containerization technologies for streamlined deployment and scaling.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Optimizing code for better performance.</p>
                             </div>
 
                             <div className='flex'>
                                 <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
+                                    <BsLightningChargeFill className='text-orange-500 lg:mt-2' size="0.9rem" />
                                 </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Optimizing code for better performance.</p>
-                            </div>
-
-                            <div className='flex'>
-                                <span className='pt-2 lg:pt-0'>
-                                    <BsLightningChargeFill className='text-slate-500 lg:mt-2' size="0.9rem" />
-                                </span>
-                                <p className='text-lg lg:text-xl text-zinc-600 pl-2'>Working on multiple cloud platforms.</p>
+                                <p className='text-lg lg:text-xl text-zinc-600 pl-2 font-sans'>Working on multiple cloud platforms.</p>
                             </div>
 
                         </div>

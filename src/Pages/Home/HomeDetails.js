@@ -148,7 +148,7 @@ const HomeDetails = () => {
                         </div>
 
                         <div className='my-7 lg:border-l-4 lg:border-r-2 border-orange-500'>
-                            <p className='text-zinc-700 text-lg lg:text-2xl px-2 lg:px-1 font-sans font-semibold '>
+                            <p className='text-zinc-700 text-lg lg:text-2xl px-2 lg:px-3 font-serif'>
                                 A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
                             </p>
                         </div>
@@ -161,7 +161,7 @@ const HomeDetails = () => {
                                 <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' size="1.6rem" />
                             </a>
                             <a href="https://twitter.com/mehedihstu" target="_blank" rel="noreferrer">
-                                <BsTwitter className='text-xl lg:text-2xl text-teal-400' size="1.6rem" />
+                                <BsTwitter className='text-xl lg:text-2xl text-teal-500' size="1.6rem" />
                             </a>
                             <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer">
                                 <BsFacebook className='text-xl lg:text-2xl text-blue-500' size="1.6rem" />
