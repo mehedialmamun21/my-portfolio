@@ -113,9 +113,11 @@ import { BsFacebook, BsGithub, BsTwitter } from 'react-icons/bs';
 import { GrLinkedin } from 'react-icons/gr';
 import { FaInstagram } from 'react-icons/fa';
 
+import homeImg from '../../assets/images/about.svg'
+
 const HomeDetails = () => {
     const [state] = useState({
-        titleOne: "Md. Mehedi Al Mamun",
+        titleOne: "Mehedi Al Mamun",
     });
 
     return (
@@ -173,9 +175,15 @@ const HomeDetails = () => {
                     </div>
                 </center>
 
-                <center>
+                {/* <center>
                     <div className='pt-10 lg:pt-16'>
                         <img src="https://i.postimg.cc/XYWWXWCm/home1-removebg-preview.png" className='w-4/6 lg:w-7/12 rounded-md' alt="" />
+                    </div>
+                </center> */}
+
+                <center>
+                    <div className='pt-10 lg:pt-16'>
+                        <img src={homeImg} className='w-9/12 lg:w-9/12 rounded-md' alt="" />
                     </div>
                 </center>
             </div>

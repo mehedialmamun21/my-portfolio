@@ -4,34 +4,41 @@ import { TbBrandJavascript } from 'react-icons/tb';
 import { TiHtml5 } from 'react-icons/ti';
 import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaNodeJs, FaAws, FaDocker, FaAngular } from 'react-icons/fa';
-import { SiMysql, SiFirebase, SiMongodb, SiDjango } from 'react-icons/si';
+import { SiMysql, SiFirebase, SiMongodb } from 'react-icons/si';
 import { TbBrandDjango } from "react-icons/tb";
 import { TfiEmail } from "react-icons/tfi";
 
-import homeImg from '../../assets/images/home.jpg'
+import homeImg from '../../assets/images/home.svg'
 
 const AboutMe = () => {
     return (
         <section className='px-5 lg:px-20 pt-20 pb-10 lg:pt-20'>
 
             <div>
-                <h1 className='text-3xl lg:text-4xl text-center font-semibold text-zinc-700 pb-10 lg:py-10'>About <span className='text-orange-400'>Me</span> </h1>
+                <h1 className='text-3xl lg:text-4xl text-center font-semibold text-zinc-700 lg:py-10'>About <span className='text-orange-400'>Me</span> </h1>
             </div>
             <div>
                 <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                     <div className="my-5 lg:my-0 flex justify-center items-center">
 
-                        <center>
-                            {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-orange-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
-                            <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12'>
+                        {/* <center> */}
+                        {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12  bg-orange-200 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] border-2 border-l-teal-500 border-t-teal-500'> */}
+                        {/* <div className='px-5 lg:px-20 pt-0 lg:pt-0 pb-3 lg:pb-5 lg:my-20 w-full lg:w-9/12'>
                                 <div className='px-7 lg:px-10 py-4 lg:py-1 rounded-full overflow-hidden'>
                                     <img src={homeImg} className='w-full h-auto' alt="" />
-                                </div>
+                                </div> */}
 
+                        {/* <div>
                                 <p className='pt-2 lg:pt-5 flex items-center justify-center'> <TfiEmail size="1rem" className='text-orange-600' /> <span className='pl-3 text-md lg:text-md'>mehedi.hstu.cse@gmail.com</span> </p>
                                 <p className='pt-2 flex items-center justify-center'> <BsTelephoneInbound size="1rem" className='text-orange-600' /> <span className='pl-3 text-md lg:text-md'>+880 1521413730</span> </p>
+                            </div> */}
 
+                        {/* </div> */}
+                        {/* </center> */}
+                        <center>
+                            <div className='pt-0 lg:pt-16 hidden lg:block'>
+                                <img src={homeImg} className='w-4/6 lg:w-10/12' alt="" />
                             </div>
                         </center>
 
@@ -39,7 +46,7 @@ const AboutMe = () => {
 
                     <div className='grid grid-cols-1'>
 
-                        <div className='pt-5 lg:pt-0'>
+                        <div className='lg:pt-0'>
                             <div className='flex items-center justify-center lg:justify-start pb-3 lg:pb-3'>
                                 <h2 className='text-2xl pr-2 text-zinc-700 font-semibold'> What I Do </h2>
                                 <BsPatchQuestion size="2rem" />

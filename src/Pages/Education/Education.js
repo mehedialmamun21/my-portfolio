@@ -3,6 +3,8 @@ import Modal from 'react-modal';
 import { BsLightningChargeFill, BsStackOverflow } from 'react-icons/bs';
 import { SiHackerrank, SiLeetcode, SiStopstalk, SiCodeforces } from 'react-icons/si';
 
+import eduImg from '../../assets/images/education.svg'
+
 const Education = () => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -27,24 +29,29 @@ const Education = () => {
 
             <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
-                <div className="mb-5 lg:mb-0 flex justify-center lg:pl-48">
-                    <img src="https://i.postimg.cc/7LVwsZsq/6814115-removebg-preview.png" className='w-2/6 lg:w-3/12 h-5/6' alt="" />
-                </div>
+                <center>
+                    <div className="mb-5 lg:mb-0 flex justify-center px-5 lg:pl-48">
+                        <div className='text-center lg:pr-0 lg:mt-24'>
+                            <h2 className='text-3xl lg:text-3xl font-semibold pb-3 lg:pb-5'>Education</h2>
+                            <p className='text-xl lg:text-xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
+                            <p className='text-lg lg:text-lg pb-5 lg:pb-5 lg:px-5'>All Handle including CodeForces, LeetCode, HackerRank, Atcoder, Codechef etc</p>
+                            <div className='flex gap-7 items-center justify-center'>
+                                <a href="https://codeforces.com/submissions/AlMamunAvro" target='blank'><SiCodeforces className='text-blue-400' size="2rem" /></a>
+                                <a href="#"><SiLeetcode size="2rem" /></a>
+                                <a href="#"><SiHackerrank className='text-green-500' size="2rem" /></a>
+                                <a href="#"><SiStopstalk className='text-red-700' size="2rem" /></a>
+                                <a href="#"><BsStackOverflow className='text-yellow-500' size="2rem" /></a>
+                            </div>
 
-                <div className='px-5'>
-                    <div className='text-center lg:pr-48'>
-                        <h2 className='text-3xl lg:text-3xl font-semibold pb-3 lg:pb-5'>Education</h2>
-                        <p className='text-xl lg:text-xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
-                        <p className='text-lg lg:text-lg pb-5 lg:pb-5 lg:px-5'>All Handle including CodeForces, LeetCode, HackerRank, Atcoder, Codechef etc</p>
-                        <div className='flex gap-7 items-center justify-center'>
-                            <a href="https://codeforces.com/submissions/AlMamunAvro" target='blank'><SiCodeforces className='text-blue-400' size="2rem" /></a>
-                            <a href="#"><SiLeetcode size="2rem" /></a>
-                            <a href="#"><SiHackerrank className='text-green-500' size="2rem" /></a>
-                            <a href="#"><SiStopstalk className='text-red-700' size="2rem" /></a>
-                            <a href="#"><BsStackOverflow className='text-yellow-500' size="2rem" /></a>
                         </div>
                     </div>
-                </div>
+                </center>
+
+                <center>
+                    <div className='lg:pr-24'>
+                        <img src={eduImg} className='w-5/6 lg:w-10/12 h-5/6' alt="" />
+                    </div>
+                </center>
 
             </div>
 
@@ -113,12 +120,12 @@ const Education = () => {
                     .image-container img {
                         transition: transform 0.8s ease-out, filter 0.8s ease-out;
                         transform-origin: 50% 100%;
-                        filter: blur(0px); /* Initial full blur */
+                        filter: blur(2px); /* Initial full blur */
                     }
 
                     .image-container:hover img {
                         transform: scale(1.1); /* Increase the scale for zoom effect on hover */
-                        filter: blur(0); /* Clear the blur on hover */
+                        filter: blur(2); /* Clear the blur on hover */
                     }
 
                     .overlay {
@@ -144,21 +151,23 @@ const Education = () => {
                 `}
                         </style>
 
-                        <div className='image-container' onClick={() => openModal('https://i.postimg.cc/ZK6RGPsw/IMG-20240118-155130.jpg')}>
-                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/ZK6RGPsw/IMG-20240118-155130.jpg" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
+                        <div className='image-container' onClick={() => openModal('https://i.postimg.cc/XYNCLmPh/IMG-20240126-065259.jpg')}>
+                            <div className='overlay text-white bg-purple-700 px-3 py-1 text-md rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/XYNCLmPh/IMG-20240126-065259.jpg" className='h-64 lg:h-64 w-80 lg:w-72 rounded-sm' alt="" />
                         </div>
 
                         <div className='mt-5 lg:mt-0 image-container' onClick={() => openModal('https://i.postimg.cc/1XbtYcMf/certification.png')}>
-                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
+                            <div className='overlay text-white bg-purple-700 px-3 py-1 text-md rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/1XbtYcMf/certification.png" className='h-64 lg:h-64 w-80 lg:w-72 rounded-sm' alt="" />
                         </div>
 
                         <div className='mt-5 lg:mt-0 image-container' onClick={() => openModal('https://i.postimg.cc/nL7qprNs/b-belt-poster.png')}>
-                            <div className='overlay text-white bg-slate-700 px-3 py-1 text-md shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] rounded-sm text-sm'>Click to Enlarge</div>
-                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-64 lg:w-72 border border-teal-600 rounded-sm' alt="" />
+                            <div className='overlay text-white bg-purple-700 px-3 py-1 text-md rounded-sm text-sm'>Click to Enlarge</div>
+                            <img src="https://i.postimg.cc/nL7qprNs/b-belt-poster.png" className='h-64 lg:h-64 w-80 lg:w-72 rounded-sm' alt="" />
                         </div>
+
                     </div>
+
                 </center>
             </div>
 
