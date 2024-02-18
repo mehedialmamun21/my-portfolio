@@ -91,7 +91,7 @@ const Education = () => {
                                 <div>
                                 </div>
                                 <div className='flex items-center justify-center'>
-                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 rounded-full' target="_blank">Visit Website</a>
+                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-3 lg:px-7 py-1 lg:py-2 text-lg ml-3 rounded-full' target="_blank">Visit Website</a>
                                 </div>
                             </div>
                         </div>

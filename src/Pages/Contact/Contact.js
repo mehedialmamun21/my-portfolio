@@ -44,10 +44,10 @@ const Contact = () => {
                                 <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control stylish-textarea shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
                             </div>
 
-                            <div className='flex justify-end mt-3 lg:mt-5'>
+                            <div className='flex justify-end mt-5 lg:mt-5'>
                                 {/* <input type="submit" value="Send Message" className='form-control stylish-button' /> */}
                                 <input type="submit" value="Send Message" className='bg-gradient-to-r from-[var(--primary-purple)] 
-                                to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 cursor-pointer rounded-full' />
+                                to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-3 lg:px-7 py-1 lg:py-2 text-lg ml-3 cursor-pointer rounded-full' />
                             </div>
 
                         </div>
