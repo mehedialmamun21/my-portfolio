@@ -37,7 +37,7 @@ const AboutMe = () => {
                         {/* </div> */}
                         {/* </center> */}
                         <center>
-                            <div className='pt-0 lg:pt-16 hidden lg:block'>
+                            <div className='pt-0 lg:pt-16 hidden lg:block bg-education-backImg2 bg-center bg-contain bg-no-repeat'>
                                 <img src={homeImg} className='w-4/6 lg:w-10/12' alt="" />
                             </div>
                         </center>

@@ -7,6 +7,9 @@ module.exports = {
       // },
       backgroundImage: {
         'contact-backImg': "url('/src/assets/images/background-contactform.jpg')",
+        'education-backImg1': "url('/src/assets/images/shape-2.png')",
+        'education-backImg2': "url('/src/assets/images/shape-1.png')",
+        'contact-backImg3': "url('/src/assets/images/shape-4.png')",
         'banner-section-backImg': "url('/src/assets/images/animate.png')"
       }
     },

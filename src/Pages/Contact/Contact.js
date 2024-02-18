@@ -28,10 +28,10 @@ const Contact = () => {
                     <h4 className='text-3xl lg:text-4xl text-zinc-700 font-semibold pb-10 lg:py-10 flex items-center justify-center'> Get In  <span className='text-orange-400 ml-2'>Touch</span> </h4>
                 </div>
 
-                <div className='px-2 lg:px-24 py-5 lg:py-10 lg:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] lg:border-2 lg:border-slate-300 lg:bg-white'>
+                <div className='px-2 lg:px-24 py-5 lg:py-10 bg-contact-backImg3 bg-contain bg-no-repeat'>
 
                     <form className='row' ref={form} onSubmit={sendEmail}>
-                        <div className='flex flex-col gap-5 w-full'>
+                        <div className='flex flex-col gap-5 w-full mt-4 lg:mt-16'>
                             <div className='flex gap-4 w-full'>
                                 <input type="text" name="user_name" placeholder='Your Name' className='form-control stylish-input shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
 
@@ -44,10 +44,10 @@ const Contact = () => {
                                 <textarea name='message' rows="4" placeholder='Type Your Message' className='form-control stylish-textarea shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]' required />
                             </div>
 
-                            <div className='flex justify-end'>
+                            <div className='flex justify-end mt-3 lg:mt-5'>
                                 {/* <input type="submit" value="Send Message" className='form-control stylish-button' /> */}
                                 <input type="submit" value="Send Message" className='bg-gradient-to-r from-[var(--primary-purple)] 
-                                to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 cursor-pointer' />
+                                to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 cursor-pointer rounded-full' />
                             </div>
 
                         </div>

@@ -140,14 +140,14 @@ const HomeDetails = () => {
                             />
                         </div>
 
-                        <div className='mt-5'>
+                        {/* <div className='mt-5'>
                             <a href="/home" className='inline-block'>
                                 <button className='flex items-center text-lg px-5 py-0 text-white hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)]'>
                                     <p className='pr-3 text-md'>Resume</p>
                                     <FontAwesomeIcon icon={faDownload} />
                                 </button>
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className='my-7 lg:border-l-4 lg:border-r-2 border-orange-500'>
                             <p className='text-zinc-700 text-lg lg:text-2xl px-2 lg:px-3 font-serif'>
@@ -182,7 +182,7 @@ const HomeDetails = () => {
                 </center> */}
 
                 <center>
-                    <div className='pt-10 lg:pt-16'>
+                    <div className='pt-10 lg:pt-12'>
                         <img src={homeImg} className='w-9/12 lg:w-9/12 rounded-md' alt="" />
                     </div>
                 </center>

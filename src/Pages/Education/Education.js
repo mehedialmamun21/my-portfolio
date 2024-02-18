@@ -48,12 +48,12 @@ const Education = () => {
                 </center>
 
                 <center>
-                    <div className='lg:pr-24'>
+                    <div className='lg:pr-24 bg-education-backImg1 bg-center bg-contain bg-no-repeat mt-10 lg:mt-0' >
                         <img src={eduImg} className='w-5/6 lg:w-10/12 h-5/6' alt="" />
                     </div>
                 </center>
 
-            </div>
+            </div >
 
             <div className='lg:px-48'>
 
@@ -91,7 +91,7 @@ const Education = () => {
                                 <div>
                                 </div>
                                 <div className='flex items-center justify-center'>
-                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3' target="_blank">Visit Website</a>
+                                    <a href="https://www.hstu.ac.bd/" rel="noreferrer" className='bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] hover:bg-gradient-to-r hover:from-[var(--primary-blue)] hover:to-[var(--primary-purple)] text-white px-5 lg:px-7 py-2 text-lg ml-3 rounded-full' target="_blank">Visit Website</a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,8 @@ const Education = () => {
 
             </div>
 
-            <div className='lg:px-48'>
+
+            {/* <div className='lg:px-48'>
                 <div className='flex items-center justify-center mt-12 lg:mt-20 mb-8 lg:mb-14'>
                     <h1 className='text-2xl lg:text-3xl text-center text-zinc-800 px-5 lg:px-7 font-semibold'>Certifications and <br className='block lg:hidden' /> Achievements </h1>
                 </div>
@@ -120,12 +121,12 @@ const Education = () => {
                     .image-container img {
                         transition: transform 0.8s ease-out, filter 0.8s ease-out;
                         transform-origin: 50% 100%;
-                        filter: blur(2px); /* Initial full blur */
+                        filter: blur(2px); 
                     }
 
                     .image-container:hover img {
-                        transform: scale(1.1); /* Increase the scale for zoom effect on hover */
-                        filter: blur(2); /* Clear the blur on hover */
+                        transform: scale(1.1); 
+                        filter: blur(2); 
                     }
 
                     .overlay {
@@ -169,9 +170,11 @@ const Education = () => {
                     </div>
 
                 </center>
-            </div>
+            </div> */}
 
-            <Modal
+
+
+            {/* <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 style={{
@@ -191,9 +194,9 @@ const Education = () => {
                     </span>
                 </div>
                 <img src={selectedImage} className='mt-12 lg:mt-0' alt="" style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }} />
-            </Modal>
+            </Modal> */}
 
-        </section>
+        </section >
     );
 };
 
