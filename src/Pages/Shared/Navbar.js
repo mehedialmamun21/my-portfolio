@@ -80,7 +80,7 @@ const Navbar = () => {
                             width: '100%', // Adjust width as needed
                         }}
                     />
-                    <span className="bg-orange-400 text-white px-2 py-1 cursor-pointer" style={{ position: 'absolute', right: '0px', top: '0px' }}>
+                    <span className="bg-zinc-500 text-white px-2 py-1 cursor-pointer" style={{ position: 'absolute', right: '0px', top: '0px' }}>
                         <BiSearchAlt2 size="1.3rem" />
                     </span>
                 </div>
