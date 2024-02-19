@@ -64,11 +64,11 @@ const Education = () => {
 
                         <div className='bg-teal-200 border-2 border-t-teal-600 px-10 py-5 lg:pl-6 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
 
-                            <div className='pt-0 lg:pt-4'>
+                            <div className='pt-0 lg:pt-2'>
+                                <p className='text-md lg:text-lg pt-3 font-semibold font-mono'>B.Sc (Engineering) in Computer Science and Engineering</p>
+                                <p className='text-sm lg:text-sm pt-1 pb-2 font-mono'>( 2018 - 2021 )</p>
                                 <h2 className='text-lg lg:text-xl font-semibold font-mono'>Hajee Mohammad Danesh Science & Technology University</h2>
                                 <p className='text-sm lg:text-sm pt-1 font-mono'>HSTU, Dinajpur, Bangladesh</p>
-                                <p className='text-md lg:text-md pt-3 font-semibold font-mono'>B.Sc (Engineering) in Computer Science and Engineering</p>
-                                <p className='text-sm lg:text-sm pt-1 font-mono'>( 2018 - 2021 )</p>
                             </div>
 
                             <img src="https://i.postimg.cc/JztS8YWT/hstu-logo.png" className='h-2 lg:h-40 w-4/12 lg:w-2/12 invisible lg:visible' alt="" />

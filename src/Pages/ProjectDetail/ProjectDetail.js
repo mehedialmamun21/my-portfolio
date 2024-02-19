@@ -23,17 +23,19 @@ const ProjectDetail = () => {
 
         {
             id: 3,
-            img1: "https://i.postimg.cc/YCYBNBXw/image.png",
-            img2: "https://i.postimg.cc/N01c7vjH/image.png",
-            img3: "https://i.postimg.cc/prHst3fK/image.png"
+            // img1: "https://i.postimg.cc/YCYBNBXw/image.png",
+            // img2: "https://i.postimg.cc/N01c7vjH/image.png",
+            // img3: "https://i.postimg.cc/prHst3fK/image.png"
+
             // name: 'Leaf Disease Classification',
         },
 
         {
             id: 4,
-            img1: "https://i.postimg.cc/5NDW6m0s/Screenshot-2023-06-30-015436.png",
-            img2: "https://i.postimg.cc/8PfMR1pT/Screenshot-2023-06-30-020327.png",
-            img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png"
+            // img1: "https://i.postimg.cc/5NDW6m0s/Screenshot-2023-06-30-015436.png",
+            // img2: "https://i.postimg.cc/8PfMR1pT/Screenshot-2023-06-30-020327.png",
+            // img3: "https://i.postimg.cc/SNcfMWfy/Screenshot-2023-06-30-020654.png"
+
             // name: 'License Plate Detection',
         },
 
@@ -53,7 +55,7 @@ const ProjectDetail = () => {
             gitClient: "https://github.com/mehedialmamun21/doctors-portal-website-client-new",
             gitServer: "https://github.com/mehedialmamun21/doctors-portal-website-server",
             liveSite: "https://doctors-portal-a0858.web.app/",
-            projectReport: "https://drive.google.com/file/d/1Av3MzRO8BCIYCI4aLD_qcb5DB0pu7Zgc/view?usp=sharing"
+            projectReport: "https://drive.google.com/file/d/1ftLUmyN9Hl5VOqjo7wbOMqbsxTaKJ9GI/view?usp=sharing"
         },
 
         // {
@@ -109,11 +111,11 @@ const ProjectDetail = () => {
 
                 <a href={liveSite} target='_blank' rel='noreferrer' className='rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800'> <span className='flex justify-center items-center gap-3'><FaExternalLinkAlt size="1rem" /> Live Site Link</span> </a>
 
-                {/* <a href={projectReport} target="_blank" rel="noreferrer" className="rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800">
+                <a href={projectReport} target="_blank" rel="noreferrer" className="rounded-sm border lg:border border-zinc-500 bg-white mx-5 lg:mx-0 py-2 lg:px-5 lg:py-2 hover:text-orange-500 lg:text-lg text-zinc-800">
                     <span className="flex justify-center items-center gap-3">
                         <HiOutlineDocumentReport size="1.4rem" /> Project Report
                     </span>
-                </a> */}
+                </a>
 
             </div>
 

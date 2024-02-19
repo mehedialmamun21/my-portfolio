@@ -17,7 +17,7 @@ const Projected = ({ project }) => {
 
     return (
 
-        <div class="card lg:card-side border-2 border-t-blue-500 border-zinc-300 rounded-none bg-white shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] lg:px-0">
+        <div class="card lg:card-side border-2 border-t-blue-400 border-zinc-300 rounded-none bg-white shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] lg:px-0">
             {/* <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-0" data-aos="zoom-in-right"> */}
             {/* <div class="card lg:card-side border border-zinc-300 rounded-none bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] lg:px-7"> */}
 
