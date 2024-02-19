@@ -85,7 +85,7 @@ const Education = () => {
                                 <span className='mt-1'>
                                     <BsLightningChargeFill className='text-orange-500' size="0.9rem" />
                                 </span>
-                                <p className='text-md lg:text-md text-zinc-800 pl-2 font-sans'>Apart from this, I have done courses on Front-end Web Development, Machine Learning and Cloud Computing.</p>
+                                <p className='text-md lg:text-md text-zinc-800 pl-2 font-sans'>Apart from this, I have done courses on Web Development, Machine Learning and Cloud Computing.</p>
                             </div>
                             <div className='flex justify-end mt-7'>
                                 <div>
