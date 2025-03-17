@@ -30,7 +30,7 @@ const Education = () => {
             <div className='lg:grid grid-cols-1 lg:grid-cols-2'>
 
                 <center>
-                    <div className="mb-5 lg:mb-0 flex justify-center px-5 lg:pl-48">
+                    <div className="mb-5 lg:mb-0 flex justify-center px-5 lg:pl-48 text-zinc-700">
                         <div className='text-center lg:pr-0 lg:mt-24'>
                             <h2 className='text-3xl lg:text-3xl font-semibold pb-3 lg:pb-5'>Education</h2>
                             <p className='text-xl lg:text-xl font-semibold pb-3 lg:pb-5'>Basic Qualification and Certifcations</p>
@@ -62,7 +62,7 @@ const Education = () => {
                 <div className='flex items-center justify-center'>
                     <div className='shadow-2xl w-10/12'>
 
-                        <div className='bg-teal-200 border-2 border-t-teal-600 px-10 py-5 lg:pl-6 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
+                        <div className='bg-teal-200 text-zinc-700 border-2 border-t-teal-600 px-10 py-5 lg:pl-6 lg:pr-5 lg:py-2 lg:flex lg:justify-between'>
 
                             <div className='pt-0 lg:pt-2'>
                                 <p className='text-md lg:text-lg pt-3 font-semibold font-mono'>B.Sc (Engineering) in Computer Science and Engineering</p>
