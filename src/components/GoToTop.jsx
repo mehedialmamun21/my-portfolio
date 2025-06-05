@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import { IoIosArrowDropupCircle } from 'react-icons/io';
+import { IoIosArrowUp } from 'react-icons/io';
 import { useEffect, useState } from 'react';
 
 const GoToTop = () => {
@@ -13,57 +12,54 @@ const GoToTop = () => {
     const handleScroll = () => {
         const heightToVisible = 250;
         const scrollY = window.scrollY || document.documentElement.scrollTop;
-
         setIsVisible(scrollY > heightToVisible);
     };
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     return (
         <Wrapper>
             {isVisible && (
-                <div className='top-btn' onClick={goToTop}>
-                    <IoIosArrowDropupCircle className='icon' size='3.7rem' color='#4974a5' />
+                <div className="top-btn" onClick={goToTop}>
+                    <IoIosArrowUp className="icon" />
                 </div>
             )}
         </Wrapper>
     );
 };
 
-const Wrapper = styled.section`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+const Wrapper = styled.div`
+  .top-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: #4974a5;
+    color: white;
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
-    .top-btn {
-        position: fixed;
-        bottom: 0.8rem;
-        right: 0.1rem;
-        z-index: 999;
-        display: flex;
-        cursor: pointer;
-    }
+  }
 
-    .icon {
-        animation: gototop 1s ease-in-out infinite alternate;
-        transition: transform 0.5s ease-in-out;
-    }
+  .icon {
+    font-size: 1.5rem;
+    animation: floatUp 1.2s ease-in-out infinite alternate;
+  }
 
-    @keyframes gototop {
-        0% {
-            transform: translateY(0);
-        }
-        100% {
-            transform: translateY(-0.5rem);
-        }
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0);
     }
+    100% {
+      transform: translateY(-4px);
+    }
+  }
 `;
 
 export default GoToTop;
-

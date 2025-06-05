@@ -5,7 +5,6 @@ import { GrLinkedin, GrProjects, GrContactInfo } from 'react-icons/gr';
 import { BsGithub, BsTwitter, BsFacebook } from 'react-icons/bs';
 import { AiOutlineHome } from 'react-icons/ai';
 import { FaInstagram } from 'react-icons/fa';
-import { BiSearchAlt2 } from 'react-icons/bi';
 import { MdOutlineRoundaboutRight, MdCastForEducation } from 'react-icons/md';
 import navIcon from '../../assets/images/nav_icon.png';
 
@@ -60,29 +59,6 @@ const Navbar = () => {
                         </HashLink>
                     </div>
 
-                </div>
-
-
-
-
-                <div className='ml-3 lg:mx-14' style={{ position: 'relative', width: '45%' }}>
-                    <input
-                        type="text"
-                        placeholder="Search"
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        style={{
-                            backgroundColor: '#FFFFFF',
-                            border: '1px solid #808080',
-                            borderRadius: '0px',
-                            fontSize: '12px',
-                            padding: '5px 40px 5px 5px', // Adjust padding as needed
-                            width: '100%', // Adjust width as needed
-                        }}
-                    />
-                    <span className="bg-zinc-600 text-white px-2 py-1 cursor-pointer" style={{ position: 'absolute', right: '0px', top: '0px' }}>
-                        <BiSearchAlt2 size="1.3rem" />
-                    </span>
                 </div>
 
 
@@ -148,28 +124,9 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                {/* <div class="grid grid-flow-col gap-4 ml-6 lg:ml-28 hidden lg:block">
-                    <a href="https://github.com/mehedialmamun21" target="_blank" rel="noreferrer">
-                        <BsGithub className='text-xl lg:text-2xl text-black' />
-                    </a>
-                    <a href="https://www.linkedin.com/in/mehedihstu/" target="_blank" rel="noreferrer">
-                        <GrLinkedin className='bg-white rounded text-xl text-blue-500 lg:text-2xl' />
-                    </a>
-                    <a href="https://twitter.com/mehedihstu" target="_blank" rel="noreferrer">
-                        <BsTwitter className='text-xl lg:text-2xl text-teal-400' />
-                    </a>
-                    <a href="https://www.facebook.com/mehedihstu72" target="_blank" rel="noreferrer">
-                        <BsFacebook className='text-xl lg:text-2xl text-blue-500' />
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                        <FaInstagram className='text-xl lg:text-2xl text-pink-500' />
-                    </a>
-                </div> */}
-
             </div>
         </section>
     );
 };
 
 export default Navbar;
-

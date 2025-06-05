@@ -24,3 +24,15 @@ code {
 button {
   @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl
 }
+
+html[data-theme="myfancytheme"] {
+  --p: #4F46E5;
+  --s: #22D3EE;
+  --a: #E879F9;
+  --n: #1E293B;
+  --b1: #F8FAFC;
+  --in: #0EA5E9;
+  --su: #10B981;
+  --wa: #FBBF24;
+  --er: #EF4444;
+}
